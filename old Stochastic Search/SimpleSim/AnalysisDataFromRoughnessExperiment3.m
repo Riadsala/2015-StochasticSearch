@@ -1,0 +1,589 @@
+function AnalysisDataFromRoughnessExperiment3
+clear all
+close all
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% .m file to read, process, and display results from Eye tracking
+% experiment.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % Experiment Information
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+numberofParts = 4;
+rSet = [100, 225, 350];
+RMSSet = [0.9, 1.1];
+betaSet = [1.6, 1.65, 1.7];
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Participants
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+People = {'mk', 'my', 'lm', 'IHH', 'hw', 'am', 'ED'};
+numberOfPeople = size(People, 2);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Create Empty Arrays to Save Results Into
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+PData = creatEmptyResultsStructure;
+SaccadeDists = [];
+SaccadeAngles = [];
+IndvSaccadeAmps = cell(50,1);
+IndvSaccadeAmpsByBeta = cell(50,3,2);
+IndvSaccadeAmps20 = cell(20,1);
+Hotspotmap = zeros(1024, 1024);
+figure('Position',[1 1 800 600])
+subplot(1,2,1)
+OverAll_V_Area = [];
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% For Each Person, Extract Results from Clearview Export Text Files
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+for Pctr = 1:numberOfPeople
+    
+    %     for f=1:30
+    %          V(f).Areas = []
+    %     end
+    VAreas = cell(30,1);
+    disp(['Now extracting info for person number ' int2str(Pctr)])
+    Person = People{Pctr};
+    [PData(Pctr).Results] = SortOutEventData(Person, numberofParts);
+    for run = 1:numberofParts
+        Fixs = getFixesFromTextFile;
+        for trialctr = 1:90
+            trialnmbr = trialctr+(run-1)*90;
+            [Pctr trialnmbr]
+            % for each trial, get fix info
+            StartTime = PData(Pctr).Results(trialnmbr, 1);
+            EndTime = PData(Pctr).Results(trialnmbr,2);
+            Fixations = getFixInfo(Fixs);
+            if Fixations.number>2
+                numrefixations = checkForReFixations([Fixations.x, Fixations.y]);
+            else
+                numrefixations=0;
+            end
+            PData(Pctr).Results(trialnmbr,9) = Fixations.number;
+            PData(Pctr).Results(trialnmbr,15) = numrefixations;
+            [SaccDists, SaccAngles] = GetSaccadeDistsAndAngles;
+            SaccadeAngles = [SaccadeAngles, SaccAngles]; %#ok<AGROW>
+            SaccadeDists = [SaccadeDists, SaccDists]; %#ok<AGROW>
+            switch PData(Pctr).Results(trialnmbr,5)
+                case 1.6
+                    beta  = 1;
+                case 1.65
+                    beta = 2;
+                case 1.7
+                    beta = 3;
+            end
+            switch PData(Pctr).Results(trialnmbr,4)
+                case 0.9
+                    RMS = 1;
+                case 1.1
+                    RMS = 2;
+            end
+            for f = 1:49; %#ok<FXUP>
+                if Fixations.number>=(f+2)
+                    IndvSaccadeAmps{f} = [IndvSaccadeAmps{f}, SaccDists(f)];
+                    IndvSaccadeAmpsByBeta{f,beta,RMS} = [IndvSaccadeAmpsByBeta{f,beta,RMS}, SaccDists(f)];
+                end
+            end
+%             if (Fixations.number>32)
+%                 
+%                 voronoi(Fixations.x(1:30), Fixations.y(1:30));
+%             end
+%             if (Fixations.number>2)*(Fixations.number<32)
+%                 maxAreaperfix = AlasdairsVoronoiAreas([Fixations.x(1:(Fixations.number-2)), Fixations.y(1:(Fixations.number-2))]);
+%                 for f=1:min(Fixations.number-2,30)
+%                     VAreas{f} = [VAreas{f};  maxAreaperfix(f)];%#ok<AGROW>
+%                 end
+%             end
+            for f=2:(Fixations.number-2) %#ok<FXUP>
+                if (Fixations.x(f)<1025)*(Fixations.x(f)>0)*(Fixations.y(f)>0)*(Fixations.y(f)<1025)
+                    Hotspotmap(Fixations.x(f), Fixations.y(f)) = Hotspotmap(Fixations.x(f), Fixations.y(f))+1;
+                end
+            end
+        end % end trialctr loop
+    end % end run loop
+    %     subplot(2,4,Pctr)
+    for f = 1:29
+        meantv(f) =mean(VAreas{f});
+        meantvdiv(f,Pctr) = mean(VAreas{f})-mean(VAreas{f+1});
+    end
+    subplot(1,2,1);
+    plot(meantv, 'k:');
+    hold all
+    subplot(1,2,2)
+    plot(meantvdiv(:,Pctr), 'k:');
+    hold all
+    
+
+    %     axis([2 25 0 2e+5])
+    %     V_Areas(V_Areas>2e+005)= [];
+    %    hist(V_Areas, 20);
+    
+    %     title('Area of Voronoi Cells');
+end % end Pctr loop
+clear V
+% [VAreas ModelHotspot] = notSoSimpleSim;
+
+% subplot(2,4,8)
+% subplot(1,2,1);
+% for f = 1:29
+%     Mmeantv(f) = mean(VAreas{f});
+%     Mmeantvdiv(f) = mean(VAreas{f})-mean(VAreas{f+1});;
+% end
+% plot(Mmeantv, 'k-');
+% axis([1 25 0 1e+6])
+% xlabel('Fixation Number');
+% ylabel('Mean(Max Vononoi Cell Area)');
+% subplot(1,2,2)
+% plot( Mmeantvdiv, 'k-');
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Get basic stats
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+interPerson_meanNumFix = zeros(3,3,2);
+interPerson_sderNumFix = zeros(3,3,2);
+figure;
+plotctr=0;
+for beta  =1:3 %#ok<*FXUP>
+    for RMS  =2
+        for r = 1:3
+            plotctr=plotctr+1;
+            subplot(3,3,plotctr);
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % get index of relevant files
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            index =  find(...
+                (PData(Pctr).Results(:,3)==rSet(r))...
+                .*(PData(Pctr).Results(:,4)==RMSSet(RMS))...
+                .*(PData(Pctr).Results(:,5)==betaSet(beta)));
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % get number of fixations to target for each person
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % get number of fixation info
+            NumberofFixationsToTarget = zeros(7,1);
+            tmp=[];
+            for Pctr = 1:numberOfPeople
+                NumberofFixationsToTarget(Pctr) = mean(PData(Pctr).Results(index,9));
+                NumberofreFixs(Pctr) = mean(PData(Pctr).Results(index,15));%#ok<AGROW>
+                tmp = [tmp; PData(Pctr).Results(index,9)];%#ok<AGROW>
+                %                 hist(tmp);
+                %                 title(['beta: ' int2str(beta) ' and r = ' int2str(r)])
+            end
+            interPerson_meanNumFix(beta, r, RMS) = mean(NumberofFixationsToTarget);
+            interPerson_sderNumFix(beta, r, RMS) = std(NumberofFixationsToTarget)./sqrt(numberOfPeople);
+            indiv_meanNumFix(beta,r,RMS,:) = NumberofFixationsToTarget;%#ok<AGROW>
+            indiv_meanreFix(beta,r,RMS,:) = NumberofreFixs;%#ok<AGROW>
+        end
+    end
+    NumFoxOverR(beta,:) = mean(indiv_meanNumFix(beta,:,2,:),2);%#ok<AGROW>
+    NumreFixOverR(beta,:) = mean(indiv_meanreFix(beta,:,2,:),2);%#ok<AGROW>
+end
+save
+plotNumReFix
+plotNumFix % plot effect of beta and r on number of fixations to target
+plotSacc_t % plot time series for saccade amplitudes and Weibull fits
+% plotSaccHist
+plotSaccHistAndRose % show overall saccade amplitudes and directions
+showHotSpotMap;
+plotModelHumanComp
+% plotDistDirRel
+csvwrite('interPerson_meanNumFix1.csv', interPerson_meanNumFix(:,:,1));
+csvwrite('interPerson_sderNumFix1.csv', interPerson_sderNumFix(:,:,1));
+csvwrite('interPerson_meanNumFix2.csv', interPerson_meanNumFix(:,:,2));
+csvwrite('interPerson_sderNumFix2.csv', interPerson_sderNumFix(:,:,2));
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Below are my nested subfunctions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    function Fixs = getFixesFromTextFile
+        FixFile = fopen([Person int2str(run) 'FXD.txt']);
+        data = fscanf(FixFile, '%c',inf);
+        fclose(FixFile); clear FixFile
+        %%% delete header
+        cursor = regexp(data, 'Fix number', 'once');
+        data(1:(cursor-1)) = [];
+        cursor = regexp(data, '1', 'once');
+        data(1:(cursor-1)) = [];
+        % convert to matrix
+        Fixs = str2num(data); %#ok<ST2NM>
+    end
+
+    function showHotSpotMap
+        figure;
+        subplot(2,2,1)
+        disp(['number of fixations in hotspot map is ' int2str(sum(Hotspotmap(:)))]);
+        Hotspotmapf = filter2(fspecial('gaussian',[201 201], 50), Hotspotmap, 'same');
+        Hotspotmapf = Hotspotmapf./sum(Hotspotmapf(:));
+        
+        disp(['number of fixations in hotspot map is ' int2str(sum(Hotspotmap(:)))]);
+        MHotspotmapf = filter2(fspecial('gaussian',[201 201], 50), ModelHotspot, 'same');
+        MHotspotmapf = MHotspotmapf ./sum(MHotspotmapf(:));
+        
+        scalingparam = max(max(MHotspotmapf(:)), max(Hotspotmapf(:)));
+        MHotspotmapf = MHotspotmapf./scalingparam;
+        Hotspotmapf = Hotspotmapf./scalingparam;
+        
+        imshow(Hotspotmapf');
+        axis([1 1024 1 1024])
+        axis equal
+        subplot(2,2,2)
+        imshow(MHotspotmapf');
+        axis equal
+        subplot(2,2,3)
+        plot(sum(Hotspotmapf,2), 'k');
+        hold on
+        axis([1 1024 1 700])
+        plot(sum(MHotspotmapf,2), 'k-.');
+        xlabel('Horozontal Direction');
+        subplot(2,2,4)
+        plot(sum(Hotspotmapf,1), 'k');
+        hold on
+        axis([1 1024 1 700])
+        plot(sum(MHotspotmapf,1), 'k-.');
+        xlabel('Vertical Direction');
+    end
+
+    function plotModelHumanComp
+        model = csvread('meansacc.csv');
+        figure
+        plotctr = 0;
+        for beta=1:3
+            for r=1:3
+                plotctr= plotctr + 1;
+                subplot(3,3,plotctr);
+                data(1:7) = indiv_meanNumFix(beta,r,2,:);
+                data(8) = model(beta,r);
+                bar(data)
+                title(['\beta = ' num2str(betaSet(beta)) ' and r = ' int2str(rSet(r))]) ;
+            end
+        end
+        % plot with mean accorss r
+        figure
+        plotctr = 0;
+        for beta=1:3
+            plotctr= plotctr + 1;
+            subplot(3,3,plotctr);
+            data(1:7) = mean(indiv_meanNumFix(beta,:,2,:),2);
+            data(8) = mean(model(beta,:));
+            bar(data)
+            title(['\beta = ' num2str(betaSet(beta))]);
+        end
+    end
+
+    function plotNumReFix
+        figure('Position',[1 1 400 400])
+        beta = repmat(betaSet, [7,1])';
+        stufftoplot = [NumreFixOverR(:,1)./NumFoxOverR(:,1) [ 0.0493,  0.0277,0.0084]'];
+        set(0,'DefaultAxesLineStyleOrder',{':','-'});
+        plot([1.6, 1.65, 1.7], stufftoplot')
+        legend('Human Observers', 'Stochastic Model');
+        hold all
+        plot(betaSet,NumreFixOverR(:,2:7)./NumFoxOverR(:,2:7), 'k:')
+        xlabel('\beta')
+        ylabel('Number of refixations per fixation');
+        
+    end
+
+    function plotNumFix
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % plot graphs - number of fixations
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        
+        figure('Position',[1 1 500 500])
+        %         subplot(1,2,1)
+        plot( repmat(betaSet, [7,1])', NumFoxOverR,':k')
+        xlabel('\beta')
+        ylabel('Number of Fixations')
+        model = csvread('meansacc.csv');
+        hold on
+        plot(betaSet, mean(model,2), 'k-')
+        %         subplot(1,2,2)
+        
+        %         stufftplot = [ mean(NumFoxOverR,2), ...
+        %             mean(NumFoxOverR,2)+1.96*std(NumFoxOverR,[],2), mean(model,2)];
+        %         set(0,'DefaultAxesColorOrder',[0,0,0])
+        %         set(0,'DefaultAxesLineStyleOrder',{'-',':','-.'})
+        %         plot(repmat(betaSet, [3,1])', stufftplot)
+        %         legend('inter-subject mean', '95% confidence interval', 'Stochastic Model')
+        %         hold all
+        %         xlabel('\beta')
+        %         ylabel('Number of Fixations')
+        %         plot(betaSet, mean(NumFoxOverR,2)-1.96*std(NumFoxOverR,[],2),':k')
+        
+    end
+
+    function plotSaccHistAndRose
+        figure('Position',[1 1 800 400])
+        subplot(1,2,1)
+        hist(SaccadeDists, 0.25:0.5:24.75, 'k');
+        title('Saccade Amplitudes');
+        xlabel('Saccade Amplitude (\circ)', 'fontsize', 12);
+        ylabel('Number of Saccades', 'fontsize', 12)
+        subplot(1,2,2)
+        set(0,'DefaultAxesLineStyleOrder',{'-'})
+        rose(SaccadeAngles, 20);
+        title('Saccade Directions')
+    end
+
+    function plotSaccHist
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % plot saccade amplitudes v time
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        for t=1:20
+            p(t,:) = hist(IndvSaccadeAmps20{t}, 0.5:29.5);
+        end
+        figure
+        bar3(p');
+        title('How the human saccade histogram changes over time');
+        csvwrite('saccadestime.csv', p);
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % ...compare with Weibull model...
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        weibull_a = [5.3634, exp(1.8-0.0079*(1:49))];
+        weibull_b  =[1.7552, 1.8-0.0053*(1:49)];
+        for t=1:20;
+            q(t,:) = hist(wblinv(rand(129,1), weibull_a(t), weibull_b(t)), 0.5:29.5);
+        end
+        figure
+        bar3(q');
+        figure;
+        bar3(p'-q');
+        csvwrite('p.csv', p');
+        csvwrite('q.csv', q');
+        csvwrite('pminusq.csv', p'-q');
+    end
+
+    function  Fixations = getFixInfo(Fixs)
+        FinalFixMinDuration = 200;
+        %define offset to turn Clearview output coords to screen coords.
+        xoffset = (1200-1024)/2; yoffset = (1600-1024)/2;
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        % Note: I am including the final fixation on the fixation cross as
+        % a trial data point... Otherwise I have no data for my first
+        % saccade!
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        index= find((Fixs(:,2)<=EndTime).*(Fixs(:,2)>=StartTime));
+        if size(index,1)>0
+            % sort out initial fixation, which probably started
+            % before the onset of the stimulus. We will consider the time
+            % from stimulus onset to end of fixation as a fixation. Unless
+            % it lasts shorter than 200ms.
+            if index(1)>1
+                index = [index(1)-1; index];
+            end
+            CroppedInitFixLength = Fixs(index(1),2)+Fixs(index(1),3)-StartTime;
+            if CroppedInitFixLength<200
+                index(1) = [];
+            end
+            % now sort out final fixation. Only count if participant
+            % fixates for at least 200ms before hitting button.
+            TimeBetweenFinalFixAndButtonPress = EndTime- Fixs(index(size(index,1)),2);
+            if  TimeBetweenFinalFixAndButtonPress < FinalFixMinDuration
+                index(size(index,1)) = [];
+            end
+        end
+        index= find((Fixs(:,2)<=EndTime).*(Fixs(:,2)>=StartTime));
+        if size(index,1)==0
+            % if no fixations recorded, assume time very short and there
+            % was one fixation at hte fixation cross
+            Fixations.number = 1;
+        elseif size(index,1)>0
+            Fixations.y = 1024-(1200-Fixs(index, 5)-xoffset);
+            Fixations.x = Fixs(index, 4)-yoffset;
+            Fixations.number= size(index,1);
+        else
+            % no fixations recorded for trial!!!
+            Fixations.number = 0;
+        end
+    end % Fixations
+
+    function [d theta] = GetSaccadeDistsAndAngles
+        d = zeros(1, Fixations.number-1);
+        theta = zeros(1, Fixations.number-1);
+        
+        for s  = 1:(Fixations.number-1)
+            xdiff = Fixations.x(s)-Fixations.x(s+1);
+            ydiff = Fixations.y(s)-Fixations.y(s+1);
+            d(s) = PixelsToVisualAngle(sqrt(xdiff^2+ydiff^2));
+            if xdiff == 0
+                theta(s) = pi/2;
+            elseif xdiff>0
+                theta(s) = atan(ydiff/xdiff);
+            elseif xdiff <0
+                theta(s) = pi+atan(ydiff/xdiff);
+            end
+        end
+    end % SaccadeInfo
+end
+
+function Results = SortOutEventData(Person, numberofParts)
+Results = zeros(360,13);
+tick=0;
+for erun = 1:numberofParts
+    filename = [Person int2str(erun) 'EVD.txt'];
+    EventFile = fopen(filename);
+    data = fscanf(EventFile, '%c',inf);
+    fclose(EventFile);
+    %%% delete header
+    cursor = regexp(data, 'Time', 'once');
+    data(1:(cursor-1)) = [];
+    N = size(data,2);
+    % find fixcross.jpg.
+    FixcrossLocations = regexp(data, 'fixcross.jpg');
+    n = size(FixcrossLocations, 2);
+    pngLocations = regexp(data, 'png');
+    % for each fixcross
+    % check time for following imageshow event (as it could be a rouge
+    % keypress!)
+    % then get start and stop time for trial.
+    for t = 1:n
+        cursor = FixcrossLocations(t);
+        cursor = cursor + 13;
+        followingevent = regexp(data(cursor:N), 'Keyboard|ShowSlide', 'once', 'match');
+        % Catch any keypresses made while the Fixation Cross is
+        % being displayed
+        while strcmp(followingevent, 'Keyboard')
+            cursor=regexp(data(cursor:N), 'Keyboard', 'once')+cursor;
+            cursor=regexp(data(cursor+8:N), '[a-zA-Z]', 'once')+cursor;
+            followingevent = regexp(data(cursor:N), 'Keyboard|ShowSlide', 'once', 'match');
+        end
+        if strcmp(followingevent, 'Keyboard')
+            disp('bug to fix');
+            break
+        end
+        StartTime = str2double(regexp(data(cursor:N), '[0-9][0-9][0-9][0-9]+', 'once', 'match'));
+        Filename = regexp(data(cursor:N), 'RMS[._=\w]*png',  'once', 'match');
+        cursor = pngLocations(t)+3;
+        EndTime = str2double(regexp(data(cursor:N), '[0-9]*', 'once', 'match'));
+        ReactionTime = (EndTime-StartTime)/1000;
+        followingevent = regexp(data(cursor:N), 'Keyboard|ShowSlide', 'once', 'match');
+        if strcmp(followingevent, 'ShowSlide')
+            disp('bug to fix');
+            break
+        end
+        Keypress =   str2double(regexp(data(cursor+10:N), '\s(13|32)\s', 'once', 'match') )  ;
+        if Keypress==32
+            Found = 1;
+        else
+            Found = 0;
+            tick=tick+1;
+        end
+        RMS = str2double(regexp(Filename, '(?<=RMS=)(1(\.1)*)|0\.9(?=_)', 'match'));
+        beta = str2double(regexp(Filename, '(?<=beta=)1\.[567]*', 'match'));
+        seed = str2double(regexp(Filename, '(?<=seed=)[0-9]*', 'match'));
+        r = str2double(regexp(Filename, '(?<=r=)[0-9]*', 'match'));
+        Results(t+(erun-1)*90,1:8) = [StartTime, EndTime,  r, RMS, beta, seed,  ReactionTime, Found];
+    end
+end
+end
+
+function PData = creatEmptyResultsStructure
+PData(1).Results = zeros(360,10);
+PData(2).Results = zeros(360,10);
+PData(3).Results = zeros(360,10);
+PData(4).Results = zeros(360,10);
+PData(5).Results = zeros(360,10);
+PData(6).Results = zeros(360,10);
+PData(7).Results = zeros(360,10);
+end
+
+
+
+function [VAreas hotspot] = notSoSimpleSim
+rand('state', 1);
+% get Directional Cumulative Probability Distribution from Empirical Data
+% search area dimensions
+N = 1024;
+init_fix = [N/2, N/2];
+% initialise matrices to store fixation info
+hotspot = zeros(1024, 1024);
+VAreas = cell(30,1);
+for f=1:30
+    V(f).Areas = [];
+end
+for trial = 1:105
+    trial
+    fix = zeros(30,2);
+    fix(1,:) = init_fix;
+    for t=1:30
+        % keep drawing random saccades until we get on that falls within the
+        % search area
+        validfix=0;
+        while validfix == 0
+            % location
+            [l a b] = getBin(fix(t,1),fix(t,2));
+            [x y] = getSaccadeFromDist3(l,t);
+            xf=x+fix(t,1);
+            yf=y+fix(t,2);
+            validfix = (0<xf).*(xf<=1024).*(0<yf).*(yf<=1024);
+        end
+        fix(t+1,:) = [xf yf];
+        
+        if t>1
+            xf = ceil(xf); yf=ceil(yf);
+            hotspot(xf,yf) = hotspot(xf,yf)+1;
+        end
+    end
+    
+    if (t>1)*(t<31)
+        maxAreaperfix = AlasdairsVoronoiAreas([fix(1:(t),1), fix(1:(t),2)]);
+        for f=1:30
+            f
+            VAreas{f} = [VAreas{f};  maxAreaperfix(f)];%#ok<AGROW>
+        end
+    end
+    %     plot(fix(:,1), fix(:,2), 'b-');
+    %
+    %        axis([1 1024, 1 1024]);
+    %     filename = ['scanpath_=' num2str(trial) '.jpg'];
+    %     print('-djpeg', filename);
+    results(trial) = t+1;
+    %     numrefix(trial) = checkForReFixations(fix);
+    %     saccdirs = [saccdirs, SaccAngles];
+end
+
+end
+
+function [l, a,b] = getBin(x,y)
+a = 0;
+b = 0;
+if (x>0)&&(x<205)
+    a=1;
+elseif (x>=205)&&(x<410)
+    a=2;
+elseif (x>=410)&&(x<615)
+    a=3;
+elseif (x>=615)&&(x<820)
+    a=4;
+elseif (x>=820)&&(x<1025)
+    a=5;
+end
+if (y>0)&&(y<205)
+    b=1;
+elseif (y>=205)&&(y<410)
+    b=2;
+elseif (y>=410)&&(y<615)
+    b=3;
+elseif (y>=615)&&(y<820)
+    b=4;
+elseif (y>=820)&&(y<1025)
+    b=5;
+end
+if (a==1)&&(b==1)
+    l=[1 1];
+elseif (a==1)&&(b==5)
+    l=[1 2];
+elseif (a==5)&&(b==1)
+    l=[1 3];
+elseif (a==5)&&(b==5)
+    l=[1 4];
+elseif ((b==2)+(b==3)+(b==3))&&(a==1)
+    l=[2 1];
+elseif ((b==2)+(b==3)+(b==3))&&(a==5)
+    l=[2 2];
+elseif ((a==2)+(a==3)+(a==3))&&(b==1)
+    l=[3 1];
+elseif ((a==2)+(a==3)+(a==3))&&(b==5)
+    l=[3 2];
+else
+    l = [4 1];
+end
+end

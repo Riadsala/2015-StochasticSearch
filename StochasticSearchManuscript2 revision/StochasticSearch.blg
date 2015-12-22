@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: StochasticSearch.aux
+The style file: elsarticle-harv.bst
+Database file #1: literature.bib
+You've used 33 entries,
+            2821 wiz_defined-function locations,
+            839 strings with 9379 characters,
+and the built_in function-call counts, 16458 in all, are:
+= -- 1737
+> -- 710
+< -- 24
++ -- 277
+- -- 230
+* -- 1392
+:= -- 2904
+add.period$ -- 102
+call.type$ -- 33
+change.case$ -- 245
+chr.to.int$ -- 33
+cite$ -- 33
+duplicate$ -- 623
+empty$ -- 1188
+format.name$ -- 344
+if$ -- 3399
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 34
+newline$ -- 106
+num.names$ -- 138
+pop$ -- 219
+preamble$ -- 1
+purify$ -- 207
+quote$ -- 0
+skip$ -- 489
+stack$ -- 0
+substring$ -- 1075
+swap$ -- 101
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 294
+warning$ -- 0
+while$ -- 145
+width$ -- 0
+write$ -- 370

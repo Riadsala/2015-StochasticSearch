@@ -1,0 +1,93 @@
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tb]
+\centering
+\subfigure[]{\includegraphics[width=4.1cm]{fig/smoothEx.png}}
+\subfigure[]{\includegraphics[width=4.1cm]{fig/roughEx.png}}
+\caption{Example stimuli. This is a $256\times 256$ pixel crop of one of the (a) \texttt{smooth} and (b) \texttt{rough} surfaces. In both cases the target is shown in the centre of the image. The stimuli used in the experiment were $1024\times 1024$ pixels in size, making the target much smaller relative to the search area than is shown here. The slight differences in the target's shape is due to randomness in the surface at the location of the target.}
+\label{fig:exampleStimuli}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics[width=8.5cm]{fig/targDet/targDetFalsePositive.pdf}
+\caption{Accuracy of responses to the target for each observer in the target detection study. We can see that the false positives rate is low.}
+\label{fig:targDetFalsePositive}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics[width=8.5cm]{fig/targDet/targDetModelEccOnly.pdf}
+\caption{Probability of detecting the target, collapsed over angle (i.e., only taking the target's eccentricity into account). The individual points show each participant's performance, while the lines show a binomial fit (general linear model).}
+\label{fig:targDetEcc}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\subfigure[square search areas.]{\includegraphics[width=8cm]{fig/visSearch/hotspotmaps.pdf}}
+\subfigure[circular search areas.]{\includegraphics[width=8cm]{fig/hotspotmaps.pdf} }
+\caption{Hotspot maps for (a) square and (b) circular search areas for participants 2, 4 and 5 (left to right). We can see some individual differences, in particular, how strong the central bias is for each observer. However, there is no clear tendency to fixate above and below the fixation.}
+\label{fig:hotspots}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics[width=8cm]{fig/targDet/aggtargdet2.pdf}
+\caption{Contour plot showing target detection model.}
+\label{fig:targDet}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics[width=8cm]{fig/saccDistExample.pdf}
+\caption{Each subplot shows a hotspot map of fixation locations from a different region of the stimuli. For example, we can see that saccades originating from the corner regions tend to be directed back towards the centre, or along one of the edges.}
+\label{fig:saccDistExample}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics[width=8.5cm]{fig/modelComp/numFixHumanModel.pdf}
+\caption{Number of saccades made by human observers and the stochastic search simulation.}
+\label{fig:numFixHumanModel}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\subfigure[]{\includegraphics[width=8cm]{fig/modelComp/onetwosaccamp.pdf}}
+\subfigure[]{\includegraphics[width=8cm]{fig/modelComp/saccAngles.pdf}}
+\caption{(a) Displacement over one and two saccades. (b) Absolute and relative direction of saccades. The fact that the stochastic model matches the distribution of displacement and direction over a single saccade is a direct result of sampling from empirical data and is therefore unsurprising.}
+\label{fig:onetwostats}
+\end{figure*}
+\efloatseparator
+ 
+\begin{figure*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\includegraphics[width=8.5cm]{fig/numFixHumanModelclarke2009.pdf}
+\caption{Number of saccades made by human observers and search simulations. We can see that the stochastic search model is sufficient to explain the number of fixations required to find the target.}
+\label{fig:numFixHumanModelClarke2009}
+\end{figure*}
+\efloatseparator
+ 

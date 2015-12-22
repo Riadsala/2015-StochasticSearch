@@ -1,0 +1,28 @@
+function ContourPlotFromPoints(data)
+
+% data = [amplitude, angle]
+
+% change angle to degrees, multiplay distance in visual angle by 5, and 
+% quantise
+
+data(:,2) = ceil(mod(180/pi*data(:,2),360));
+data(data(:,2)==0, 2) = 360;
+data(:,1) = 5*data(:,1);
+data = ceil(data);
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% put into cart and smooth
+% data = pol2cart(data(:,1), data(:,2));
+% min_edges = floor(min(data));
+% max_edges = ceil(max(data));
+map = zeros(100,360);
+% data = ceil(data - repmat(min_edges, [size(data,1),1]))+1;
+for t=1:size(data,1)
+    map(data(t,1),data(t,2)) = map(data(t,1),data(t,2))+1;
+end
+map = imfilter(map, fspecial('gaussian',[21 21], 5));
+% figure
+contour(map)
+hold all
+% axis([-5 20 -5 20])
+% plot([0, max_edges(2)-min_edges(2)]+1,[-min_edges(1),-min_edges(1)]+1, 'k-')
+% plot([-min_edges(2),-min_edges(2)]+1, [0, max_edges(1)-min_edges(1)]+1, 'k-')

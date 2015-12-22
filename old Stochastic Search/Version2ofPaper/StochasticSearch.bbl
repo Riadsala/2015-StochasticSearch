@@ -1,0 +1,237 @@
+\begin{thebibliography}{39}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Aks(2006)]{aks2005}
+D.~Aks.
+\newblock $1/f$ dynamic in complex visual search: Evidence for self-organized
+  criticality in human perception.
+\newblock In M.~A. Riley, editor, \emph{Tutorials in comtemporary nonlinear
+  methods for the behavioral sciences}, pages 329--359. 2006.
+
+\bibitem[Aks et~al.(2002)Aks, Zelinsky, and Sprott]{aks2002}
+D.~J. Aks, G.~Zelinsky, and J.~C. Sprott.
+\newblock Memory across eye-movements: $1/f$ dynamic in visual search.
+\newblock \emph{Journal of Non-linear Dynamics in Psychology \& the Life
+  Sciences}, 6:\penalty0 1--15, 2002.
+
+\bibitem[Chantler(1995)]{chantler1995}
+M.~J. Chantler.
+\newblock Why illuminant direction is fundamental to texture analysis.
+\newblock \emph{IEE Pro-ceedings Vision, Image and Signal Processing},
+  142:\penalty0 199--206, 1995.
+
+\bibitem[Chantler et~al.(2005)Chantler, Petrou, Schmidt, and
+  McGunnigle]{chantler2005}
+M.~J. Chantler, A.~Petrou, M.~andPenirschke, M.~Schmidt, and G.~McGunnigle.
+\newblock Classifying surface texture while simultaneously estimating
+  illumination.
+\newblock \emph{International Journal of Computer Vision (VISI)}, 62:\penalty0
+  83--96, 2005.
+
+\bibitem[Clarke et~al.(2008)Clarke, Green, Chantler, and Emrith]{clarke2008}
+A.~D.~F. Clarke, P.~R. Green, M.~Chantler, and K.~Emrith.
+\newblock Visual search for a target against a $1/f^{\beta}$ continuous
+  textured background.
+\newblock \emph{Vision Research}, 48:\penalty0 2193--2203, 2008.
+
+\bibitem[Clarke et~al.(2009)Clarke, Green, and Chantler]{clarke2009}
+A.~D.~F. Clarke, P.~R. Green, and M.~Chantler.
+\newblock Modelling visual search on a rough surface.
+\newblock \emph{Journal of Vision}, 9x:\penalty0 1--12, 2009.
+
+\bibitem[Gao et~al.(2008)Gao, Mahadevan, and Vasconcelos]{gao2008}
+D.~Gao, V.~Mahadevan, and N.~Vasconcelos.
+\newblock On the plausibility for the driscriminant center-surround hypothesis
+  for visual saliency.
+\newblock \emph{Journal of Vision}, 8(7)\penalty0 (13):\penalty0 1--18, 2008.
+
+\bibitem[Gilchrist and Harvey(2006)]{gilchrist-harvey2006}
+I.~D. Gilchrist and M.~Harvey.
+\newblock Evidence for a systematic component within scan paths in visual
+  search.
+\newblock \emph{Visual Cognition}, 14:\penalty0 704--715, 2006.
+
+\bibitem[Greene(2008)]{greene2008}
+H.~H. Greene.
+\newblock Distance-from-target dynamics during visual search.
+\newblock \emph{Vision Research}, 48:\penalty0 2476--2484, 2008.
+
+\bibitem[Horowitz and Wolfe(1998)]{horowitz-wolfe1998}
+T.~S. Horowitz and J.~M. Wolfe.
+\newblock Visual search has no memory.
+\newblock \emph{Nature}, 357:\penalty0 575--577, 1998.
+
+\bibitem[Horowitz and Wolfe(2001)]{horowitz-wolfe2001}
+T.~S. Horowitz and J.~M. Wolfe.
+\newblock Search for multiple targets: Remember the targets, forget the search.
+\newblock \emph{Perception and Psychophysics}, 63:\penalty0 272--285, 2001.
+
+\bibitem[Hwang et~al.(2009)Hwang, Higgens, and Pomplun]{hwang2009}
+Alex~D. Hwang, Emily~C. Higgens, and Marc Pomplun.
+\newblock A model of top-down attentional control during visual search in
+  complex scenes.
+\newblock \emph{Journal of Vision}, 9(5):\penalty0 1--18, 2009.
+
+\bibitem[Itti and Baldi(2009)]{itti-baldi2009}
+L.~Itti and P.~F. Baldi.
+\newblock Bayesian surprise attracts human attention.
+\newblock \emph{Vision Research}, 49:\penalty0 1295--1306, 2009.
+
+\bibitem[Itti and Koch(2000)]{itti-koch2000}
+L.~Itti and C.~Koch.
+\newblock A saliency-based search mechanism for overt and covert shifts of
+  visual attention.
+\newblock \emph{Vision Research}, 40\penalty0 (10-12):\penalty0 1489--1506, May
+  2000.
+
+\bibitem[Kuna et~al.(2008)Kuna, Flusberg, and Wolfe]{kuna2008}
+M.~A. Kuna, S~Flusberg, and J.~M. Wolfe.
+\newblock The role of memory and restricted context in repeated visual search.
+\newblock \emph{Perception and Psychophysics}, 70:\penalty0 314--328, 2008.
+
+\bibitem[Melloy et~al.(2006)Melloy, Das, Gramopadhye, and
+  Duckiwski]{melloy2006}
+B.~J. Melloy, S.~Das, A.~K. Gramopadhye, and A.~T. Duckiwski.
+\newblock A model of extended, semi-systematic visual search.
+\newblock \emph{Human Factors}, 48:\penalty0 540--554, 2006.
+
+\bibitem[Morawski et~al.(1980)Morawski, Drury, and Karwan]{morawski1980}
+T.~Morawski, C.~G. Drury, and M.~H. Karwan.
+\newblock Predicting search performance for multiple targets.
+\newblock \emph{Human Factors}, 22:\penalty0 707--718, 1980.
+
+\bibitem[Motter and Holsapple(2001)]{motter-holsapple2001}
+B.~C. Motter and J.~W. Holsapple.
+\newblock Separating attention from chance in active visual search.
+\newblock In J.~Braun, C.~Koch, and J.~Davis, editors, \emph{Visual attention
+  and neural circuits}, pages 159--175. Cambridge, MA: MIT Press, 2001.
+
+\bibitem[Najemnik and Geisler(2005)]{najemnik-geisler2005}
+J.~Najemnik and W.~S. Geisler.
+\newblock Optimal eye move ment strategies in visual search.
+\newblock \emph{Nature}, 434:\penalty0 387--391, 2005.
+
+\bibitem[Najemnik and Geisler(2008)]{najemnik-geisler2008}
+J.~Najemnik and W.~S. Geisler.
+\newblock Eye movement statistics in humans are consistent with an optimal
+  search strategy.
+\newblock \emph{Journal of Vision}, 8(3):\penalty0 1--14, 2008.
+
+\bibitem[Over et~al.(2003)Over, Hooge, and Erkelens]{over2003}
+E.~A. Over, I.~T. Hooge, and C.~J. Erkelens.
+\newblock Visual search: saccade parameters depend on the shape of the search
+  area [abstract].
+\newblock \emph{Journal of Vision}, 3\penalty0 (429):\penalty0 251--261, 2003.
+
+\bibitem[Over et~al.(2006)Over, Hooge, and Erkelens]{over2006}
+E.~A. Over, I.~T. Hooge, and C.~J. Erkelens.
+\newblock A quantitative measure for the uniformity of fixation density: The
+  voronoi method.
+\newblock \emph{Behaviour Research Methods}, 38:\penalty0 251--261, 2006.
+
+\bibitem[Over et~al.(2007)Over, Hooge, Vlaskamp, and Erklens]{over2007}
+E.~A. Over, I.~T. Hooge, B.~N. Vlaskamp, and C.~J. Erklens.
+\newblock Coarse-to-fine eye movements strategy in visual search.
+\newblock \emph{Vision Research}, 47:\penalty0 2272--2280, 2007.
+
+\bibitem[Padilla et~al.(2008)Padilla, Drbohlav, Green, Spence, and
+  Chantler]{padilla2008}
+S.~Padilla, O.~Drbohlav, P.R. Green, A.D. Spence, and M.J. Chantler.
+\newblock Perceived roughness of $1/f^{\beta}$ noise surfaces.
+\newblock \emph{Vision Research}, 48:\penalty0 1791--1797, 2008.
+
+\bibitem[Pomplun(2007)]{pomplun2007}
+M.~Pomplun.
+\newblock Advancing area activation towards a general model of eye movements in
+  visual search.
+\newblock In W.~D. Gray, editor, \emph{Integrated Models of Cognitive Systems},
+  pages 120 -- 131. New York Oxford University Press, 2007.
+
+\bibitem[Pomplun et~al.(2003)Pomplun, Shen, and Reingold]{pomplun2003}
+M.~Pomplun, J.~Shen, and E.~M. Reingold.
+\newblock Area activation: A computational model of saccadic selectivity in
+  visual search.
+\newblock \emph{Cognitive Science}, 27:\penalty0 299 -- 312, 2003.
+
+\bibitem[Rajashekar et~al.(2002)Rajashekar, Cormack, and Bovil]{rajashekar2002}
+U.~Rajashekar, L.~K. Cormack, and A.~C. Bovil.
+\newblock Visual search: Structure from noise.
+\newblock In \emph{In Proceedings of the eye tracking research \& applications
+  symposium}, pages 119--123. New Orleans: ACMPress, 2002.
+
+\bibitem[Rajashekar et~al.(2006)Rajashekar, Bovik, and Cormack]{rajashekar2006}
+U.~Rajashekar, A.~C. Bovik, and L.~K. Cormack.
+\newblock Visual search in noise: Revealing the influence of structural cues by
+  gaze-contingent classification image analysis.
+\newblock \emph{Journal of Vision, Special Issue on Finding visual features:
+  Using stochastic stimuli}, 6:\penalty0 379--386, 2006.
+
+\bibitem[Rao et~al.(2002)Rao, Zelinsky, Hayhoe, and Ballard]{rao2002}
+P.~N. Rao, G.~J. Zelinsky, M.~M. Hayhoe, and D.~H. Ballard.
+\newblock Eye movements in iconic visual search.
+\newblock \emph{Vision Research}, 42:\penalty0 1447--1463, 2002.
+
+\bibitem[Reeves et~al.(2005)Reeves, Santhi, and DeCaro]{reeves2005}
+A.~Reeves, N.~Santhi, and S.~DeCaro.
+\newblock A random-ray model for speed and accuracy in perceptual experiments.
+\newblock \emph{Spatial Vision}, 115:\penalty0 73--83, 2005.
+
+\bibitem[Rutishauser and Koch(2007)]{rutishauser-koch2007}
+Ueli Rutishauser and Christof Koch.
+\newblock Probabilistic modeling of eye movement data during conjunction search
+  via feature-based attention.
+\newblock \emph{Journal of Vision}, 7\penalty0 (5):\penalty0 1--20, 2007.
+
+\bibitem[Stone(1960)]{stone1960}
+M.~Stone.
+\newblock Models for choice-reation time.
+\newblock \emph{Psychometrika}, pages 251--260, 1960.
+
+\bibitem[Tatler(2007)]{tatler2007}
+B.~W. Tatler.
+\newblock The central fixation bias in scene viewing: selecting an optimal
+  viewing position independently of motor biases and image feature
+  distributions.
+\newblock \emph{Journal of Vision}, 7:14\penalty0 (4):\penalty0 1--17, 2007.
+
+\bibitem[Tavassoli et~al.(2009)Tavassoli, van~der Linde, and
+  Bovik]{tavassoli2009}
+A.~Tavassoli, I.~van~der Linde, and A.~C. Bovik.
+\newblock Eye movements selective for spatial frequency and orientation during
+  active vision search.
+\newblock \emph{Vision Research}, 49:\penalty0 173--181, 2009.
+
+\bibitem[Tseng and Li(2004)]{tseng-li2004}
+Y.~C. Tseng and C.~S. Li.
+\newblock Oculomotor correlates of context-guided learning in visual search.
+\newblock \emph{Perception \& Psychophysics}, 66:\penalty0 1363--1378, 2004.
+
+\bibitem[Voronoi(1907)]{voronoi1907}
+Georgy Voronoi.
+\newblock Nouvelles applications des paramètres continus à la théorie des
+  formes quadratiques.
+\newblock \emph{Journal für die Reine und Angewandte Mathematik}, 133:\penalty0
+  97--178, 1907.
+
+\bibitem[Wolfe(2007)]{wolfe2007}
+J.~M. Wolfe.
+\newblock Guided search 4.0: Current progress with a model of visual search.
+\newblock In W.~Gray, editor, \emph{Integrated Models of Cognitive Systems},
+  pages 99--119. New York: Oxford, 2007.
+
+\bibitem[Wolfe et~al.(2000)Wolfe, Klempen, and Dahlen]{wolfe2000}
+J.~M. Wolfe, N.~Klempen, and K.~Dahlen.
+\newblock Postattentive vision.
+\newblock \emph{Journal of Experimental Psychology: Human Perception and
+  Performance}, 26:\penalty0 693--716, 2000.
+
+\bibitem[Zelinsky(2008)]{zelinsky2008}
+Gerg~J. Zelinsky.
+\newblock A theory of eye movements during target acquisition.
+\newblock \emph{Psychological Review}, 115:\penalty0 787--835, 2008.
+
+\end{thebibliography}

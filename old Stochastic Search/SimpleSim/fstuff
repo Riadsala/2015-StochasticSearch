@@ -1,0 +1,7 @@
+omega = exp(-2*pi*i/32).^(0:31)
+
+
+q = d.*omega
+
+close all
+plot(q)

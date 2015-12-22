@@ -1,0 +1,833 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nyt}{nyt}
+    \entry{bates2013lme4}{article}{}
+      \name{author}{4}{}{%
+        {{hash=291c4bc67cf41a2019405a2328a9b75e}{Bates}{B\bibinitperiod}{Douglas}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=0041cc0eb4aa28929ffbd059d5e4add5}{Maechler}{M\bibinitperiod}{Martin}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=d6b13be971f13ee03cc83cded41b6d7e}{Bolker}{B\bibinitperiod}{Ben}{B\bibinitperiod}{}{}{}{}}%
+        {{hash=666afa7867ec142c4a63a819a19244f9}{Walker}{W\bibinitperiod}{Steven}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d09b320744f09c093eb8b0d7f6bbdda0}
+      \strng{fullhash}{7fb4c5e907b1e55e95b530d5388bd764}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{R package version}
+      \field{number}{4}
+      \field{title}{lme4: Linear mixed-effects models using Eigen and S4}
+      \field{volume}{1}
+      \field{year}{2013}
+    \endentry
+    \entry{brainard1997}{article}{}
+      \name{author}{1}{}{%
+        {{hash=13bb22397e8de68b887b45700edeebdf}{Brainard}{B\bibinitperiod}{David\bibnamedelima H}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {VSP}%
+      }
+      \strng{namehash}{13bb22397e8de68b887b45700edeebdf}
+      \strng{fullhash}{13bb22397e8de68b887b45700edeebdf}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Spatial vision}
+      \field{title}{The psychophysics toolbox}
+      \field{volume}{10}
+      \field{year}{1997}
+      \field{pages}{433\bibrangedash 436}
+      \range{pages}{4}
+    \endentry
+    \entry{clarke2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=1502a21990efc32f14f45b1780960c20}{Clarke}{C\bibinitperiod}{A.\bibnamedelimi D.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=aa72ee044f24c2e0aba0215131491c12}{Green}{G\bibinitperiod}{P.\bibnamedelimi R.}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=61154d681b149a9433cab6058e505a4f}{Chantler}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{aea9fde589fc996d3ab34cb1743cd028}
+      \strng{fullhash}{aea9fde589fc996d3ab34cb1743cd028}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4(11)}
+      \field{journaltitle}{Journal of Vision}
+      \field{title}{Modelling Visual Search on a Rough Surface}
+      \field{volume}{9x}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+    \endentry
+    \entry{clarke2008}{article}{}
+      \name{author}{4}{}{%
+        {{hash=1502a21990efc32f14f45b1780960c20}{Clarke}{C\bibinitperiod}{A.\bibnamedelimi D.\bibnamedelimi F.}{A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=aa72ee044f24c2e0aba0215131491c12}{Green}{G\bibinitperiod}{P.\bibnamedelimi R.}{P\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+        {{hash=61154d681b149a9433cab6058e505a4f}{Chantler}{C\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=6a56a19c399575ea20715405521f4bb6}{Emrith}{E\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{35faefc3d2fa2180d51a7ebaf34116ba}
+      \strng{fullhash}{0ea90ddb683b454afb7c0317701e44f8}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{21}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Visual Search for a Target Against a $1/f^{\beta}$ Continuous Textured Background}
+      \field{volume}{48}
+      \field{year}{2008}
+      \field{pages}{2193\bibrangedash 2203}
+      \range{pages}{11}
+    \endentry
+    \entry{clarke_hunt2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b7bab8b32ae1b7ea3f315154b422aa85}{Clarke}{C\bibinitperiod}{Alasdair\bibnamedelimb D.\bibnamedelimi F}{A\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=46f0274e57adc0ef49d6eecb10887bbc}{Hunt}{H\bibinitperiod}{Amelia\bibnamedelima R.}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ef2ab3cd48bb116285dfc0cd6089bf08}
+      \strng{fullhash}{ef2ab3cd48bb116285dfc0cd6089bf08}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2015}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Science}
+      \field{title}{Failure of intuition when presented with a choice between investing in a single goal or splitting resources between two goals}
+      \field{year}{2015}
+    \endentry
+    \entry{cornelissen2002}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c6a1f17036f62feb68972a7a9d053fc2}{Cornelissen}{C\bibinitperiod}{FransW.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=cdac3fedb785a4bff198ffad9a37c234}{Peters}{P\bibinitperiod}{EnnoM.}{E\bibinitperiod}{}{}{}{}}%
+        {{hash=64b60fd7a04257c523a374f6f486959c}{Palmer}{P\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{40d9b26bd7419dff341f4fa0ad896ca9}
+      \strng{fullhash}{40d9b26bd7419dff341f4fa0ad896ca9}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0743-3808}
+      \field{journaltitle}{Behavior Research Methods, Instruments, \& Computers}
+      \field{number}{4}
+      \field{title}{The Eyelink Toolbox: Eye tracking with MATLAB and the Psychophysics Toolbox}
+      \field{volume}{34}
+      \field{year}{2002}
+      \field{pages}{613\bibrangedash 617}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.3758/BF03195489
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.3758/BF03195489
+      \endverb
+    \endentry
+    \entry{fox2010}{book}{}
+      \name{author}{2}{}{%
+        {{hash=1c365202a8e580d17c3fc2d60641bf60}{Fox}{F\bibinitperiod}{John}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=1c81bb46e19993fb944f648ebdd06401}{Weisberg}{W\bibinitperiod}{Harvey\bibnamedelima Sanford}{H\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Sage Publications}%
+      }
+      \strng{namehash}{01de8f3164155ddfaf294c5d10a3f5c7}
+      \strng{fullhash}{01de8f3164155ddfaf294c5d10a3f5c7}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An R companion to applied regression}
+      \field{year}{2010}
+    \endentry
+    \entry{gao2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=35f8df0febec52bbaf80a6941c4bf890}{Gao}{G\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=d400ecbb103d5954b19387102a8feb14}{Mahadevan}{M\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=ba9ccd39064aa8436aa4704eb0d2c974}{Vasconcelos}{V\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{f9f3b242033020eca4b88c1d7773b1e3}
+      \strng{fullhash}{f9f3b242033020eca4b88c1d7773b1e3}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vision}
+      \field{number}{13}
+      \field{title}{On the Plausibility for the Driscriminant Center-Surround Hypothesis for Visual Saliency}
+      \field{volume}{8(7)}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+    \endentry
+    \entry{gilchrist-harvey2006}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6f00308172ce9efd82405c39f2ef130d}{Gilchrist}{G\bibinitperiod}{I.\bibnamedelimi D.}{I\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=938968bdedd16040c9d2bb99657224c3}{Harvey}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{824080d0e0c8b2ff9db5e1ce905993dd}
+      \strng{fullhash}{824080d0e0c8b2ff9db5e1ce905993dd}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelyear}{2006}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Visual Cognition}
+      \field{title}{Evidence for a systematic component within scan paths in visual search}
+      \field{volume}{14}
+      \field{year}{2006}
+      \field{pages}{704\bibrangedash 715}
+      \range{pages}{12}
+    \endentry
+    \entry{hayhoe2014}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b163a618abc76f8d5c7968dd14d68103}{Hayhoe}{H\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=70185a7c4030431b66313736d81482dc}{Ballard}{B\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c3334c4c51a592512071048cf3222c59}
+      \strng{fullhash}{c3334c4c51a592512071048cf3222c59}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Current Biology}
+      \field{number}{13}
+      \field{title}{Modeling Task Control of Eye Movements}
+      \field{volume}{24}
+      \field{year}{2014}
+      \field{pages}{R622\bibrangedash R628}
+      \range{pages}{-1}
+    \endentry
+    \entry{hwang2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=23c85843e004a6d3f9a1f0e17179c119}{Hwang}{H\bibinitperiod}{A.\bibnamedelimi D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+        {{hash=9dccaf18d7884d10591243b2707f118e}{Higgins}{H\bibinitperiod}{E.\bibnamedelimi C.}{E\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=98b9407c54b3a0aebafa4bba24dc07d2}{Pomplun}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ae6a9d055a2b8e7001579aa157eb8069}
+      \strng{fullhash}{ae6a9d055a2b8e7001579aa157eb8069}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{25}
+      \field{journaltitle}{Journal of Vision}
+      \field{title}{A model of top-down attentional control during visual search in complex scenes}
+      \field{volume}{9(5)}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+    \endentry
+    \entry{itti-baldi2009}{article}{}
+      \name{author}{2}{}{%
+        {{hash=18d6ba7619857d202446a51484c72656}{Itti}{I\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=0e96d94336d720e3aceac93d6abb5450}{Baldi}{B\bibinitperiod}{P.\bibnamedelimi F.}{P\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dc45ce67532cc296e959dfbfec7c20f3}
+      \strng{fullhash}{dc45ce67532cc296e959dfbfec7c20f3}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{10}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Bayesian Surprise Attracts Human Attention}
+      \field{volume}{49}
+      \field{year}{2009}
+      \field{pages}{1295\bibrangedash 1306}
+      \range{pages}{12}
+    \endentry
+    \entry{itti-koch2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=18d6ba7619857d202446a51484c72656}{Itti}{I\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=2a17d866c017d2da1c9eda9f39140c54}{Koch}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{6b144a1c618a3cddee46ba0d821d791e}
+      \strng{fullhash}{6b144a1c618a3cddee46ba0d821d791e}
+      \field{sortinit}{I}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{2000}
+      \field{labelmonth}{05}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision Research}
+      \field{month}{05}
+      \field{number}{10-12}
+      \field{title}{A saliency-based search mechanism for overt and covert shifts of visual attention}
+      \field{volume}{40}
+      \field{year}{2000}
+      \field{pages}{1489\bibrangedash 1506}
+      \range{pages}{18}
+    \endentry
+    \entry{jordan1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d3f6d3272c4baeded2a91313d484612b}{Jordan}{J\bibinitperiod}{Heather}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=9f615218440fd97f115c537a516dd03e}{Tipper}{T\bibinitperiod}{Steven\bibnamedelima P}{S\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{4544be1784047217f24c17180971dc5a}
+      \strng{fullhash}{4544be1784047217f24c17180971dc5a}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychonomic Bulletin \& Review}
+      \field{number}{3}
+      \field{title}{Object-based inhibition of return in static displays}
+      \field{volume}{5}
+      \field{year}{1998}
+      \field{pages}{504\bibrangedash 509}
+      \range{pages}{6}
+    \endentry
+    \entry{kruger2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1970e191be62564d004bd4bcd8d2ccbd}{Kr\"{u}ger}{K\bibinitperiod}{Hannah\bibnamedelima M}{H\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=7a4f242fcfc306598c428216c4a81e86}{Hunt}{H\bibinitperiod}{Amelia\bibnamedelima R}{A\bibinitperiod\bibinitdelim R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {American Psychological Association}%
+      }
+      \strng{namehash}{fa32f983de75b863d06338db7e27d8a5}
+      \strng{fullhash}{fa32f983de75b863d06338db7e27d8a5}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Psychology: Human Perception and Performance}
+      \field{number}{3}
+      \field{title}{Inhibition of return across eye and object movements: The role of prediction.}
+      \field{volume}{39}
+      \field{year}{2013}
+      \field{pages}{735}
+      \range{pages}{1}
+    \endentry
+    \entry{land2000}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1d2cd1d3df23b01980c21b84dd7b2245}{Land}{L\bibinitperiod}{Michael\bibnamedelima F}{M\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{hash=aed70156066f06b908f9802e3c361624}{McLeod}{M\bibinitperiod}{Peter}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{da1ee2c7b66d91c84ba46c466fc53f26}
+      \strng{fullhash}{da1ee2c7b66d91c84ba46c466fc53f26}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelyear}{2000}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature neuroscience}
+      \field{number}{12}
+      \field{title}{From eye movements to actions: how batsmen hit the ball}
+      \field{volume}{3}
+      \field{year}{2000}
+      \field{pages}{1340\bibrangedash 1345}
+      \range{pages}{6}
+    \endentry
+    \entry{morvan2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=469c75af959adae0ebfbb9b14f206060}{Morvan}{M\bibinitperiod}{Camille}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=3d3fb02ca50ecd0011ea9744bb5ba243}{Maloney}{M\bibinitperiod}{Laurence\bibnamedelima T}{L\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{ddd1ca2b1334a71d27df2de02733a2cf}
+      \strng{fullhash}{ddd1ca2b1334a71d27df2de02733a2cf}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS computational biology}
+      \field{number}{2}
+      \field{title}{Human visual search does not maximize the post-saccadic probability of identifying targets}
+      \field{volume}{8}
+      \field{year}{2012}
+      \field{pages}{e1002342}
+      \range{pages}{-1}
+    \endentry
+    \entry{motter-holsapple2001}{incollection}{}
+      \name{author}{2}{}{%
+        {{hash=ec8092a719998786cced541bb27f0561}{Motter}{M\bibinitperiod}{B.\bibnamedelimi C.}{B\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=a776eb45bbd7bde0578e162f34f745cc}{Holsapple}{H\bibinitperiod}{J.\bibnamedelimi W.}{J\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=991e958c70aee836ee524de3bc87b448}{Braun}{B\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=2a17d866c017d2da1c9eda9f39140c54}{Koch}{K\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=2f648245758d80edf3a1e51f4b0fef54}{Davis}{D\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge, MA: MIT Press}%
+      }
+      \strng{namehash}{be64b9b5cb97a40443bbc8a5a32c0104}
+      \strng{fullhash}{be64b9b5cb97a40443bbc8a5a32c0104}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2001}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Visual attention and neural circuits}
+      \field{title}{Separating attention from chance in active visual search}
+      \field{year}{2001}
+      \field{pages}{159\bibrangedash 175}
+      \range{pages}{17}
+    \endentry
+    \entry{najemnik-geisler2005}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f46267e3dd0b3c16f1fe5f4c370e6256}{Najemnik}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=4c754f39d2f744c954967ba31fda6cb6}{Geisler}{G\bibinitperiod}{W.\bibnamedelimi S.}{W\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{25581a94e696ffd06e9249dfe666d6a6}
+      \strng{fullhash}{25581a94e696ffd06e9249dfe666d6a6}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{title}{Optimal eye move ment strategies in visual search}
+      \field{volume}{434}
+      \field{year}{2005}
+      \field{pages}{387\bibrangedash 391}
+      \range{pages}{5}
+    \endentry
+    \entry{najemnik-geisler2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f46267e3dd0b3c16f1fe5f4c370e6256}{Najemnik}{N\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=4c754f39d2f744c954967ba31fda6cb6}{Geisler}{G\bibinitperiod}{W.\bibnamedelimi S.}{W\bibinitperiod\bibinitdelim S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{25581a94e696ffd06e9249dfe666d6a6}
+      \strng{fullhash}{25581a94e696ffd06e9249dfe666d6a6}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{4}
+      \field{journaltitle}{Journal of Vision}
+      \field{title}{Eye movement statistics in humans are consistent with an optimal search strategy}
+      \field{volume}{8(3)}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+    \endentry
+    \entry{over2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=5693bfde857d8ac7b2225042d543392f}{Over}{O\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1adedc28b8403ec215e9066dfa9dbd59}{Hooge}{H\bibinitperiod}{I.\bibnamedelimi T.}{I\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=7ce70975682865f68e18efdb49402a71}{Erkelens}{E\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{c30e19b72a5670c4331618df97b3162f}
+      \strng{fullhash}{c30e19b72a5670c4331618df97b3162f}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{9}
+      \field{journaltitle}{Journal of Vision}
+      \field{number}{429}
+      \field{title}{Visual search: saccade parameters depend on the shape of the search area [Abstract]}
+      \field{volume}{3}
+      \field{year}{2003}
+      \field{pages}{251\bibrangedash 261}
+      \range{pages}{11}
+    \endentry
+    \entry{over2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5693bfde857d8ac7b2225042d543392f}{Over}{O\bibinitperiod}{E.\bibnamedelimi A.}{E\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=1adedc28b8403ec215e9066dfa9dbd59}{Hooge}{H\bibinitperiod}{I.\bibnamedelimi T.}{I\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+        {{hash=735d02269d462102b093a0984e310c65}{Vlaskamp}{V\bibinitperiod}{B.\bibnamedelimi N.}{B\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=7ce70975682865f68e18efdb49402a71}{Erkelens}{E\bibinitperiod}{C.\bibnamedelimi J.}{C\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d67ad3b15f147cfc3d4f452c49a4a6ba}
+      \strng{fullhash}{6889821350a00055080f70706db76487}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Coarse-to-fine eye movements strategy in visual search}
+      \field{volume}{47}
+      \field{year}{2007}
+      \field{pages}{2272\bibrangedash 2280}
+      \range{pages}{9}
+    \endentry
+    \entry{pomplun2007}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=98b9407c54b3a0aebafa4bba24dc07d2}{Pomplun}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=d7c1d254017552302a19641bd9b91dec}{Gray}{G\bibinitperiod}{W.\bibnamedelimi D.}{W\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {New York Oxford University Press}%
+      }
+      \strng{namehash}{98b9407c54b3a0aebafa4bba24dc07d2}
+      \strng{fullhash}{98b9407c54b3a0aebafa4bba24dc07d2}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Integrated Models of Cognitive Systems}
+      \field{title}{Advancing Area Activation towards a General Model of Eye Movements in Visual Search}
+      \field{year}{2007}
+      \field{pages}{120\bibrangedash 131}
+      \range{pages}{12}
+    \endentry
+    \entry{pomplun2003}{article}{}
+      \name{author}{3}{}{%
+        {{hash=98b9407c54b3a0aebafa4bba24dc07d2}{Pomplun}{P\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=58f02d1fc91ed64baed927a1d852c975}{Shen}{S\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=b7d6c8dded84c3b81720f76f2a39668c}{Reingold}{R\bibinitperiod}{E.\bibnamedelimi M.}{E\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{3e9dd61fd5529880b44c06c8399da652}
+      \strng{fullhash}{3e9dd61fd5529880b44c06c8399da652}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognitive Science}
+      \field{title}{Area activation: A computational model of saccadic selectivity in visual search}
+      \field{volume}{27}
+      \field{year}{2003}
+      \field{pages}{299\bibrangedash 312}
+      \range{pages}{14}
+    \endentry
+    \entry{posner1980}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bae46fb11a01e56b7486a2ae9c1ff2dc}{Posner}{P\bibinitperiod}{Michael\bibnamedelima I}{M\bibinitperiod\bibinitdelim I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{bae46fb11a01e56b7486a2ae9c1ff2dc}
+      \strng{fullhash}{bae46fb11a01e56b7486a2ae9c1ff2dc}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{1980}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Quarterly journal of experimental psychology}
+      \field{number}{1}
+      \field{title}{Orienting of attention}
+      \field{volume}{32}
+      \field{year}{1980}
+      \field{pages}{3\bibrangedash 25}
+      \range{pages}{23}
+    \endentry
+    \entry{rao2002}{article}{}
+      \name{author}{4}{}{%
+        {{hash=beec8b956ffd5170e987a1c230c4b12a}{Rao}{R\bibinitperiod}{P.\bibnamedelimi N.}{P\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+        {{hash=399f393cb8063abafa75cadb05ab94e8}{Zelinsky}{Z\bibinitperiod}{G.\bibnamedelimi J.}{G\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+        {{hash=03b576728504c8bbd1160b98af460d0a}{Hayhoe}{H\bibinitperiod}{M.\bibnamedelimi M.}{M\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+        {{hash=121c38b59e7596b010b574214dfa6f4d}{Ballard}{B\bibinitperiod}{D.\bibnamedelimi H.}{D\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e39f650b575f1c13730ac2580dbf5942}
+      \strng{fullhash}{002c7de6f0e8ad046dfa896738229c72}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2002}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{11}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Eye movements in iconic visual search}
+      \field{volume}{42}
+      \field{year}{2002}
+      \field{pages}{1447\bibrangedash 1463}
+      \range{pages}{17}
+    \endentry
+    \entry{reeves2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=55ac03a90912b2b78be2a3cbb7e24ee3}{Reeves}{R\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=c045f3dcd837b40a154078741b54e9c6}{Santhi}{S\bibinitperiod}{N.}{N\bibinitperiod}{}{}{}{}}%
+        {{hash=c35949d6e3e7bf0a11c164a32af755a4}{DeCaro}{D\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e6067fa115b8236c186aacd1aaff6c59}
+      \strng{fullhash}{e6067fa115b8236c186aacd1aaff6c59}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2005}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Spatial Vision}
+      \field{title}{A random-ray model for speed and accuracy in perceptual experiments}
+      \field{volume}{115}
+      \field{year}{2005}
+      \field{pages}{73\bibrangedash 83}
+      \range{pages}{11}
+    \endentry
+    \entry{rutishauser-koch2007}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2430ed8f03a6de142849f0f2e9050fcd}{Rutishauser}{R\bibinitperiod}{Ueli}{U\bibinitperiod}{}{}{}{}}%
+        {{hash=bde4db3430ff6f578a4358224bece0ac}{Koch}{K\bibinitperiod}{Christof}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e993c974a6532d041b9844c4c269b680}
+      \strng{fullhash}{e993c974a6532d041b9844c4c269b680}
+      \field{sortinit}{R}
+      \field{sortinithash}{c7387613477035a752d935acfc3e3ea2}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Journal of Vision}
+      \field{number}{5}
+      \field{title}{Probabilistic modeling of eye movement data during conjunction search via feature-based attention}
+      \field{volume}{7}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 20}
+      \range{pages}{20}
+    \endentry
+    \entry{stone1960}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8dc81e01889c2e3481cbf00f15c3537e}{Stone}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{8dc81e01889c2e3481cbf00f15c3537e}
+      \strng{fullhash}{8dc81e01889c2e3481cbf00f15c3537e}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{1960}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychometrika}
+      \field{title}{Models for choice-reation time}
+      \field{year}{1960}
+      \field{pages}{251\bibrangedash 260}
+      \range{pages}{10}
+    \endentry
+    \entry{tatler2007}{article}{}
+      \name{author}{1}{}{%
+        {{hash=abb264448769bd1816e7f4870acb1345}{Tatler}{T\bibinitperiod}{B.\bibnamedelimi W.}{B\bibinitperiod\bibinitdelim W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{abb264448769bd1816e7f4870acb1345}
+      \strng{fullhash}{abb264448769bd1816e7f4870acb1345}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vision}
+      \field{number}{4}
+      \field{title}{The central fixation bias in scene viewing: selecting an optimal viewing position independently of motor biases and image feature distributions}
+      \field{volume}{7:14}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 17}
+      \range{pages}{17}
+    \endentry
+    \entry{tavassoli2009}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c811d154892507005a10bbab57b70fca}{Tavassoli}{T\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=79c57fc319cf30a7a18b9051834ef641}{Linde}{L\bibinitperiod}{I.}{I\bibinitperiod}{van\bibnamedelima der}{v\bibinitperiod\bibinitdelim d\bibinitperiod}{}{}}%
+        {{hash=5f0963fccb468a9b1b27a23835a72429}{Bovik}{B\bibinitperiod}{A.\bibnamedelimi C.}{A\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{77f21c1d7cafd84507da5c0b75b4c82d}
+      \strng{fullhash}{77f21c1d7cafd84507da5c0b75b4c82d}
+      \field{sortinit}{T}
+      \field{sortinithash}{423d138a005a533b47e6475e39378bf2}
+      \field{labelyear}{2009}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision Research}
+      \field{title}{Eye movements selective for spatial frequency and orientation during active vision search}
+      \field{volume}{49}
+      \field{year}{2009}
+      \field{pages}{173\bibrangedash 181}
+      \range{pages}{9}
+    \endentry
+    \entry{verghese2012}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2c846ce99bcd27f5abbe9c85e0934009}{Verghese}{V\bibinitperiod}{Preeti}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon}%
+      }
+      \strng{namehash}{2c846ce99bcd27f5abbe9c85e0934009}
+      \strng{fullhash}{2c846ce99bcd27f5abbe9c85e0934009}
+      \field{sortinit}{V}
+      \field{sortinithash}{d18f5ce25ce0b5ca7f924e3f6c04870e}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vision research}
+      \field{title}{Active search for multiple targets is inefficient}
+      \field{volume}{74}
+      \field{year}{2012}
+      \field{pages}{61\bibrangedash 71}
+      \range{pages}{11}
+    \endentry
+    \entry{wolfe2007}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=401235dd613111d285dc645d36987473}{Wolfe}{W\bibinitperiod}{J.\bibnamedelimi M.}{J\bibinitperiod\bibinitdelim M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=e18365565a15a8f4e02f915bde3bc35b}{Gray}{G\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {New York: Oxford}%
+      }
+      \strng{namehash}{401235dd613111d285dc645d36987473}
+      \strng{fullhash}{401235dd613111d285dc645d36987473}
+      \field{sortinit}{W}
+      \field{sortinithash}{99e3ba1b3f78bb6f073e7fa7ac11636b}
+      \field{labelyear}{2007}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Integrated Models of Cognitive Systems}
+      \field{title}{Guided Search 4.0: Current Progress with a model of visual search.}
+      \field{year}{2007}
+      \field{pages}{99\bibrangedash 119}
+      \range{pages}{21}
+    \endentry
+    \entry{yeshurun1998}{article}{}
+      \name{author}{2}{}{%
+        {{hash=029dcff140fde7b78c274f2adf106978}{Yeshurun}{Y\bibinitperiod}{Yaffa}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=476ce6ad60b3cf9f4b74c91dc2c52c12}{Carrasco}{C\bibinitperiod}{Marisa}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{4f76017ae8166481d15bc5d438715d9d}
+      \strng{fullhash}{4f76017ae8166481d15bc5d438715d9d}
+      \field{sortinit}{Y}
+      \field{sortinithash}{3cbc1e3d286284cedb5e5218a3248f94}
+      \field{labelyear}{1998}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature}
+      \field{number}{6706}
+      \field{title}{Attention improves or impairs visual performance by enhancing spatial resolution}
+      \field{volume}{396}
+      \field{year}{1998}
+      \field{pages}{72\bibrangedash 75}
+      \range{pages}{4}
+    \endentry
+    \entry{zelinsky2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d32125c02cbc5656eca8c3bb8455d695}{Zelinsky}{Z\bibinitperiod}{Gerg\bibnamedelima J.}{G\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d32125c02cbc5656eca8c3bb8455d695}
+      \strng{fullhash}{d32125c02cbc5656eca8c3bb8455d695}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelyear}{2008}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{title}{A theory of eye movements during target acquisition}
+      \field{volume}{115}
+      \field{year}{2008}
+      \field{pages}{787\bibrangedash 835}
+      \range{pages}{49}
+    \endentry
+    \entry{zhang2012}{article}{}
+      \name{author}{4}{}{%
+        {{hash=df428416bb33b1ea50cc8131fd7dd043}{Zhang}{Z\bibinitperiod}{Hang}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=469c75af959adae0ebfbb9b14f206060}{Morvan}{M\bibinitperiod}{Camille}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=42f4052649da216a46205e6917a95e14}{Etezad-Heydari}{E\bibinithyphendelim H\bibinitperiod}{Louis-Alexandre}{L\bibinithyphendelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=3d3fb02ca50ecd0011ea9744bb5ba243}{Maloney}{M\bibinitperiod}{Laurence\bibnamedelima T}{L\bibinitperiod\bibinitdelim T\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{de8b15c6d3bca9b0a5b8a0414005690d}
+      \strng{fullhash}{e89164a2c504b9d0db86cf47fac8235e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS computational biology}
+      \field{number}{10}
+      \field{title}{Very Slow Search and Reach: Failure to Maximize Expected Gain in an Eye-Hand Coordination Task}
+      \field{volume}{8}
+      \field{year}{2012}
+      \field{pages}{e1002718}
+      \range{pages}{-1}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

@@ -1,0 +1,140 @@
+install.packages("lme4")
+install.packeges("car")
+install.packages("car")
+install.packages("Hmci")
+install.packages("Hmisc")
+install.packages("mnormt")
+install.packages("psyhpy")
+install.packages("psyphy")
+install.packages("plyr")
+install.packages("pdyphy")
+install.packages("phyphy")
+install.packages("psyphy")
+q()
+install.packages("psyphy")
+setInternet2(use = TRUE)
+install.packages("psyphy",repos="http://R-Forge.R-project.org", type="source")
+install.packages("psyphy")
+install.packages("ggplot2")
+internet2
+install.packages("httr")
+capabilities()["libcurl"]
+setInternet2(TRUE)
+install.packages("httr")
+install.packages("swirl", repos="http://cran.rstudio.com/", dependencies=TRUE)
+install.packages("nnet", repos="http://cran.rstudio.com/", dependencies=TRUE)
+install.packages("ggplot2")
+install.packages("ggplot2", dependencies=TRUE)
+install.packages("stringr")
+2+2
+library(ggplot2)
+library(ggplot2)#
+library(dplyr)#
+#
+people = 11#c(1,2,3,4,5,11)#
+dat = data.frame()#
+for (person in people)#
+{#
+    pdat = rbind(read.csv(paste('../results/', person, 'results.txt', sep='')),read.csv('../results/2results.txt')) #
+    dat = rbind(dat, pdat)#
+    rm(pdat)#
+}#
+# tell R that person and targetPresent are categorical factors#
+dat$person = as.factor(dat$person)#
+dat$targetPresent = as.factor(dat$targetPresent)#
+levels(dat$block) = c("coloured", "uncoloured")#
+#
+# remove response = 3 (timed out?)#
+dat = filter(dat, response!=3)#
+#
+# display number of incorrect trials - should be low!#
+print(paste("misses:", 100*nrow(filter(dat, targetPresent==1, response==-1))/nrow(dat)))#
+print(paste("false pos:", 100*nrow(filter(dat, targetPresent==0, response==1))/nrow(dat)))#
+#
+# remove incorrect trials from data#
+dat = rbind(filter(dat, targetPresent==1, response==1), filter(dat, targetPresent==0, response==-1))#
+#
+dat$trialNumber = as.factor(dat$trialNumber)#
+dat = filter(dat, block=='coloured')#
+#
+# dat$responseTime = log(dat$responseTime)#
+# compute mean of median and 95% CI#
+aggData = (dat #
+  %>% group_by(person, block, visualise, trialNumber) #
+    %>% summarise(#
+     nTrials = length(responseTime),#
+     meanRT     = mean(responseTime),#
+     medianRT   = median(responseTime), #
+     stddev     = sd(responseTime),#
+     stderr=stddev/sqrt(nTrials),#
+     lower=meanRT-1.96*stderr,#
+     upper=meanRT+1.96*stderr))#
+#
+# plot! #
+#
+plt = ggplot(aggData, aes(x=trialNumber, y=meanRT, ymin=lower, ymax=upper, colour=visualise, group=visualise))#
+plt = plt + geom_path() + geom_errorbar()#
+plt = plt + geom_path(aes(y=medianRT), linetype=2)#
+plt = plt + facet_wrap(~person, scales='free_y') + theme_bw()#
+plt = plt +  scale_colour_brewer(palette="Set1")#
+ggsave("pilotResults.pdf", height=4, width=8)#
+plt#
+# # sample to get CI estimates #
+# ii = 0#
+# for (n in seq(6,72,6))#
+# {#
+#     ii = ii + 1#
+# sdat = dat[sample(x=nrow(dat), size=n),]#
+# m[ii] = mean(sdat$responseTime)#
+# stderr[ii] = sd(sdat$responseTime)/sqrt(n)#
+#
+# }#
+# plt = ggplot(data.frame(m = m, n=seq(6,72,6), lower=m-1.96*stderr, upper=m+1.96*stderr), aes(x=n, y=m, ymin=lower, ymax=upper))#
+# plt = plt + geom_errorbar() + geom_point() + scale_y_continuous(limits=c(0.3,0.7))#
+# plt
+install.packages("dplyr")
+setwd("Documents/GIT-general-private/2014 StochasticSearch/targetDetExp/")
+setwd("Documents/GIT-general-private/2014 StochasticSearch/targetDetExp/")
+library(ggplot2)#
+library(lme4)#
+library(car)#
+#
+dat <- read.csv("targDetResponses.txt", colClasses=c("factor", "factor", "numeric", "numeric", "numeric"))#
+dat$beta <- factor(as.numeric(dat$beta), labels =c("rough", "medium", "smooth"))#
+dat$obs <- factor(dat$obs, labels = c("observer 1", "observer 2"))#
+dat$r <- dat$r * 0.84 / 50#
+dat$phi <- pi/180 * dat$phi#
+dat$x <- dat$r*sin(dat$phi)#
+dat$y <- dat$r*cos(dat$phi)#
+dat$x2 <- dat$x^2#
+dat$y2 <- dat$y^2#
+# first look at target absent trials#
+#
+targAb <- subset(dat, r==Inf)#
+aggregate(100*resp~obs+beta, targAb, FUN="mean")#
+#
+targPres <- subset(dat, r!=Inf)#
+targPres2 <- aggregate(resp~obs+beta+r, targPres, FUN="mean")#
+plt1 <- ggplot(targPres2, aes(x=r, y=resp, colour=beta)) + geom_smooth(method="glm", family="binomial", se=F) + geom_point() + facet_wrap(~obs)#
+plt1 <- plt1 + scale_y_continuous(name="p(target detected)")  +scale_x_continuous(name="eccentricity (degrees of visual angle)") + theme_bw()#
+ggsave("targDetModelEccOnly.pdf", width=10, height=5)#
+m <- glm(data=targPres, resp ~ beta * x2 + y2, family="binomial")#
+summary(m)
+m2 <- glm(data=targPres, resp ~ beta * (x2 + y2), family="binomial")
+summary(m2)
+m <- glm(data=targPres, resp ~ beta * (x2 + y2), family="binomial")#
+summary(m)#
+#
+# contour map#
+gd <- as.data.frame(expand.grid(x=seq(-10,10,0.1),y=seq(-10,10,0.1)))#
+n <- length(gd$x)#
+cD <- data.frame(x=rep(gd$x,3), y=rep(gd$y,3), beta=factor(rep(c(1,2,3), c(n,n,n)),labels=c("rough","medium","smooth")))#
+cD$r = with(cD, sqrt(x^2+y^2))#
+cD$x2 <- cD$x^2#
+cD$y2 <- cD$y^2#
+cD$z = predict(m, cD, type="response")#
+#
+cplt <- ggplot(cD, aes(x, y, z=z)) + coord_fixed() +  stat_contour(binwidth=0.1,size=0.75,aes(colour = ..level..)) + facet_wrap(~beta) #
+cplt <- cplt + theme_bw()+scale_colour_gradient(name="probability of detection", limits=c(0, 1), low="red", high="green") + xlim(c(-8.6,8.6)) + ylim(c(-8.6,8.6))#
+ggsave("newTDcontourplot.pdf", width=10, height=5)
+setwd("Documents/GIT-general-private/2014 StochasticSearch/searchsim/")

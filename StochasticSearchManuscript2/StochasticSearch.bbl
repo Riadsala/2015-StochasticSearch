@@ -1,0 +1,142 @@
+\begin{thebibliography}{30}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+
+\bibitem[{Clarke et~al.(2009)Clarke, Green, and Chantler}]{clarke2009}
+Clarke, A. D.~F., Green, P.~R., Chantler, M., 2009. Modelling visual search on
+  a rough surface. Journal of Vision 9x, 1--12.
+
+\bibitem[{Clarke et~al.(2008)Clarke, Green, Chantler, and Emrith}]{clarke2008}
+Clarke, A. D.~F., Green, P.~R., Chantler, M., Emrith, K., 2008. Visual search
+  for a target against a $1/f^{\beta}$ continuous textured background. Vision
+  Research 48, 2193--2203.
+
+\bibitem[{Gao et~al.(2008)Gao, Mahadevan, and Vasconcelos}]{gao2008}
+Gao, D., Mahadevan, V., Vasconcelos, N., 2008. On the plausibility for the
+  driscriminant center-surround hypothesis for visual saliency. Journal of
+  Vision 8(7)~(13), 1--18.
+
+\bibitem[{Gilchrist and Harvey(2006)}]{gilchrist-harvey2006}
+Gilchrist, I.~D., Harvey, M., 2006. Evidence for a systematic component within
+  scan paths in visual search. Visual Cognition 14, 704--715.
+
+\bibitem[{Hayhoe and Ballard(2014)}]{hayhoe2014}
+Hayhoe, M., Ballard, D., 2014. Modeling task control of eye movements. Current
+  Biology 24~(13), R622--R628.
+
+\bibitem[{Hwang et~al.(2009)Hwang, Higgens, and Pomplun}]{hwang2009}
+Hwang, A.~D., Higgens, E.~C., Pomplun, M., 2009. A model of top-down
+  attentional control during visual search in complex scenes. Journal of Vision
+  9(5), 1--18.
+
+\bibitem[{Itti and Baldi(2009)}]{itti-baldi2009}
+Itti, L., Baldi, P.~F., 2009. Bayesian surprise attracts human attention.
+  Vision Research 49, 1295--1306.
+
+\bibitem[{Itti and Koch(2000)}]{itti-koch2000}
+Itti, L., Koch, C., May 2000. A saliency-based search mechanism for overt and
+  covert shifts of visual attention. Vision Research 40~(10-12), 1489--1506.
+
+\bibitem[{Jordan and Tipper(1998)}]{jordan1998}
+Jordan, H., Tipper, S.~P., 1998. Object-based inhibition of return in static
+  displays. Psychonomic Bulletin \& Review 5~(3), 504--509.
+
+\bibitem[{Kr{\"u}ger and Hunt(2013)}]{kruger2013}
+Kr{\"u}ger, H.~M., Hunt, A.~R., 2013. Inhibition of return across eye and
+  object movements: The role of prediction. Journal of Experimental Psychology:
+  Human Perception and Performance 39~(3), 735.
+
+\bibitem[{Land and McLeod(2000)}]{land2000}
+Land, M.~F., McLeod, P., 2000. From eye movements to actions: how batsmen hit
+  the ball. Nature neuroscience 3~(12), 1340--1345.
+
+\bibitem[{Morvan and Maloney(2012)}]{morvan2012}
+Morvan, C., Maloney, L.~T., 2012. Human visual search does not maximize the
+  post-saccadic probability of identifying targets. PLoS computational biology
+  8~(2), e1002342.
+
+\bibitem[{Motter and Holsapple(2001)}]{motter-holsapple2001}
+Motter, B.~C., Holsapple, J.~W., 2001. Separating attention from chance in
+  active visual search. In: Braun, J., Koch, C., Davis, J. (Eds.), Visual
+  attention and neural circuits. Cambridge, MA: MIT Press, pp. 159--175.
+
+\bibitem[{Najemnik and Geisler(2005)}]{najemnik-geisler2005}
+Najemnik, J., Geisler, W.~S., 2005. Optimal eye move ment strategies in visual
+  search. Nature 434, 387--391.
+
+\bibitem[{Najemnik and Geisler(2008)}]{najemnik-geisler2008}
+Najemnik, J., Geisler, W.~S., 2008. Eye movement statistics in humans are
+  consistent with an optimal search strategy. Journal of Vision 8(3), 1--14.
+
+\bibitem[{Over et~al.(2003)Over, Hooge, and Erkelens}]{over2003}
+Over, E.~A., Hooge, I.~T., Erkelens, C.~J., 2003. Visual search: saccade
+  parameters depend on the shape of the search area [abstract]. Journal of
+  Vision 3~(429), 251--261.
+
+\bibitem[{Over et~al.(2007)Over, Hooge, Vlaskamp, and Erklens}]{over2007}
+Over, E.~A., Hooge, I.~T., Vlaskamp, B.~N., Erklens, C.~J., 2007.
+  Coarse-to-fine eye movements strategy in visual search. Vision Research 47,
+  2272--2280.
+
+\bibitem[{Pomplun(2007)}]{pomplun2007}
+Pomplun, M., 2007. Advancing area activation towards a general model of eye
+  movements in visual search. In: Gray, W.~D. (Ed.), Integrated Models of
+  Cognitive Systems. New York Oxford University Press, pp. 120 -- 131.
+
+\bibitem[{Pomplun et~al.(2003)Pomplun, Shen, and Reingold}]{pomplun2003}
+Pomplun, M., Shen, J., Reingold, E.~M., 2003. Area activation: A computational
+  model of saccadic selectivity in visual search. Cognitive Science 27, 299 --
+  312.
+
+\bibitem[{Posner(1980)}]{posner1980}
+Posner, M.~I., 1980. Orienting of attention. Quarterly journal of experimental
+  psychology 32~(1), 3--25.
+
+\bibitem[{Rao et~al.(2002)Rao, Zelinsky, Hayhoe, and Ballard}]{rao2002}
+Rao, P.~N., Zelinsky, G.~J., Hayhoe, M.~M., Ballard, D.~H., 2002. Eye movements
+  in iconic visual search. Vision Research 42, 1447--1463.
+
+\bibitem[{Reeves et~al.(2005)Reeves, Santhi, and DeCaro}]{reeves2005}
+Reeves, A., Santhi, N., DeCaro, S., 2005. A random-ray model for speed and
+  accuracy in perceptual experiments. Spatial Vision 115, 73--83.
+
+\bibitem[{Rutishauser and Koch(2007)}]{rutishauser-koch2007}
+Rutishauser, U., Koch, C., 2007. Probabilistic modeling of eye movement data
+  during conjunction search via feature-based attention. Journal of Vision
+  7~(5), 1--20.
+
+\bibitem[{Stone(1960)}]{stone1960}
+Stone, M., 1960. Models for choice-reation time. Psychometrika, 251--260.
+
+\bibitem[{Tavassoli et~al.(2009)Tavassoli, van~der Linde, and
+  Bovik}]{tavassoli2009}
+Tavassoli, A., van~der Linde, I., Bovik, A.~C., 2009. Eye movements selective
+  for spatial frequency and orientation during active vision search. Vision
+  Research 49, 173--181.
+
+\bibitem[{Verghese(2012)}]{verghese2012}
+Verghese, P., 2012. Active search for multiple targets is inefficient. Vision
+  research 74, 61--71.
+
+\bibitem[{Wolfe(2007)}]{wolfe2007}
+Wolfe, J.~M., 2007. Guided search 4.0: Current progress with a model of visual
+  search. In: Gray, W. (Ed.), Integrated Models of Cognitive Systems. New York:
+  Oxford, pp. 99--119.
+
+\bibitem[{Yeshurun and Carrasco(1998)}]{yeshurun1998}
+Yeshurun, Y., Carrasco, M., 1998. Attention improves or impairs visual
+  performance by enhancing spatial resolution. Nature 396~(6706), 72--75.
+
+\bibitem[{Zelinsky(2008)}]{zelinsky2008}
+Zelinsky, G.~J., 2008. A theory of eye movements during target acquisition.
+  Psychological Review 115, 787--835.
+
+\bibitem[{Zhang et~al.(2012)Zhang, Morvan, Etezad-Heydari, and
+  Maloney}]{zhang2012}
+Zhang, H., Morvan, C., Etezad-Heydari, L.-A., Maloney, L.~T., 2012. Very slow
+  search and reach: Failure to maximize expected gain in an eye-hand
+  coordination task. PLoS computational biology 8~(10), e1002718.
+
+\end{thebibliography}

@@ -1,0 +1,1278 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fix",
+				"fixDat"
+			],
+			[
+				"geom_",
+				"geom_point"
+			],
+			[
+				"cat",
+				"catchTrialsResp"
+			],
+			[
+				"geom",
+				"geom_path"
+			],
+			[
+				"cent",
+				"centralP"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"ag",
+				"agDat"
+			],
+			[
+				"acc",
+				"accuracy "
+			],
+			[
+				"a",
+				"accuracy "
+			],
+			[
+				"accD",
+				"accDatAll"
+			],
+			[
+				"f",
+				"frame"
+			],
+			[
+				"pred",
+				"predictions"
+			],
+			[
+				"all",
+				"allDat2"
+			],
+			[
+				"hoop",
+				"hoopPos"
+			],
+			[
+				"best",
+				"bestpos"
+			],
+			[
+				"off",
+				"off_set"
+			],
+			[
+				"m",
+				"mydat"
+			],
+			[
+				"d",
+				"dvmnorm"
+			],
+			[
+				"dp",
+				"dpI2"
+			],
+			[
+				"dprime",
+				"dprimeI"
+			],
+			[
+				"dprim",
+				"dprimeI"
+			],
+			[
+				"dpri",
+				"dprimeI"
+			],
+			[
+				"tra",
+				"traceback"
+			],
+			[
+				"col",
+				"colScale"
+			],
+			[
+				"sla",
+				"slabs_to_test"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"prob",
+				"probCorrectForPosFix"
+			],
+			[
+				"sl",
+				"slabs_to_test"
+			],
+			[
+				"of",
+				"off_set"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"dpr",
+				"dprimeI"
+			],
+			[
+				"dis",
+				"distFromFix"
+			],
+			[
+				"r",
+				"results"
+			],
+			[
+				"sa",
+				"slab90"
+			],
+			[
+				"slab",
+				"slab90"
+			],
+			[
+				"slb",
+				"slab10"
+			],
+			[
+				"fin",
+				"final_slab"
+			],
+			[
+				"pT",
+				"pTdat"
+			],
+			[
+				"pos",
+				"possFixLocatios"
+			],
+			[
+				"pro",
+				"probCorrectForPosFix"
+			],
+			[
+				"por",
+				"probCorrectForPosFix"
+			],
+			[
+				"probC",
+				"probCorrectForPotFix"
+			],
+			[
+				"scale",
+				"scale_y_continuous"
+			],
+			[
+				"par",
+				"participant"
+			],
+			[
+				"part",
+				"participant"
+			],
+			[
+				"fac",
+				"factor"
+			],
+			[
+				"pa",
+				"participant"
+			],
+			[
+				"mod",
+				"modelprob"
+			],
+			[
+				"item",
+				"itemLocations"
+			],
+			[
+				"inte",
+				"integrand"
+			],
+			[
+				"ine",
+				"integrand"
+			],
+			[
+				"n",
+				"nItems"
+			],
+			[
+				"int",
+				"integrand"
+			],
+			[
+				"drp",
+				"dprimeE"
+			],
+			[
+				"im",
+				"itemLocations"
+			],
+			[
+				"me",
+				"metric"
+			],
+			[
+				"lo",
+				"logarea"
+			],
+			[
+				"sum",
+				"sum"
+			],
+			[
+				"scal",
+				"scale_y_continuous"
+			],
+			[
+				"bean",
+				"beanbagdat"
+			],
+			[
+				"mo",
+				"model"
+			],
+			[
+				"su",
+				"summary"
+			],
+			[
+				"area",
+				"arearesults"
+			],
+			[
+				"are",
+				"arearesults"
+			],
+			[
+				"q",
+				"quantile"
+			],
+			[
+				"da",
+				"day"
+			],
+			[
+				"dev",
+				"deviance"
+			],
+			[
+				"na",
+				"names"
+			],
+			[
+				"log",
+				"logarea"
+			],
+			[
+				"min",
+				"minLogArea"
+			],
+			[
+				"logL",
+				"logLik"
+			],
+			[
+				"ct",
+				"ct_cet"
+			],
+			[
+				"ce",
+				"central"
+			],
+			[
+				"cor",
+				"corResults"
+			],
+			[
+				"b",
+				"beanbagdat"
+			],
+			[
+				"co",
+				"correct"
+			],
+			[
+				"trans",
+				"transList"
+			],
+			[
+				"trial",
+				"trialDat"
+			],
+			[
+				"fi",
+				"fixReg"
+			],
+			[
+				"tran",
+				"transList"
+			],
+			[
+				"mlds",
+				"mldsModel"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"ps",
+				"pscale"
+			],
+			[
+				"pS",
+				"pscale"
+			],
+			[
+				"Obs",
+				"Observer"
+			],
+			[
+				"R",
+				"ResponseN2"
+			],
+			[
+				"fil",
+				"filterbankIm	statement"
+			],
+			[
+				"start",
+				"startScale	statement"
+			],
+			[
+				"ra",
+				"ratioyx	statement"
+			],
+			[
+				"sigma",
+				"sigma_v	statement"
+			],
+			[
+				"un",
+				"uniformLogLik"
+			],
+			[
+				"ex",
+				"expfittedLogLik2"
+			],
+			[
+				"base",
+				"baselineLogLik"
+			],
+			[
+				"exp",
+				"expfittedLogLik"
+			],
+			[
+				"fre",
+				"frequency"
+			],
+			[
+				"mag",
+				"magmean"
+			],
+			[
+				"vis",
+				"visdisScore"
+			],
+			[
+				"nl",
+				"nls4"
+			],
+			[
+				"low",
+				"lowpassSig	statement"
+			],
+			[
+				"lowpass",
+				"lowpassSig"
+			],
+			[
+				"fiter",
+				"filterbank	statement"
+			],
+			[
+				"s",
+				"shape"
+			],
+			[
+				"ban",
+				"bankpowerspec"
+			],
+			[
+				"bank",
+				"bankpowerspec	statement"
+			],
+			[
+				"power",
+				"powerspec	statement"
+			],
+			[
+				"filter",
+				"filterbank	statement"
+			],
+			[
+				"ker",
+				"kernels	statement"
+			],
+			[
+				"gem",
+				"geom_bar"
+			],
+			[
+				"first",
+				"firstfixdat"
+			],
+			[
+				"prop",
+				"propSaccBlind"
+			],
+			[
+				"subj",
+				"subjdat"
+			],
+			[
+				"sacc",
+				"saccInto"
+			],
+			[
+				"i",
+				"identity"
+			],
+			[
+				"propSa",
+				"propSaccBlind3"
+			],
+			[
+				"into",
+				"intoBlind"
+			],
+			[
+				"sidep",
+				"sidepltDur"
+			],
+			[
+				"sideplt",
+				"sideplt2"
+			],
+			[
+				"h",
+				"hemiType"
+			],
+			[
+				"hemiT",
+				"hemiType"
+			],
+			[
+				"tie",
+				"timecoursedat"
+			],
+			[
+				"time",
+				"timecoursedat"
+			],
+			[
+				"sid",
+				"sideplt"
+			],
+			[
+				"side",
+				"sidepltDur"
+			],
+			[
+				"fd",
+				"fddat2"
+			],
+			[
+				"gemo",
+				"geom_density"
+			],
+			[
+				"fixd",
+				"fixdat"
+			],
+			[
+				"intoB",
+				"intoBlindu"
+			],
+			[
+				"inB",
+				"intoBlindl"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# get basic analysis\nsource(\"basicAnalysis.R\")\n\n# parse eye-tracking data\nasc = readLines(\"../results/ac_99_vs.asc\")\nasc = strsplit(asc, \"\\t\")\n\ntrialStarts = grep(\"SYNCTIME\", asc)\ntrialEnds = grep(\"TRIAL_OVER\", asc)\n\nnTrials = length(trialStarts)\n\nas.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n\nfixDat = data.frame(trial=numeric(), beta=character(), x=numeric(), y=numeric())\n\nfor (n in 1:nTrials)\n{\n 	trial = asc[trialStarts[n]:trialEnds[n]]\n 	fixationLines = grep(\"EFIX\", trial)\n 	fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, ncol=6))\n 	trialbeta = dat$beta[which(dat$trial==n)]\n 	fixDat = rbind(fixDat, data.frame(trial=n, beta=trialbeta, x=as.numeric.factor(fixations$V4), y=as.numeric.factor(fixations$V5)))\n\n}\nfixDat$x = fixDat$x - (1920-1024)/2\nfixDat$y = fixDat$y - (1080-1024)/2\nfixDat$beta = as.factor(fixDat$beta)\n\n# get some sumamry stats\nagDat = aggregate(data=fixDat,  trial~beta, FUN=\"length\")\n\nt = 2\nlibrary(ggplot2)\ntrialDat = fixDat[which(fixDat$trial==t),]\nplt = ggplot(trialDat, aes(x,y)) + geom_path() + geom_point(shape=1)\nplt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,1024))\nplt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,1024))\n\n# get target info\ntarget = c(dat$targY[t], dat$targX[t])\n\nplt = plt + geom_point(shape=3, aes(x=target[1], y=target[2]))\nplt",
+			"file": "analysis/parseEyeTrack.R",
+			"file_size": 630,
+			"file_write_time": 130585377540000000,
+			"settings":
+			{
+				"buffer_size": 1369,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "## Check non-eyetracking results\n\n\ndat = read.table(\"../results/ac_99_vs.txt\", header=T, sep=\",\")\nnames(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"targX\", \"targY\", \"RT\")\ndat$targX = as.numeric(dat$targXf)\ndat$targY = as.numeric(dat$targY)\ndat$TP = as.numeric(dat$TP)==1\ndat$responded = (dat$RT==-1)\n\n\n\n# check catch trial accuracy\ncatchTrialsResp = mean(as.numeric(dat$responded[which(dat$TP==FALSE)]))\nprint(paste(\"proportion of catch trials with responses is \", catchTrialsResp))\n\n\n",
+			"file": "analysis/basicAnalysis.R",
+			"file_size": 34,
+			"file_write_time": 130585377540000000,
+			"settings":
+			{
+				"buffer_size": 509,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "results/ac_99_vs.txt",
+			"settings":
+			{
+				"buffer_size": 2262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\nR version 3.0.3 (2014-03-06) -- \"Warm Puppy\"\nCopyright (C) 2014 The R Foundation for Statistical Computing\nPlatform: x86_64-apple-darwin10.8.0 (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\n  Natural language support but running in an English locale\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vc.txt\")\nError in file(file, \"rt\") : cannot open the connection\nIn addition: Warning message:\nIn file(file, \"rt\") :\n  cannot open file '../results/ac_99_vc.txt': No such file or directory\n> \n> dir()\n[1] \"basicAnalysis.R\" \"parseEyeTrack.R\"\n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\")\n> \n> summary(dat)\n                 V1           V2                  V3         V4    \n 99,              :60   1,     : 1   0,            :30   1.6, :20  \n participantNumber: 1   10,    : 1   1,            :30   1.65,:20  \n                        11,    : 1   TargetPresent,: 1   1.7, :20  \n                        12,    : 1                       beta,: 1  \n                        13,    : 1                                 \n                        14,    : 1                                 \n                        (Other):55                                 \n       V5           V6           V7           V8    \n 1,     : 1   NaN,   :30   NaN,   :30   -1.000 :29  \n 10,    : 1   842,   : 2   195,   : 1   0.867  : 1  \n 11,    : 1   143,   : 1   204,   : 1   0.912  : 1  \n 12,    : 1   155,   : 1   208,   : 1   0.922  : 1  \n 13,    : 1   181,   : 1   297,   : 1   1.058  : 1  \n 14,    : 1   199,   : 1   317,   : 1   1.174  : 1  \n (Other):55   (Other):25   (Other):26   (Other):27  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.csv(\"../results/ac_99_vs.txt\")\nError in read.table(file = file, header = header, sep = sep, quote = quote,  : \n  duplicate 'row.names' are not allowed\n> \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> \n> summary(dat)\n participantNumber   trialNum.  TargetPresent.   beta.        seed.   \n 99,:60            1,     : 1   0,:30          1.6, :20   1,     : 1  \n                   10,    : 1   1,:30          1.65,:20   10,    : 1  \n                   11,    : 1                  1.7, :20   11,    : 1  \n                   12,    : 1                             12,    : 1  \n                   13,    : 1                             13,    : 1  \n                   14,    : 1                             14,    : 1  \n                   (Other):54                             (Other):54  \n       x.           y.           RT         \n NaN,   :30   NaN,   :30   Min.   :-1.0000  \n 842,   : 2   195,   : 1   1st Qu.:-1.0000  \n 143,   : 1   204,   : 1   Median : 0.8895  \n 155,   : 1   208,   : 1   Mean   : 2.2957  \n 181,   : 1   297,   : 1   3rd Qu.: 2.2535  \n 199,   : 1   317,   : 1   Max.   :22.9550  \n (Other):24   (Other):25                    \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"x<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"x\"                        , \"y\", \"RT\")\n> \n> summary(dat)\n participantNumber  trialNumber  TP        beta         seed          x     \n 99,:60            1,     : 1   0,:30   1.6, :20   1,     : 1   NaN,   :30  \n                   10,    : 1   1,:30   1.65,:20   10,    : 1   842,   : 2  \n                   11,    : 1           1.7, :20   11,    : 1   143,   : 1  \n                   12,    : 1                      12,    : 1   155,   : 1  \n                   13,    : 1                      13,    : 1   181,   : 1  \n                   14,    : 1                      14,    : 1   199,   : 1  \n                   (Other):54                      (Other):54   (Other):24  \n       y            RT         \n NaN,   :30   Min.   :-1.0000  \n 195,   : 1   1st Qu.:-1.0000  \n 204,   : 1   Median : 0.8895  \n 208,   : 1   Mean   : 2.2957  \n 297,   : 1   3rd Qu.: 2.2535  \n 317,   : 1   Max.   :22.9550  \n (Other):25                    \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"x<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"x\"                        , \"y\", \"RT\")\n> dat$x = numeric(dat$x)\nError in numeric(dat$x) : invalid 'length' argument\n> dat$y = numeric(dat$y)\nError in numeric(dat$y) : invalid 'length' argument\n> \n> summary(dat)\n participantNumber  trialNumber  TP        beta         seed          x     \n 99,:60            1,     : 1   0,:30   1.6, :20   1,     : 1   NaN,   :30  \n                   10,    : 1   1,:30   1.65,:20   10,    : 1   842,   : 2  \n                   11,    : 1           1.7, :20   11,    : 1   143,   : 1  \n                   12,    : 1                      12,    : 1   155,   : 1  \n                   13,    : 1                      13,    : 1   181,   : 1  \n                   14,    : 1                      14,    : 1   199,   : 1  \n                   (Other):54                      (Other):54   (Other):24  \n       y            RT         \n NaN,   :30   Min.   :-1.0000  \n 195,   : 1   1st Qu.:-1.0000  \n 204,   : 1   Median : 0.8895  \n 208,   : 1   Mean   : 2.2957  \n 297,   : 1   3rd Qu.: 2.2535  \n 317,   : 1   Max.   :22.9550  \n (Other):25                    \n> dat$x = numeric(dat$x)\nError in numeric(dat$x) : invalid 'length' argument\n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"x<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"x\"                        , \"y\", \"RT\")\n> dat$x = as.numeric(dat$x)\n> dat$y = as.numeric(dat$y)\n> \n> summary(dat)\n participantNumber  trialNumber  TP        beta         seed          x        \n 99,:60            1,     : 1   0,:30   1.6, :20   1,     : 1   Min.   : 1.00  \n                   10,    : 1   1,:30   1.65,:20   10,    : 1   1st Qu.:15.75  \n                   11,    : 1           1.7, :20   11,    : 1   Median :29.50  \n                   12,    : 1                      12,    : 1   Mean   :22.62  \n                   13,    : 1                      13,    : 1   3rd Qu.:30.00  \n                   14,    : 1                      14,    : 1   Max.   :30.00  \n                   (Other):54                      (Other):54                  \n       y               RT         \n Min.   : 1.00   Min.   :-1.0000  \n 1st Qu.:15.75   1st Qu.:-1.0000  \n Median :30.50   Median : 0.8895  \n Mean   :23.25   Mean   : 2.2957  \n 3rd Qu.:31.00   3rd Qu.: 2.2535  \n Max.   :31.00   Max.   :22.9550  \n                                  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> \n> dat$targNotFound = dat$RT==-1\n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> \n> dat$responded = (dat$RT==-1)\n> summary(dat)\n participantNumber  trialNumber  TP        beta         seed        targX      \n 99,:60            1,     : 1   0,:30   1.6, :20   1,     : 1   Min.   : 1.00  \n                   10,    : 1   1,:30   1.65,:20   10,    : 1   1st Qu.:15.75  \n                   11,    : 1           1.7, :20   11,    : 1   Median :29.50  \n                   12,    : 1                      12,    : 1   Mean   :22.62  \n                   13,    : 1                      13,    : 1   3rd Qu.:30.00  \n                   14,    : 1                      14,    : 1   Max.   :30.00  \n                   (Other):54                      (Other):54                  \n     targY             RT          responded      \n Min.   : 1.00   Min.   :-1.0000   Mode :logical  \n 1st Qu.:15.75   1st Qu.:-1.0000   FALSE:31       \n Median :30.50   Median : 0.8895   TRUE :29       \n Mean   :23.25   Mean   : 2.2957   NA's :0        \n 3rd Qu.:31.00   3rd Qu.: 2.2535                  \n Max.   :31.00   Max.   :22.9550                  \n                                                  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = as.logical(targ$TP)\nError: object 'targ' not found\n> dat$responded = (dat$RT==-1)\n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = as.logical(dat$TP)\n> dat$responded = (dat$RT==-1)\n> summary(dat)\n participantNumber  trialNumber    TP             beta         seed   \n 99,:60            1,     : 1   Mode:logical   1.6, :20   1,     : 1  \n                   10,    : 1   NA's:60        1.65,:20   10,    : 1  \n                   11,    : 1                  1.7, :20   11,    : 1  \n                   12,    : 1                             12,    : 1  \n                   13,    : 1                             13,    : 1  \n                   14,    : 1                             14,    : 1  \n                   (Other):54                             (Other):54  \n     targX           targY             RT          responded      \n Min.   : 1.00   Min.   : 1.00   Min.   :-1.0000   Mode :logical  \n 1st Qu.:15.75   1st Qu.:15.75   1st Qu.:-1.0000   FALSE:31       \n Median :29.50   Median :30.50   Median : 0.8895   TRUE :29       \n Mean   :22.62   Mean   :23.25   Mean   : 2.2957   NA's :0        \n 3rd Qu.:30.00   3rd Qu.:31.00   3rd Qu.: 2.2535                  \n Max.   :30.00   Max.   :31.00   Max.   :22.9550                  \n                                                                  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = as.logical(as.numeric(dat$TP))\n> dat$responded = (dat$RT==-1)\n> summary(dat)\n participantNumber  trialNumber    TP             beta         seed   \n 99,:60            1,     : 1   Mode:logical   1.6, :20   1,     : 1  \n                   10,    : 1   TRUE:60        1.65,:20   10,    : 1  \n                   11,    : 1   NA's:0         1.7, :20   11,    : 1  \n                   12,    : 1                             12,    : 1  \n                   13,    : 1                             13,    : 1  \n                   14,    : 1                             14,    : 1  \n                   (Other):54                             (Other):54  \n     targX           targY             RT          responded      \n Min.   : 1.00   Min.   : 1.00   Min.   :-1.0000   Mode :logical  \n 1st Qu.:15.75   1st Qu.:15.75   1st Qu.:-1.0000   FALSE:31       \n Median :29.50   Median :30.50   Median : 0.8895   TRUE :29       \n Mean   :22.62   Mean   :23.25   Mean   : 2.2957   NA's :0        \n 3rd Qu.:30.00   3rd Qu.:31.00   3rd Qu.: 2.2535                  \n Max.   :30.00   Max.   :31.00   Max.   :22.9550                  \n                                                                  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = dat$TP==\"1\"\n> dat$responded = (dat$RT==-1)\n> summary(dat)\n participantNumber  trialNumber     TP             beta         seed   \n 99,:60            1,     : 1   Mode :logical   1.6, :20   1,     : 1  \n                   10,    : 1   FALSE:60        1.65,:20   10,    : 1  \n                   11,    : 1   NA's :0         1.7, :20   11,    : 1  \n                   12,    : 1                              12,    : 1  \n                   13,    : 1                              13,    : 1  \n                   14,    : 1                              14,    : 1  \n                   (Other):54                              (Other):54  \n     targX           targY             RT          responded      \n Min.   : 1.00   Min.   : 1.00   Min.   :-1.0000   Mode :logical  \n 1st Qu.:15.75   1st Qu.:15.75   1st Qu.:-1.0000   FALSE:31       \n Median :29.50   Median :30.50   Median : 0.8895   TRUE :29       \n Mean   :22.62   Mean   :23.25   Mean   : 2.2957   NA's :0        \n 3rd Qu.:30.00   3rd Qu.:31.00   3rd Qu.: 2.2535                  \n Max.   :30.00   Max.   :31.00   Max.   :22.9550                  \n                                                                  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = dat$TP==1\n> dat$responded = (dat$RT==-1)\n> summary(dat)\n participantNumber  trialNumber     TP             beta         seed   \n 99,:60            1,     : 1   Mode :logical   1.6, :20   1,     : 1  \n                   10,    : 1   FALSE:60        1.65,:20   10,    : 1  \n                   11,    : 1   NA's :0         1.7, :20   11,    : 1  \n                   12,    : 1                              12,    : 1  \n                   13,    : 1                              13,    : 1  \n                   14,    : 1                              14,    : 1  \n                   (Other):54                              (Other):54  \n     targX           targY             RT          responded      \n Min.   : 1.00   Min.   : 1.00   Min.   :-1.0000   Mode :logical  \n 1st Qu.:15.75   1st Qu.:15.75   1st Qu.:-1.0000   FALSE:31       \n Median :29.50   Median :30.50   Median : 0.8895   TRUE :29       \n Mean   :22.62   Mean   :23.25   Mean   : 2.2957   NA's :0        \n 3rd Qu.:30.00   3rd Qu.:31.00   3rd Qu.: 2.2535                  \n Max.   :30.00   Max.   :31.00   Max.   :22.9550                  \n                                                                  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> \n> dat$responded = (dat$RT==-1)\n> summary(dat)\n participantNumber  trialNumber  TP        beta         seed        targX      \n 99,:60            1,     : 1   0,:30   1.6, :20   1,     : 1   Min.   : 1.00  \n                   10,    : 1   1,:30   1.65,:20   10,    : 1   1st Qu.:15.75  \n                   11,    : 1           1.7, :20   11,    : 1   Median :29.50  \n                   12,    : 1                      12,    : 1   Mean   :22.62  \n                   13,    : 1                      13,    : 1   3rd Qu.:30.00  \n                   14,    : 1                      14,    : 1   Max.   :30.00  \n                   (Other):54                      (Other):54                  \n     targY             RT          responded      \n Min.   : 1.00   Min.   :-1.0000   Mode :logical  \n 1st Qu.:15.75   1st Qu.:-1.0000   FALSE:31       \n Median :30.50   Median : 0.8895   TRUE :29       \n Mean   :23.25   Mean   : 2.2957   NA's :0        \n 3rd Qu.:31.00   3rd Qu.: 2.2535                  \n Max.   :31.00   Max.   :22.9550                  \n                                                  \n> dat$TP==1\n [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[13] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[25] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[37] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[49] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n> dat$TP==\"1\"\n [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[13] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[25] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[37] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[49] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n> as.numeric(dat$TP)==1\n [1] FALSE FALSE  TRUE FALSE FALSE  TRUE FALSE  TRUE FALSE FALSE FALSE  TRUE\n[13]  TRUE FALSE FALSE FALSE  TRUE FALSE FALSE  TRUE  TRUE FALSE  TRUE  TRUE\n[25] FALSE  TRUE FALSE  TRUE FALSE  TRUE  TRUE FALSE  TRUE  TRUE  TRUE FALSE\n[37] FALSE FALSE  TRUE  TRUE  TRUE  TRUE  TRUE FALSE  TRUE FALSE  TRUE FALSE\n[49]  TRUE  TRUE  TRUE FALSE  TRUE FALSE FALSE  TRUE FALSE FALSE  TRUE FALSE\n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> \n> # check catch trial accuracy\n> catchTrialsResp = mean(dat$responded[which(dat$TP==0)])\n> print(catchTrialsResp)\n[1] NaN\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> \n> # check catch trial accuracy\n> catchTrialsResp = mean(dat$responded[which(dat$TP==F)])\n> print(catchTrialsResp)\n[1] NaN\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> \n> # check catch trial accuracy\n> catchTrialsResp = mean(dat$responded[which(dat$TP==FALSE)])\n> print(catchTrialsResp)\n[1] NaN\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> \n> # check catch trial accuracy\n> catchTrialsResp = mean(as.numeric((dat$responded[which(dat$TP==FALSE)]))\n+ print(catchTrialsResp)\nError: unexpected symbol in:\n\"catchTrialsResp = mean(as.numeric((dat$responded[which(dat$TP==FALSE)]))\nprint\"\n> \n> catchTrialsResp = mean(as.numeric(dat$responded[which(dat$TP==FALSE)]))\n> catchTrialsResp\n[1] NaN\n> dat$responded[which(dat$TP==FALSE)]\nlogical(0)\n> dat$TP\n [1] 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1,\n[26] 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0,\n[51] 0, 1, 0, 1, 1, 0, 1, 1, 0, 1,\nLevels: 0, 1,\n> summary(dat)\n participantNumber  trialNumber  TP        beta         seed        targX      \n 99,:60            1,     : 1   0,:30   1.6, :20   1,     : 1   Min.   : 1.00  \n                   10,    : 1   1,:30   1.65,:20   10,    : 1   1st Qu.:15.75  \n                   11,    : 1           1.7, :20   11,    : 1   Median :29.50  \n                   12,    : 1                      12,    : 1   Mean   :22.62  \n                   13,    : 1                      13,    : 1   3rd Qu.:30.00  \n                   14,    : 1                      14,    : 1   Max.   :30.00  \n                   (Other):54                      (Other):54                  \n     targY             RT          responded      \n Min.   : 1.00   Min.   :-1.0000   Mode :logical  \n 1st Qu.:15.75   1st Qu.:-1.0000   FALSE:31       \n Median :30.50   Median : 0.8895   TRUE :29       \n Mean   :23.25   Mean   : 2.2957   NA's :0        \n 3rd Qu.:31.00   3rd Qu.: 2.2535                  \n Max.   :31.00   Max.   :22.9550                  \n                                                  \n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = as.numeric(dat$TP)==1\n> dat$responded = (dat$RT==-1)\n> \n> \n> \n> # check catch trial accuracy\n> catchTrialsResp = mean(as.numeric(dat$responded[which(dat$TP==FALSE)]))\n> print(catchTrialsResp)\n[1] 0\n> \n> dat$responded[which(dat$TP==FALSE)]\n [1] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[13] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n[25] FALSE FALSE FALSE FALSE FALSE FALSE\n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targX)\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = as.numeric(dat$TP)==1\n> dat$responded = (dat$RT==-1)\n> \n> \n> \n> # check catch trial accuracy\n> catchTrialsResp = mean(as.numeric(dat$responded[which(dat$TP==FALSE)]))\n> print(paste(\"proportion of catch trials with responses is \", catchTrialsRes<f catch trials with responses is \", catchTrialsResp                        ))\n[1] \"proportion of catch trials with responses is  0\"\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> \n> \n> \n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==1),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt \n> summary(fixDat)\n     trial             x                y         \n Min.   : 1.00   Min.   : 485.8   Min.   :-118.0  \n 1st Qu.:13.50   1st Qu.: 771.5   1st Qu.: 316.1  \n Median :34.00   Median : 993.3   Median : 537.1  \n Mean   :30.98   Mean   :1000.0   Mean   : 559.7  \n 3rd Qu.:47.00   3rd Qu.:1246.4   3rd Qu.: 818.8  \n Max.   :60.00   Max.   :1502.8   Max.   :1072.9  \n> 1920-1024\n[1] 896\n> 1920-1024/2\n[1] 1408\n> (1920-1024)/2\n[1] 448\n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==1),f]\nError in `[.data.frame`(fixDat, which(fixDat$trial == 1), f) : \n  object 'f' not found\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==1),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==1),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=(1,256, 512, 768,10<nuous(limits=c(1,1024), breaks=(1,256, 512, 768,102                        4))\nError: unexpected ',' in \"plt = plt + scale_x_continuous(limits=c(1,1024), breaks=(1,\"\n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==1),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,,768,10<nuous(limits=c(1,1024), breaks=c(1,256,512,,768,102                        4))\nError in c(1, 256, 512, , 768, 1024) : argument 4 is empty\n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==1),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==1),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> plt\n> head(dat)\n  participantNumber trialNumber    TP  beta seed targX targY     RT responded\n1               99,          1, FALSE  1.6,   6,     3     7 22.955     FALSE\n2               99,          2, FALSE  1.6,   7,    29    29  6.686     FALSE\n3               99,          3,  TRUE  1.6,  12,    30    31 -1.000      TRUE\n4               99,          4, FALSE  1.6,   8,    13    27 10.487     FALSE\n5               99,          5, FALSE  1.6,   1,    16    10 17.489     FALSE\n6               99,          6,  TRUE 1.65,  36,    30    31 -1.000      TRUE\n> # get basic analysis\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 3\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targX[t], dat$targY[t])\n> \n> plt = plt + geom_point(aes(target[1], target[2]))\n> plt\n> target \n[1] 30 31\n> head(dat )\n  participantNumber trialNumber    TP  beta seed targX targY     RT responded\n1               99,          1, FALSE  1.6,   6,     3     7 22.955     FALSE\n2               99,          2, FALSE  1.6,   7,    29    29  6.686     FALSE\n3               99,          3,  TRUE  1.6,  12,    30    31 -1.000      TRUE\n4               99,          4, FALSE  1.6,   8,    13    27 10.487     FALSE\n5               99,          5, FALSE  1.6,   1,    16    10 17.489     FALSE\n6               99,          6,  TRUE 1.65,  36,    30    31 -1.000      TRUE\n> dat = read.table(\"../results/ac_99_vs.txt\", header=T)\n> head(dat )\n  participantNumber. trialNum. TargetPresent. beta. seed.   x.   y.     RT\n1                99,        1,             1,  1.6,    6, 181, 416, 22.955\n2                99,        2,             1,  1.6,    7, 958, 939,  6.686\n3                99,        3,             0,  1.6,   12, NaN, NaN, -1.000\n4                99,        4,             1,  1.6,    8, 421, 916, 10.487\n5                99,        5,             1,  1.6,    1, 622, 498, 17.489\n6                99,        6,             0, 1.65,   36, NaN, NaN, -1.000\n> dat = read.table(\"../results/ac_99_vs.txt\", header=T, sep=\"'\")\n> head(dat)\n  participantNumber..trialNum..TargetPresent..beta..seed..x..y..RT\n1                               99, 1, 1, 1.6, 6, 181, 416, 22.955\n2                                99, 2, 1, 1.6, 7, 958, 939, 6.686\n3                              99, 3, 0, 1.6, 12, NaN, NaN, -1.000\n4                               99, 4, 1, 1.6, 8, 421, 916, 10.487\n5                               99, 5, 1, 1.6, 1, 622, 498, 17.489\n6                             99, 6, 0, 1.65, 36, NaN, NaN, -1.000\n> dat = read.table(\"../results/ac_99_vs.txt\", header=T, sep=\"'\")\n> head(dat)\n  participantNumber..trialNum..TargetPresent..beta..seed..x..y..RT\n1                               99, 1, 1, 1.6, 6, 181, 416, 22.955\n2                                99, 2, 1, 1.6, 7, 958, 939, 6.686\n3                              99, 3, 0, 1.6, 12, NaN, NaN, -1.000\n4                               99, 4, 1, 1.6, 8, 421, 916, 10.487\n5                               99, 5, 1, 1.6, 1, 622, 498, 17.489\n6                             99, 6, 0, 1.65, 36, NaN, NaN, -1.000\n> dat = read.table(\"../results/ac_99_vs.txt\", header=T, sep=\",\")\n> head(dat)\n  participantNumber trialNum TargetPresent beta seed   x   y     RT\n1                99        1             1 1.60    6 181 416 22.955\n2                99        2             1 1.60    7 958 939  6.686\n3                99        3             0 1.60   12 NaN NaN -1.000\n4                99        4             1 1.60    8 421 916 10.487\n5                99        5             1 1.60    1 622 498 17.489\n6                99        6             0 1.65   36 NaN NaN -1.000\n> # get basic analysis\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 1\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targX[t], dat$targY[t])\n> \n> plt = plt + geom_point(aes(target[1], target[2]))\n> plt\nError: geom_point requires the following missing aesthetics: x, y\n> # get basic analysis\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 1\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targX[t], dat$targY[t])\n> \n> plt = plt + geom_point(aes(x=target[1], y=target[2]))\n> plt\nError: geom_point requires the following missing aesthetics: x, y\n> target \nNULL\n> dat$targ \nNULL\n> dat \n   participantNumber trialNum TargetPresent beta seed   x   y     RT\n1                 99        1             1 1.60    6 181 416 22.955\n2                 99        2             1 1.60    7 958 939  6.686\n3                 99        3             0 1.60   12 NaN NaN -1.000\n4                 99        4             1 1.60    8 421 916 10.487\n5                 99        5             1 1.60    1 622 498 17.489\n6                 99        6             0 1.65   36 NaN NaN -1.000\n7                 99        7             1 1.70   44 509 922  4.452\n8                 99        8             0 1.65   33 NaN NaN -1.000\n9                 99        9             1 1.65   22 456 955  1.347\n10                99       10             1 1.65   29 199 699  1.460\n11                99       11             1 1.70   42 388 881  4.946\n12                99       12             0 1.60   20 NaN NaN -1.000\n13                99       13             0 1.70   55 NaN NaN -1.000\n14                99       14             1 1.70   43 875 608  1.533\n15                99       15             1 1.70   41 155 715  1.186\n16                99       16             1 1.60   10 204 619  4.001\n17                99       17             0 1.65   37 NaN NaN -1.000\n18                99       18             1 1.60    2 913 781  2.752\n19                99       19             1 1.70   45 842 661  1.848\n20                99       20             0 1.70   52 NaN NaN -1.000\n21                99       21             0 1.60   18 NaN NaN -1.000\n22                99       22             1 1.65   25 698 389  1.271\n23                99       23             0 1.70   51 NaN NaN -1.000\n24                99       24             0 1.70   57 NaN NaN -1.000\n25                99       25             1 1.65   30 311 555  0.922\n26                99       26             0 1.70   56 NaN NaN -1.000\n27                99       27             1 1.70   49 745 317  2.036\n28                99       28             0 1.65   38 NaN NaN -1.000\n29                99       29             1 1.70   50 859 582  2.228\n30                99       30             0 1.65   35 NaN NaN -1.000\n31                99       31             0 1.70   58 NaN NaN -1.000\n32                99       32             1 1.70   47 351 297  0.912\n33                99       33             0 1.60   19 NaN NaN -1.000\n34                99       34             0 1.60   11 NaN NaN -1.000\n35                99       35             0 1.60   15 NaN NaN -1.000\n36                99       36             1 1.70   48 350 547  0.867\n37                99       37             1 1.60    3 842 456  3.470\n38                99       38             1 1.60    9 143 208  1.715\n39                99       39             0 1.70   59 NaN NaN -1.000\n40                99       40             0 1.60   17 NaN NaN 17.827\n41                99       41             0 1.70   60 NaN NaN -1.000\n42                99       42             0 1.60   16 NaN NaN -1.000\n43                99       43             0 1.70   53 NaN NaN -1.000\n44                99       44             1 1.65   26 852 515  2.330\n45                99       45             0 1.70   54 NaN NaN -1.000\n46                99       46             1 1.65   28 312 195 17.673\n47                99       47             0 1.65   31 NaN NaN -1.000\n48                99       48             1 1.60    4 631 811 19.458\n49                99       49             0 1.60   13 NaN NaN -1.000\n50                99       50             0 1.65   32 NaN NaN -1.000\n51                99       51             0 1.65   34 NaN NaN -1.000\n52                99       52             1 1.65   27 727 440  6.017\n53                99       53             0 1.60   14 NaN NaN -1.000\n54                99       54             1 1.60    5 944 756  3.268\n55                99       55             1 1.65   21 279 204  1.220\n56                99       56             0 1.65   39 NaN NaN -1.000\n57                99       57             1 1.65   23 867 538  2.155\n58                99       58             1 1.70   46 838 677  1.058\n59                99       59             0 1.65   40 NaN NaN -1.000\n60                99       60             1 1.65   24 208 689  1.174\n> dat$tartgX \nNULL\n> ## Check non-eyetracking results\n> \n> \n> dat = read.table(\"../results/ac_99_vs.txt\", header=T, sep=\",\")\n> names(dat) = c(\"participantNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"t<ntNumber\", \"trialNumber\", \"TP\", \"beta\", \"seed\", \"ta                        rgX\", \"targY\", \"RT\")\n> dat$targX = as.numeric(dat$targXf)\nError in `$<-.data.frame`(`*tmp*`, \"targX\", value = numeric(0)) : \n  replacement has 0 rows, data has 60\n> dat$targY = as.numeric(dat$targY)\n> dat$TP = as.numeric(dat$TP)==1\n> dat$responded = (dat$RT==-1)\n> \n> \n> \n> # check catch trial accuracy\n> catchTrialsResp = mean(as.numeric(dat$responded[which(dat$TP==FALSE)]))\n> print(paste(\"proportion of catch trials with responses is \", catchTrialsRes<f catch trials with responses is \", catchTrialsResp                        ))\n[1] \"proportion of catch trials with responses is  0.966666666666667\"\n> \n> \n> \n> # get basic analysis\n> source(\"basicAnalysis.R\")\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 1\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path()\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targX[t], dat$targY[t])\n> \n> plt = plt + geom_point(aes(x=target[1], y=target[2]))\n> plt\n> # get basic analysis\n> source(\"basicAnalysis.R\")\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 1\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path() + geom_point(shape=2)\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targX[t], dat$targY[t])\n> \n> plt = plt + geom_point(aes(x=target[1], y=target[2]))\n> plt\n> fixDat\n     trial      x      y\n1        1  502.6  513.1\n2        1  480.1  315.4\n3        1  422.5  247.4\n4        1  718.9  158.3\n5        1  913.2  105.2\n6        1  812.9  419.9\n7        1  816.2  716.9\n8        1  765.2  702.6\n9        1  844.6  801.1\n10       1  868.6  769.7\n11       1  416.6  810.5\n12       1  491.1  824.0\n13       1  537.0  767.1\n14       1  152.9  821.2\n15       1  139.8  933.7\n16       1  141.5  538.4\n17       1  172.2  480.6\n18       1  378.0  404.6\n19       1  521.1  461.9\n20       1  589.5  467.0\n21       1  574.3  274.4\n22       1  148.3  204.1\n23       1  256.0  211.3\n24       1  525.0  110.3\n25       1  741.2  115.5\n26       1  822.8  140.7\n27       1  971.2  110.0\n28       1  735.5  171.5\n29       1  817.9  169.7\n30       1  874.3  127.0\n31       1  849.0  414.8\n32       1  818.3  486.9\n33       1  786.1  608.4\n34       1  856.5  831.2\n35       1  852.4  518.1\n36       1  865.7  468.1\n37       1  869.3  446.0\n38       1  580.6  361.6\n39       1  536.5  189.3\n40       1  517.0  147.0\n41       1  489.6  124.3\n42       1  252.3  163.1\n43       1  263.8  141.0\n44       1  130.1   96.3\n45       1  187.2  322.5\n46       1  241.7  588.7\n47       1  253.6  542.3\n48       1  205.5  769.8\n49       1  218.4  736.3\n50       1  180.4  831.4\n51       1  504.6  753.2\n52       1  518.5  745.2\n53       1  618.3  894.8\n54       1  667.2  910.3\n55       1  859.8  969.8\n56       1  906.7  988.1\n57       1  227.8  990.9\n58       1  185.3  935.1\n59       1  499.5  777.0\n60       1  618.0  580.7\n61       1  629.4  545.1\n62       1  584.8  424.9\n63       1  598.8  390.8\n64       1  801.8  267.0\n65       1  827.9  131.8\n66       1  867.9  111.5\n67       1  367.3  123.1\n68       2  506.1  394.1\n69       2  528.2  311.9\n70       2  530.9  157.0\n71       2  464.4  161.7\n72       2  827.3  219.4\n73       2  823.0  199.1\n74       2  796.1  448.7\n75       2  843.0  548.3\n76       2  789.6  348.7\n77       2  854.0  430.0\n78       2  866.2  756.9\n79       2  872.8  884.1\n80       2  572.3  780.4\n81       2  608.0  841.2\n82       2  811.2  876.5\n83       2  915.2  900.3\n84       3  502.6  494.6\n85       3  887.0  893.6\n86       3  976.6  942.6\n87       3  902.9  445.2\n88       3  868.7  451.2\n89       3  830.9  199.8\n90       3  858.2  168.3\n91       3  528.9  137.3\n92       3  570.4  158.1\n93       3  276.8  158.3\n94       3  309.2  192.5\n95       3  385.2  362.0\n96       3  217.7  171.7\n97       3  199.3  402.4\n98       3  240.9  710.6\n99       3  234.8  586.7\n100      3  246.7  545.3\n101      3  246.1  562.8\n102      3  310.7  527.6\n103      3  576.3  469.4\n104      3  502.7  481.5\n105      3  647.7  369.4\n106      3  675.4  362.3\n107      3  635.0  369.2\n108      3  734.3  236.0\n109      3  703.4  245.6\n110      3  559.7  205.1\n111      3  693.0  211.0\n112      3  554.4  699.1\n113      3  627.6  791.6\n114      3  735.5  870.5\n115      3  406.1  872.5\n116      3  312.3  816.8\n117      3  205.7  816.2\n118      3  170.4  612.8\n119      3  233.3  540.6\n120      3  211.6  217.2\n121      3  286.6  171.6\n122      3  670.4  123.7\n123      3  739.8  187.2\n124      3  675.8  196.4\n125      3  575.5  200.3\n126      3  832.0  127.3\n127      3  843.9  169.4\n128      3  883.3  389.1\n129      3  862.4  453.7\n130      3  678.1  313.7\n131      3  835.0   59.2\n132      3  913.2   66.7\n133      3  296.4  111.0\n134      3  122.5  108.3\n135      3  204.7  292.1\n136      3  178.2  696.8\n137      3  190.9  898.3\n138      3  150.7  487.9\n139      3  148.5  420.7\n140      3  175.3  404.8\n141      3  453.1  413.0\n142      3  512.2  207.5\n143      3  549.0  174.8\n144      3  558.9  200.8\n145      3  798.9  230.6\n146      3  812.9  644.2\n147      3  873.5  620.6\n148      3  832.8  795.0\n149      3  809.3  977.2\n150      3  789.0  980.8\n151      3  967.5  934.9\n152      3  999.4  952.4\n153      3  558.3  991.9\n154      3  523.4  960.6\n155      3  327.9  913.3\n156      3  382.7  948.7\n157      3  322.6  973.5\n158      3  147.2  941.1\n159      3  200.2  982.7\n160      3  465.9  729.0\n161      3  400.9  695.7\n162      3  432.8  708.3\n163      3  172.1  676.5\n164      3  235.6  663.6\n165      4  507.6  510.4\n166      4  550.9  516.7\n167      4  455.3  906.3\n168      4  308.6  965.6\n169      4  332.7  909.7\n170      4  299.7  842.7\n171      4  738.7  754.9\n172      4  818.6  948.0\n173      4  917.3  598.6\n174      4  864.9  309.5\n175      4  852.0  100.2\n176      4  371.6  138.6\n177      4  476.8  172.3\n178      4  600.2  198.6\n179      4  666.2  192.9\n180      4  788.0  207.6\n181      4  201.7  186.8\n182      4  280.6  216.0\n183      4  320.9  263.8\n184      4  373.2  461.2\n185      4  447.2  496.5\n186      4  263.8  761.9\n187      4  223.3  721.1\n188      4  312.4  733.8\n189      4  317.3  748.2\n190      4  219.5  948.2\n191      4  242.5  921.5\n192      4  669.8  624.6\n193      4  773.9  469.8\n194      4  817.8  397.7\n195      5  513.6  507.4\n196      5  599.1  517.8\n197      5  834.2  358.0\n198      5  814.0  231.9\n199      5  738.4  208.5\n200      5  827.6  227.8\n201      5  298.6  208.0\n202      5  205.1  170.2\n203      5  217.3  670.3\n204      5  830.0  692.7\n205      5  885.0  698.7\n206      5  785.0  899.3\n207      5  880.0  950.1\n208      5  645.1  971.3\n209      5  314.5  972.8\n210      5  161.1  966.9\n211      5  180.9  807.0\n212      5  174.4  661.0\n213      5  170.2  512.0\n214      5  224.0  404.8\n215      5  203.2  303.8\n216      5  198.0  218.7\n217      5  200.5  144.8\n218      5  270.1  119.0\n219      5  381.1  149.3\n220      5  359.2  142.6\n221      5  441.4  177.3\n222      5  707.0  170.1\n223      5  828.9  148.3\n224      5  832.9  358.5\n225      5  775.6  368.8\n226      5  792.1  549.6\n227      5  959.7  512.1\n228      5  909.6  527.0\n229      5  807.1  408.0\n230      5  858.0  336.8\n231      5  847.8  764.3\n232      5  808.6  779.5\n233      5  896.9  777.5\n234      5  899.7  805.0\n235      5  884.2  954.3\n236      5  668.1  966.8\n237      5  639.0  969.1\n238      5  395.3  907.1\n239      5  456.0  745.9\n240      5  508.9  760.1\n241      5  507.0  535.5\n242      5  396.3  526.9\n243      5  488.3  620.0\n244      6  513.2  508.0\n245      6  475.7  703.7\n246      6  231.0  893.2\n247      6  293.4  883.7\n248      6  900.2  871.7\n249      6  922.3  737.0\n250      6  771.7  787.5\n251      6  769.8  765.2\n252      6  542.2  312.5\n253      6  564.2  307.5\n254      6  351.5  372.4\n255      6  221.8  161.5\n256      6  597.2  122.6\n257      6  601.6  158.6\n258      6  809.1  233.1\n259      6  826.0  223.9\n260      6  604.7  225.6\n261      6  433.7  217.9\n262      6  174.9  184.5\n263      6  274.7  194.7\n264      6  363.6  205.1\n265      6  274.1  538.0\n266      6  265.2  500.2\n267      6  561.6  478.1\n268      6  847.2  481.3\n269      6  836.2  705.7\n270      6  816.6  923.9\n271      6  821.4  781.6\n272      6  870.3  791.5\n273      6  840.6  721.7\n274      6  891.2  503.0\n275      6  887.2  440.5\n276      6  851.8  208.8\n277      6  562.4  873.0\n278      6  271.5  903.0\n279      6  286.7  872.2\n280      6  163.0  934.0\n281      6  456.3  651.3\n282      6  461.8  595.9\n283      6  521.6  507.2\n284      6  534.8  469.9\n285      6  500.1  418.2\n286      6  515.6  372.6\n287      7  538.0  472.6\n288      7  561.9  393.0\n289      7  661.9  305.2\n290      7  839.9  128.0\n291      7  878.4   67.1\n292      7  556.4   95.3\n293      7  212.5  189.0\n294      7  288.1  459.8\n295      7  588.0  355.8\n296      7  682.9  348.8\n297      7  826.6  655.9\n298      7  853.1  861.2\n299      7  844.0  626.2\n300      8  520.2  487.7\n301      8  457.0  349.1\n302      8  445.2  329.2\n303      8  858.6  213.0\n304      8  923.3  227.1\n305      8  897.7  808.6\n306      8  769.6  951.7\n307      8  234.9  966.2\n308      8  168.8  914.0\n309      8  119.0  905.5\n310      8  163.6  940.0\n311      8  514.6  751.5\n312      8  563.2  637.2\n313      8  573.1  533.1\n314      8  475.7  518.1\n315      8  430.8  536.5\n316      8  598.1  416.7\n317      8  473.3  489.1\n318      8  792.5  452.9\n319      8  765.7  283.2\n320      8  235.0  205.4\n321      8  272.9  165.9\n322      8  316.4  166.3\n323      8  342.7  160.8\n324      8  262.3  524.3\n325      8  340.2  500.2\n326      8  347.5  733.0\n327      8  212.1  729.7\n328      8  183.8  879.6\n329      8  116.1  898.8\n330      8  514.3  894.9\n331      8  877.9  920.9\n332      8  902.9  709.5\n333      8  897.7  506.5\n334      8  918.5  493.0\n335      8  901.2  356.1\n336      8  922.6  470.0\n337      8  920.0  492.7\n338      8  929.3  450.3\n339      8  909.1  262.2\n340      8  917.6  235.8\n341      8  498.5  338.6\n342      8  541.5  325.8\n343      9  511.8  479.4\n344      9  482.9  437.9\n345      9  563.8  497.0\n346      9  896.6  483.6\n347     10  516.5  501.4\n348     10  653.4  437.4\n349     10  697.7  407.2\n350     10  746.2  400.9\n351     10  665.3  197.5\n352     11  517.1  500.5\n353     11  863.2  926.5\n354     11  898.5  947.5\n355     11  383.2  223.4\n356     11  121.6  399.5\n357     11  355.2  421.7\n358     11  260.3  834.7\n359     11  222.0  780.7\n360     11  760.0  890.1\n361     11  875.6  851.8\n362     11  867.2  518.0\n363     11  880.0  434.3\n364     12  515.6  495.4\n365     12  520.2  405.6\n366     12  484.5  271.8\n367     12  555.4  465.5\n368     12  577.4  451.0\n369     12  674.5  861.5\n370     12  913.2  888.7\n371     12  250.0  892.6\n372     12  177.3  897.4\n373     12  272.5  680.8\n374     12  183.0  484.8\n375     12  199.5  278.5\n376     12  206.3  238.8\n377     12  498.5  182.6\n378     12  654.1  245.5\n379     12  823.5  270.5\n380     12  835.5  256.6\n381     12  715.5  506.9\n382     12  888.6  510.2\n383     12  915.6  501.8\n384     12  767.7  702.4\n385     12  843.5  839.5\n386     12  475.1  680.0\n387     12  460.5  502.7\n388     12  482.2  455.3\n389     12  562.6  461.6\n390     12  599.1  748.4\n391     12  476.3  827.5\n392     12  642.3  674.6\n393     12  734.7  505.4\n394     12  326.0  932.5\n395     12  204.5  909.7\n396     12  462.1  819.4\n397     12  195.8  646.8\n398     12  227.7  459.1\n399     12  286.1  279.0\n400     12  427.9  276.7\n401     12  379.4  287.8\n402     12  655.7  283.7\n403     12  809.0  254.5\n404     12  778.0   95.9\n405     12  693.5   -5.5\n406     12  865.2  403.0\n407     12  897.4  408.4\n408     12  875.2  670.9\n409     12  857.6  860.8\n410     12  726.7  863.1\n411     12  548.0  896.1\n412     12  212.3  929.3\n413     12  150.5  920.4\n414     12  147.7  567.3\n415     12  222.5  569.8\n416     12  382.9  413.2\n417     12  265.3  370.7\n418     12  169.0  338.9\n419     12  441.9  497.4\n420     12  571.9  626.8\n421     12  639.9  748.2\n422     12  593.7  636.8\n423     12  665.5  741.9\n424     12  701.8  918.6\n425     12  859.4  980.7\n426     12  249.8  973.4\n427     12  186.9  920.9\n428     12  328.3  907.2\n429     12  387.7  681.9\n430     12  446.0  600.0\n431     12  471.0  451.4\n432     12  632.2  288.7\n433     12  659.1  289.0\n434     12  191.0  261.7\n435     12  208.6  251.1\n436     12  338.6  258.6\n437     12  385.4  283.5\n438     12  204.2  649.6\n439     12  337.7  641.9\n440     12  283.0  631.4\n441     12  365.0  650.6\n442     12  610.0  582.9\n443     12  781.2  624.3\n444     12  896.4  603.7\n445     12  864.1  818.3\n446     12  841.6  806.8\n447     12  879.0  299.2\n448     12  703.8  131.4\n449     12  459.5  226.4\n450     12  888.3    7.6\n451     12  457.1   93.5\n452     12  369.0   -3.5\n453     12  475.6  154.3\n454     13  476.3  395.4\n455     13  194.8  580.0\n456     13  164.9  585.4\n457     13  242.9  576.7\n458     13  755.0  698.9\n459     13  607.6  683.1\n460     13  371.8  848.0\n461     13  230.3  871.7\n462     13  622.5  346.7\n463     13  711.2  255.4\n464     13  617.1  176.5\n465     13  639.2  169.7\n466     13  840.0  434.8\n467     13  718.1  668.9\n468     13  840.5  899.2\n469     13  857.3  872.3\n470     14  482.2  465.7\n471     14  511.8  430.8\n472     14  597.0  790.1\n473     15  513.9  511.2\n474     15  672.6  194.6\n475     16  507.0  496.8\n476     16  641.0  755.6\n477     16  851.4  916.3\n478     16  665.8  998.0\n479     16  659.8 1020.5\n480     16  977.5  958.7\n481     16  899.1  897.2\n482     16  624.5  372.8\n483     16  891.5  298.6\n484     16  556.4   83.1\n485     16  598.7   64.9\n486     17  513.8  507.3\n487     17  352.3  360.6\n488     17  296.3  178.1\n489     17  484.1  283.0\n490     17  509.8  345.6\n491     17  742.1  734.2\n492     17  977.5  785.7\n493     17  327.7  906.7\n494     17  418.3  928.7\n495     17  528.0  424.1\n496     17  759.0  286.9\n497     17  824.3  144.8\n498     17  741.4  135.6\n499     17  432.5  178.2\n500     17  215.0  187.1\n501     17  291.5  206.6\n502     17  255.4  623.6\n503     17  224.3  882.6\n504     17  483.1  715.7\n505     17  623.5  504.0\n506     17  552.1  471.5\n507     17  552.2  445.0\n508     17  236.9  387.0\n509     17  659.4  325.6\n510     17  688.1  307.8\n511     17  739.3  689.8\n512     17  794.6  927.6\n513     17  846.8  825.4\n514     17  856.2  418.6\n515     17  846.3  296.4\n516     17  797.7  153.0\n517     17  963.8  606.8\n518     17  836.8  778.9\n519     17  443.2  334.5\n520     17  511.9  163.2\n521     17  489.6  121.7\n522     17  615.4  220.1\n523     17  697.0  207.7\n524     17  828.2   91.2\n525     17  251.1  123.8\n526     17  274.5  369.5\n527     17  483.3  351.7\n528     17  504.0  354.2\n529     17  454.7  646.6\n530     17  246.2  395.6\n531     17  254.9  784.3\n532     18  460.8  455.7\n533     18  764.2  268.5\n534     18  793.9  461.4\n535     18  667.7  794.4\n536     18  694.0  925.8\n537     18  537.2  765.9\n538     18  777.0  931.5\n539     19  512.7  498.1\n540     19  528.0  372.4\n541     19  317.5  239.5\n542     19  602.7  832.0\n543     20  511.8  507.8\n544     20  824.8  343.6\n545     20  459.7  917.5\n546     20  454.0  882.5\n547     20  889.2  647.9\n548     20  641.2  376.5\n549     20  911.5  272.3\n550     20  760.7  139.4\n551     20  420.3  131.1\n552     20  222.2  241.3\n553     20  221.8  329.9\n554     20  382.5  215.9\n555     20  411.4  195.3\n556     20  303.4  613.5\n557     20  185.9  847.8\n558     20  265.4  854.4\n559     21  510.2  497.3\n560     21  484.1  453.6\n561     21  721.0  346.8\n562     21  817.0  363.0\n563     21  436.6  181.8\n564     21  396.9  279.0\n565     21  434.0  573.1\n566     21  574.7  806.8\n567     21  812.1  863.8\n568     21  846.5  934.1\n569     21  846.0  483.8\n570     21  884.4  453.9\n571     21  859.0  197.6\n572     21  833.9  214.7\n573     21  546.2  175.4\n574     21  264.7  139.6\n575     21  327.3  202.4\n576     21  405.3  411.2\n577     21  307.6  752.0\n578     21  237.3  890.0\n579     21  324.9  431.1\n580     21  603.8  395.9\n581     21  750.9  346.7\n582     21  476.1  506.4\n583     21  522.9  701.1\n584     21  848.2  754.0\n585     21  860.6  913.2\n586     21  835.1  927.9\n587     21  484.5  944.3\n588     21  228.4  906.5\n589     21  120.1  767.6\n590     21  590.3  895.8\n591     21  619.7  949.4\n592     21  227.8  464.4\n593     21  121.5  365.3\n594     21  167.6  156.0\n595     21  229.6  141.7\n596     21  839.7  156.0\n597     21  859.0  130.8\n598     21  863.8  426.7\n599     21  871.1  137.7\n600     21  908.1  525.3\n601     21  936.6  431.1\n602     21  869.2  317.1\n603     21  481.4  376.7\n604     21  508.9  403.9\n605     21  693.1  345.9\n606     21  741.1  337.8\n607     21  446.6  208.0\n608     21  446.0  596.3\n609     21  458.5  858.1\n610     21  202.2  920.9\n611     21  852.4  908.5\n612     21  879.5  666.2\n613     21  885.4  721.0\n614     21  900.4  488.8\n615     21  856.7  469.8\n616     21  508.8  492.9\n617     21  565.4  554.7\n618     21  486.1  720.3\n619     21  408.6  675.0\n620     21  339.4  383.9\n621     21  309.4  273.2\n622     21  239.9  121.5\n623     21  345.2  155.8\n624     21  636.8  155.4\n625     21  820.1  140.1\n626     21  889.7  113.3\n627     21  877.4  480.3\n628     21  900.1  868.2\n629     21  882.6  820.0\n630     21  779.3  586.6\n631     21  867.7  575.8\n632     21  431.5  575.4\n633     21  491.4  856.3\n634     21  533.2  844.5\n635     21  561.1  874.6\n636     21  275.3  895.0\n637     21  174.2  887.3\n638     21  382.9  529.0\n639     21  152.9  520.1\n640     21  571.7  466.4\n641     21  671.0  540.2\n642     21  487.4  337.3\n643     21  351.5  343.2\n644     21  181.6  342.7\n645     21  680.4  336.5\n646     21  735.8  332.7\n647     21  849.7  196.6\n648     21  350.8  218.8\n649     21  260.6  224.9\n650     21  341.9  511.3\n651     21  340.2  306.0\n652     21  203.4  169.9\n653     21  311.6  210.4\n654     21  474.5  663.7\n655     21  551.9  896.2\n656     21  536.8 1016.0\n657     21  672.3  736.6\n658     22  505.3  510.1\n659     22  399.5  685.1\n660     23  510.2  509.8\n661     23  789.7  630.5\n662     23  506.1  307.0\n663     23  551.2  341.9\n664     23  202.2  210.7\n665     23  275.3  737.6\n666     23  309.0  724.3\n667     23  858.3  769.7\n668     23  851.5  400.0\n669     23  852.6  228.1\n670     23  958.4   68.2\n671     23  613.6  156.0\n672     23  520.4  261.1\n673     24  512.2  497.4\n674     24  371.4  260.7\n675     24  369.8  221.3\n676     24  242.3  130.0\n677     24  183.0  358.5\n678     24  251.4  186.3\n679     24  235.3  766.3\n680     24  800.8  864.0\n681     24  878.4  827.2\n682     24  376.6  952.6\n683     24  598.3  991.0\n684     24  890.5  558.8\n685     25  514.6  510.4\n686     25  535.8  389.1\n687     25  557.2  289.4\n688     26  507.2  498.2\n689     26  523.3  339.4\n690     26  538.6  203.5\n691     26  631.8  504.9\n692     26  739.6  342.2\n693     26  686.6  814.5\n694     26  452.6  732.9\n695     26  830.2  781.1\n696     26  314.9  808.4\n697     26  176.4  736.4\n698     26  143.4  542.8\n699     26  192.4  581.8\n700     26  427.4  687.6\n701     26  208.3  299.8\n702     26  249.6  267.4\n703     26  450.9  237.8\n704     27  506.4  508.3\n705     27  487.5  377.7\n706     27  730.1  343.4\n707     27  569.2  362.7\n708     27  191.2  678.8\n709     28  511.1  503.5\n710     28  627.9  402.6\n711     28  746.0  340.3\n712     28  821.7  313.9\n713     28  243.6  225.6\n714     28  682.9  198.8\n715     28  906.2  316.6\n716     28  925.8  231.4\n717     28  778.6  739.0\n718     28  346.9  823.1\n719     28  269.4  837.8\n720     28  148.1  803.1\n721     28  555.7  962.9\n722     28  716.4  966.9\n723     28  812.1  907.3\n724     28  799.3  971.0\n725     28  797.5  925.9\n726     28  909.0  733.9\n727     28  906.7  687.0\n728     28  875.5  552.0\n729     28  626.0  747.1\n730     28  607.9  699.2\n731     28  536.4  541.3\n732     28  719.1  442.5\n733     28  758.0  414.6\n734     28  827.8  213.7\n735     28  799.2  181.9\n736     28  433.0  308.9\n737     28  279.4  283.9\n738     28  162.9  185.1\n739     28  306.9   31.8\n740     28  289.5  286.2\n741     28  255.7  476.8\n742     28  220.3  733.6\n743     28  168.1  851.7\n744     28  559.2  509.7\n745     28  434.8  522.1\n746     28  225.7  395.6\n747     28  528.3  894.9\n748     28  597.4  889.2\n749     28  778.2  923.3\n750     28  846.1  897.2\n751     28  948.3  895.0\n752     28  884.3  623.1\n753     28  911.5  615.6\n754     28  850.4  395.7\n755     28  873.7  283.5\n756     28  614.5  359.7\n757     28  542.8  524.0\n758     29  506.7  507.7\n759     29  635.3  302.4\n760     29  324.8  458.3\n761     29  509.0  624.9\n762     29  541.5  628.3\n763     29  601.1  833.2\n764     30  504.2  514.4\n765     30  514.0  445.2\n766     30  628.0  337.2\n767     30  810.2  464.4\n768     30  545.9  742.2\n769     30  672.8  777.7\n770     30  440.5  586.1\n771     30  628.6  304.2\n772     30  730.5  196.8\n773     30  797.8  192.1\n774     30  306.5  141.0\n775     30  186.5  506.0\n776     30  216.4  800.7\n777     30  295.0  838.2\n778     30  611.6  907.3\n779     30  688.4  795.8\n780     30  831.4  905.0\n781     30  939.4  867.7\n782     30  813.6  612.9\n783     30  832.5  689.5\n784     30  907.4  586.9\n785     30  851.1  407.1\n786     30  642.0  350.3\n787     30  872.4  357.4\n788     30  700.6  142.5\n789     30  649.0   95.9\n790     30  324.4  136.1\n791     30  352.8  134.1\n792     30  245.1  288.5\n793     30  246.2  560.6\n794     30  179.6  676.0\n795     30  171.8  886.6\n796     30  653.4  755.2\n797     30  254.5  618.7\n798     30  342.8  575.1\n799     30  410.7  575.8\n800     30  651.2  511.4\n801     30  719.2  939.5\n802     30  890.6  902.2\n803     30  882.0  671.0\n804     30  862.0  442.9\n805     30  794.8  470.1\n806     31  512.7  506.3\n807     31  598.1  745.9\n808     31  869.6  678.5\n809     31  240.3  809.4\n810     31  521.7  960.0\n811     31  310.8  528.1\n812     31  566.5  298.4\n813     31  835.7  298.4\n814     31  833.1  667.5\n815     31  887.5  706.5\n816     31  978.9  892.3\n817     31  522.8  676.5\n818     31 1013.7  906.3\n819     32  503.8  517.5\n820     32  330.2  364.8\n821     33  519.1  509.1\n822     33  768.7  797.4\n823     33  335.1  388.6\n824     33  907.3  373.0\n825     33  673.6  120.0\n826     33  297.1   92.2\n827     33  289.0  206.7\n828     33  477.1  171.9\n829     33  473.2  151.6\n830     33  227.4  542.6\n831     33  214.8  836.4\n832     33  197.7  893.8\n833     33  214.7  322.6\n834     33  183.7  610.4\n835     33  577.4  637.8\n836     33  743.7  853.2\n837     33  803.6  918.3\n838     33  789.9  935.8\n839     33  384.7  911.9\n840     33  362.7  857.7\n841     33  542.1  644.1\n842     33  679.1  646.9\n843     33  901.3  648.6\n844     33  916.6  907.2\n845     33  951.9  922.4\n846     33  696.3  635.3\n847     33  310.1  581.4\n848     33  352.4  589.5\n849     33  462.6  372.2\n850     33  534.3  375.0\n851     33  533.2  309.4\n852     33  753.1  470.3\n853     33  835.5  480.2\n854     33  867.3  304.6\n855     33  860.9  163.2\n856     33  555.0  151.5\n857     33  317.1  191.9\n858     33  284.4  347.7\n859     33  261.5  516.9\n860     33  307.1  650.9\n861     33  308.4  844.9\n862     33  607.5  849.5\n863     33  625.0  786.5\n864     33  790.5  945.0\n865     33  239.1  957.3\n866     33  210.4  875.3\n867     33  668.3  697.4\n868     33  814.9  666.0\n869     33  900.7  692.3\n870     33  870.7  525.0\n871     33  506.4  537.6\n872     33  350.0  621.9\n873     33  245.9  662.3\n874     33  511.5  860.2\n875     33  828.2  910.6\n876     33  799.4  946.9\n877     33  883.2  924.9\n878     33  951.3  917.0\n879     33  921.7  708.2\n880     33  921.9  556.0\n881     33  889.6  321.8\n882     33  880.8  214.9\n883     33  877.5  136.8\n884     33  881.1  110.8\n885     33  517.4  132.1\n886     33  553.1  119.3\n887     33  259.2  153.7\n888     33  405.7  501.4\n889     33  453.3  416.8\n890     33  704.5  509.5\n891     33  736.0  531.3\n892     33  759.9  400.7\n893     33  816.8  365.6\n894     33  447.7  779.5\n895     33  549.6  973.3\n896     33  765.4  949.6\n897     33  784.3  944.3\n898     33  282.2  914.5\n899     33  186.0  895.4\n900     33  189.7  564.9\n901     33  334.8  429.3\n902     33  336.2  373.4\n903     33  437.6  342.6\n904     33  547.2  587.9\n905     33  562.6  553.5\n906     33  204.0  554.8\n907     33  194.1  280.4\n908     33  308.4  564.0\n909     33  318.3  548.7\n910     33  177.0  284.3\n911     33  439.0  283.6\n912     33  457.7  246.9\n913     33  778.3  289.5\n914     33  800.2  280.9\n915     33  950.4  239.0\n916     33  838.8  686.3\n917     34  514.6  518.7\n918     34  498.0  508.2\n919     34  233.3  411.5\n920     34  312.0  165.3\n921     34  839.6  265.8\n922     34  450.9  147.8\n923     34  401.5  145.5\n924     34  629.2  520.5\n925     34  726.6  642.4\n926     34  749.2  656.2\n927     34  830.6  923.2\n928     34  356.3  873.0\n929     34  439.4  880.6\n930     34  167.7  772.2\n931     34  187.1  523.8\n932     34  254.1  389.4\n933     34  483.8  227.9\n934     34  810.5  235.7\n935     34  869.5  663.2\n936     34  906.2  626.7\n937     34  664.1  496.1\n938     34  429.9  604.7\n939     34  395.9  835.0\n940     34  262.7  793.5\n941     34  157.7  471.9\n942     34  293.2  329.9\n943     34  321.5  172.9\n944     34  464.2  115.7\n945     34  413.4  108.2\n946     34  639.2  185.3\n947     34  862.5  202.5\n948     34  693.2  437.8\n949     34  704.6  642.7\n950     34  744.4  674.9\n951     34  750.5  639.4\n952     34  656.7  910.4\n953     34  685.5  898.1\n954     34  343.5  777.2\n955     34  242.4  765.1\n956     34  192.1  914.5\n957     34  215.4  537.4\n958     34  262.5  346.9\n959     34  238.4  287.3\n960     34  487.9  279.5\n961     34  243.0  191.2\n962     34  234.6  148.9\n963     34  761.7  216.4\n964     34  865.9  171.6\n965     34  924.0  115.8\n966     34  547.9  153.9\n967     34  700.7  139.2\n968     34  858.0  559.0\n969     34  878.8  668.2\n970     34  722.7  549.3\n971     34  800.0  808.0\n972     34  848.1  929.8\n973     34  809.9  949.6\n974     34  967.2  796.5\n975     34  982.1  807.1\n976     34  947.8  784.0\n977     34  405.4 1016.9\n978     34  401.9  981.3\n979     34  190.6  962.1\n980     34   45.7  936.6\n981     34  114.6  637.6\n982     34   99.4  342.5\n983     34  127.6  135.6\n984     34  156.1  115.8\n985     34  182.5  155.6\n986     34  712.9   65.3\n987     34  754.0   74.0\n988     34  968.6  129.0\n989     34  845.6  111.3\n990     34  907.7  457.9\n991     34  890.6  597.2\n992     34  817.1  521.2\n993     34  921.5  332.2\n994     34  805.5  332.8\n995     34  914.8  198.4\n996     34  325.9  321.5\n997     34  238.0  333.2\n998     34  491.6  434.4\n999     34  543.9  425.1\n1000    34  457.7  444.3\n1001    34  275.2  614.5\n1002    34  493.8  461.9\n1003    34  737.9  637.7\n1004    34  322.2  743.4\n1005    34  182.7  733.7\n1006    34  168.0  952.7\n1007    35  503.1  496.5\n1008    35  650.3  526.3\n1009    35  263.3  439.2\n1010    35  408.9  864.8\n1011    35  459.2  884.5\n1012    35  369.3  849.1\n1013    35  486.2  891.7\n1014    35  834.2  577.5\n1015    35  811.0  250.4\n1016    35  304.5  182.6\n1017    35  525.1  157.7\n1018    35  547.6  159.6\n1019    35  228.1   19.1\n1020    35  217.9  110.5\n1021    35  524.4  398.9\n1022    35  821.7  415.3\n1023    35  800.1  911.2\n1024    35  852.0  882.8\n1025    35  817.5  906.5\n1026    35  416.8  920.9\n1027    35  274.4  937.2\n1028    35  448.6  872.0\n1029    35  489.6  849.5\n1030    35  163.0  877.8\n1031    35  496.4 1010.8\n1032    35  149.9  959.8\n1033    35  286.9  678.6\n1034    35  173.2  697.5\n1035    35  133.1  654.5\n1036    35  562.9  619.1\n1037    35  600.4  616.3\n1038    35  878.2  605.7\n1039    35  884.9  498.7\n1040    35  895.8  269.7\n1041    35  886.6  523.5\n1042    35  659.6  365.3\n1043    35  857.8  239.7\n1044    35  869.4   93.1\n1045    35  223.7  322.3\n1046    35  166.7  226.5\n1047    35  274.6  189.4\n1048    35  334.8  227.2\n1049    35  388.4  248.9\n1050    35  606.3  304.8\n1051    35  508.7  529.0\n1052    35  212.1  510.0\n1053    35  199.6  779.8\n1054    35  231.4  846.6\n1055    35  170.2  839.7\n1056    35  464.8  840.3\n1057    35  743.4  821.8\n1058    35  828.4  945.4\n1059    35  845.2  927.9\n1060    35  997.0  941.1\n1061    35  862.8  844.9\n1062    35  915.0  685.0\n1063    35  907.0  580.5\n1064    35  939.5  491.4\n1065    35  755.5  412.3\n1066    35  951.8  502.7\n1067    35  930.2  495.2\n1068    35  586.1  439.2\n1069    35  847.5  512.2\n1070    35  893.8  190.0\n1071    35  920.9  158.9\n1072    35  962.0  142.0\n1073    35  920.5  151.4\n1074    35 1054.8 -146.0\n1075    35  750.9  -19.3\n1076    35  626.4  115.1\n1077    35  471.4  -42.1\n1078    35  137.8   17.3\n1079    35  467.4    9.5\n1080    35  137.4   51.9\n1081    35  757.6  336.8\n1082    35  904.8  387.7\n1083    35  880.7  486.7\n1084    35  981.3  421.8\n1085    35  960.0  792.2\n1086    35  955.6  977.1\n1087    35  815.0  921.3\n1088    35  685.8  934.6\n1089    35  842.2  924.7\n1090    35  292.5  942.7\n1091    35  204.5  947.3\n1092    35   54.5  853.1\n1093    35   45.9  989.2\n1094    35  463.3  693.0\n1095    35  686.1  703.6\n1096    35  509.4  710.2\n1097    35  809.1  738.3\n1098    35  701.3  703.3\n1099    35  477.4  575.2\n1100    35  191.8  541.3\n1101    36  518.2  511.0\n1102    37  513.6  496.7\n1103    37  632.3  415.6\n1104    37  705.0  377.5\n1105    37  902.7  403.0\n1106    37  837.4  177.4\n1107    37  827.9  145.6\n1108    37  642.2  379.2\n1109    37  765.2  814.7\n1110    37  849.9  824.6\n1111    37  851.0  736.9\n1112    38  509.8  511.7\n1113    38  416.6  350.9\n1114    38  301.4  207.6\n1115    39  510.6  497.0\n1116    39  472.2  386.9\n1117    39  428.7  585.2\n1118    39  714.7  641.6\n1119    39  767.8  873.3\n1120    39  815.2  862.7\n1121    39  287.9  907.3\n1122    39  243.9  951.5\n1123    39  323.0  605.9\n1124    39  337.0  379.8\n1125    39  290.2  179.2\n1126    39  141.4  190.9\n1127    39  391.9  123.1\n1128    39  843.8  191.3\n1129    39  899.2  459.0\n1130    40  504.5  498.0\n1131    40  502.2  356.0\n1132    40  676.1  224.7\n1133    40  844.9  162.5\n1134    40  886.2  162.9\n1135    40  357.3  160.3\n1136    40  261.1  152.7\n1137    40  408.5  436.4\n1138    40  324.3  767.5\n1139    40  251.2  774.6\n1140    40  225.4  388.4\n1141    40  413.4  430.9\n1142    40  505.4  531.7\n1143    40  474.6  679.5\n1144    40  528.4  571.8\n1145    40  728.6  752.2\n1146    40  801.6  882.0\n1147    40  890.8  878.1\n1148    40  967.0  783.6\n1149    40  940.4  555.3\n1150    40  904.7  322.7\n1151    40  921.1  102.6\n1152    40  718.1   62.1\n1153    40  929.9  890.4\n1154    40  736.3  877.5\n1155    40  361.8  849.3\n1156    40  223.8  871.1\n1157    40  138.0  854.9\n1158    40   88.0  634.4\n1159    40  129.3  561.9\n1160    40  147.9  440.9\n1161    40  183.3  223.2\n1162    40  122.9  237.1\n1163    40  590.0  629.0\n1164    40  509.9  638.4\n1165    40  747.0  562.3\n1166    40  504.7  391.1\n1167    40  540.3  267.0\n1168    40  383.5   93.9\n1169    40  261.3  123.9\n1170    40  359.8  199.7\n1171    40  447.1  222.7\n1172    40  762.1  132.0\n1173    40  808.7  136.4\n1174    40  903.3  125.4\n1175    40  883.9  501.8\n1176    40  873.8  728.1\n1177    40  879.0  888.0\n1178    40  716.3  903.4\n1179    40  497.9  942.4\n1180    40  297.6  956.6\n1181    40  107.9  906.9\n1182    40  179.9  714.1\n1183    40  103.2  946.0\n1184    41  507.6  519.0\n1185    41  338.6  387.5\n1186    41  551.3  719.0\n1187    41  834.1  864.2\n1188    41  603.1  869.8\n1189    41  278.6  884.4\n1190    41  513.0  925.4\n1191    41  114.3  926.7\n1192    41  490.2  589.8\n1193    41  203.7  515.7\n1194    41  271.4  393.2\n1195    41  228.8  129.2\n1196    41  631.5  126.3\n1197    41  406.4   61.4\n1198    42  519.8  509.9\n1199    42  628.7  446.2\n1200    42  730.7  473.5\n1201    42  825.2  176.0\n1202    42  370.2  133.9\n1203    42  285.8  258.6\n1204    42  193.6  277.9\n1205    42  264.2  567.9\n1206    42  287.3  883.8\n1207    42  365.7  608.3\n1208    42  826.5  851.7\n1209    42  842.0  432.5\n1210    42  880.4  323.3\n1211    42  836.5  148.3\n1212    42  487.1  178.9\n1213    42  226.5  155.4\n1214    42  764.8  242.4\n1215    42  215.7  148.8\n1216    42  458.8  416.8\n1217    42  348.8  471.9\n1218    42  203.2  516.7\n1219    42  268.6  817.9\n1220    42  608.2  880.4\n1221    42  712.4  938.3\n1222    42  871.9  929.2\n1223    42  921.3  615.3\n1224    42  890.1  420.0\n1225    42  733.4  342.2\n1226    42  686.4  331.7\n1227    42  659.2  609.0\n1228    42  772.9  626.4\n1229    42  832.1  892.1\n1230    42  530.5  773.9\n1231    42  515.7  801.0\n1232    42  492.3  839.8\n1233    42  585.6  562.6\n1234    42  646.6  567.9\n1235    42  395.3  537.0\n1236    42  292.8  889.2\n1237    42  377.4  503.6\n1238    42  788.6  392.6\n1239    42  872.9  308.2\n1240    42  441.1  289.5\n1241    42  315.2  187.0\n1242    42  613.8  303.5\n1243    42  673.1  325.9\n1244    42  518.0  706.1\n1245    42  513.7  836.5\n1246    42  434.5  837.8\n1247    42  290.2  869.3\n1248    42  195.2  883.0\n1249    42  836.7  929.8\n1250    42  690.4  920.1\n1251    42  583.3  918.1\n1252    42  829.1  940.6\n1253    42  207.7  940.1\n1254    42  952.2  881.9\n1255    42  310.0  811.7\n1256    42  178.4  859.1\n1257    42  130.3  906.0\n1258    42  214.6  931.4\n1259    42  142.8  536.3\n1260    42  216.6  354.9\n1261    42  179.1  153.3\n1262    42  168.5  215.8\n1263    42  192.6  544.6\n1264    42  479.0  459.6\n1265    42  645.2  114.1\n1266    42  767.5  149.2\n1267    42  843.5  170.1\n1268    42  534.0  447.1\n1269    42  510.7  624.1\n1270    42  520.1  519.9\n1271    42  558.2  610.8\n1272    42  491.4  407.7\n1273    42  437.2  439.0\n1274    42  390.1  471.8\n1275    42  385.9  454.4\n1276    42  378.5  433.7\n1277    42  360.4  363.9\n1278    42  293.4  260.9\n1279    42  232.9  140.7\n1280    42  362.4  144.7\n1281    42  820.9  109.2\n1282    42  821.3  375.5\n1283    42  821.2  534.0\n1284    42  772.1  636.1\n1285    43  486.9  439.4\n1286    43  732.8  218.5\n1287    43  885.8  157.4\n1288    43  257.8  139.5\n1289    43  342.2  474.0\n1290    43  526.4  495.5\n1291    43  729.8  510.0\n1292    43  768.5  721.4\n1293    43  481.5  838.0\n1294    43  206.3  954.8\n1295    43  105.3  968.3\n1296    43  202.7  974.4\n1297    43  830.4  937.4\n1298    44  513.7  509.7\n1299    44  796.4  253.7\n1300    44  772.5  897.9\n1301    44  334.5  888.1\n1302    44  480.3  868.4\n1303    45  516.0  516.3\n1304    45  718.4  462.3\n1305    45  551.7  757.0\n1306    45  759.7  918.8\n1307    45  340.8  940.9\n1308    45  470.2  928.7\n1309    45  904.3  936.4\n1310    45 1000.1  958.3\n1311    45  939.8  360.2\n1312    45  907.0  192.8\n1313    45  581.0   87.9\n1314    45  243.9  134.0\n1315    45  302.5  424.5\n1316    45  265.2  558.9\n1317    45  217.8  745.2\n1318    46  505.5  509.7\n1319    46  726.3  893.2\n1320    46  804.3  984.9\n1321    46  950.4  889.4\n1322    46  345.6  863.6\n1323    46  426.4  883.3\n1324    46  321.1  340.8\n1325    46  265.9  197.3\n1326    46  179.9  168.7\n1327    46  745.8  119.1\n1328    46  821.7  158.6\n1329    46  421.4  152.3\n1330    46  724.7  497.6\n1331    46  849.2  556.8\n1332    46  839.5  797.2\n1333    46  885.6  946.5\n1334    46  920.7  837.9\n1335    46  481.8  944.6\n1336    46  545.3  982.2\n1337    46  174.9  872.2\n1338    46  106.8  937.0\n1339    46  228.0  952.8\n1340    46  171.1  718.7\n1341    46  231.1  683.0\n1342    46  523.6  680.4\n1343    46  632.1  456.1\n1344    46  733.6  186.0\n1345    46  858.2   90.7\n1346    46  484.8  130.8\n1347    46  231.2  179.6\n1348    46  252.9  382.1\n1349    46  470.3  230.2\n1350    46  642.4  485.2\n1351    46  325.7  501.5\n1352    46  204.0  462.3\n1353    46   98.3  443.9\n1354    46  160.9  229.3\n1355    46  146.6  188.6\n1356    46  340.6   67.8\n1357    46  658.0  510.7\n1358    46  827.6  756.6\n1359    46  990.8  733.8\n1360    46  891.4  943.7\n1361    46  685.5  929.5\n1362    46  357.8  930.2\n1363    46  230.3  953.8\n1364    46  572.7  685.7\n1365    46  559.6  622.1\n1366    46  237.5  645.0\n1367    46  106.9  773.6\n1368    46  265.3  714.4\n1369    46  316.0  700.5\n1370    46  153.4  479.5\n1371    46  208.1  378.4\n1372    47  514.7  501.5\n1373    47  521.2  400.7\n1374    47  808.8  880.5\n1375    47  423.5  922.0\n1376    47  336.4  778.1\n1377    47  227.3  350.0\n1378    47  203.9  208.0\n1379    47  267.3  200.3\n1380    47  728.3  155.5\n1381    47  853.9  190.5\n1382    47  922.8  238.0\n1383    47  874.0  588.0\n1384    47  884.4  755.1\n1385    47  806.4  897.1\n1386    47  905.2  783.1\n1387    47  896.2  767.6\n1388    47  791.7 1003.1\n1389    47  798.9  957.8\n1390    47  549.2  957.4\n1391    47  382.5  967.8\n1392    47  127.6  937.1\n1393    47  126.2  669.9\n1394    47  176.1  511.6\n1395    47  207.6  384.3\n1396    47  397.6  426.5\n1397    47  459.9  468.4\n1398    47  468.2  481.5\n1399    47  528.5  520.7\n1400    47  770.2  405.8\n1401    47  805.2  193.4\n1402    47  784.2  146.8\n1403    47  367.2  225.7\n1404    47  488.4  238.2\n1405    47  632.6  289.6\n1406    47  860.4  559.8\n1407    47  785.5  793.6\n1408    47  668.8  902.2\n1409    47  930.3  981.7\n1410    47  860.2  878.9\n1411    47  368.9  882.2\n1412    47  256.3  938.5\n1413    47  443.4  794.8\n1414    47  765.8  709.9\n1415    47  903.0  698.6\n1416    47  897.8  753.3\n1417    47  274.3  880.3\n1418    47  170.1  882.4\n1419    48  510.3  498.4\n1420    48  386.6  941.1\n1421    48  806.6  955.1\n1422    48  840.9  366.7\n1423    48  842.8  150.6\n1424    48  329.7  141.4\n1425    48  179.2  230.0\n1426    48  280.5  213.5\n1427    48  222.4  465.1\n1428    48  252.3  478.0\n1429    48  105.9  482.6\n1430    48  177.2  816.8\n1431    48  163.4  647.0\n1432    48  323.0  797.4\n1433    48  247.7  804.4\n1434    48  343.4  852.7\n1435    48  359.9  833.6\n1436    48  632.2  917.7\n1437    48  691.0  916.0\n1438    48  640.9  923.5\n1439    48  917.8  874.4\n1440    48  883.1  855.8\n1441    48  881.3  625.5\n1442    48  870.9  479.8\n1443    48  742.6  461.0\n1444    48  629.3  467.9\n1445    48  461.5  449.4\n1446    48  552.8  565.7\n1447    48  886.0  579.9\n1448    48  851.1  238.5\n1449    48  903.3  666.4\n1450    48  931.9  974.8\n1451    48  669.5  937.2\n1452    48  541.5  972.6\n1453    48  569.6 1013.0\n1454    48  235.5  960.8\n1455    48  572.1 1044.9\n1456    48  572.5 1026.1\n1457    48  177.5  924.4\n1458    48  565.9 1027.3\n1459    48  564.7 1001.4\n1460    48  162.2  924.4\n1461    48  213.5  919.7\n1462    48  552.4  662.0\n1463    48  621.5  409.6\n1464    48  815.8  176.3\n1465    48  429.4  216.5\n1466    48  238.5  234.0\n1467    48  341.4  220.7\n1468    48  503.8  412.7\n1469    48  587.0  433.6\n1470    48  609.2  431.7\n1471    48  625.3  410.4\n1472    48  780.8  258.8\n1473    48  747.2  272.9\n1474    48  832.1  600.4\n1475    49  513.1  507.6\n1476    49  587.8  507.6\n1477    49  724.9  370.2\n1478    49  852.4  831.3\n1479    49  426.2  920.7\n1480    49  253.8  976.0\n1481    49  395.0  915.1\n1482    49  721.3  930.0\n1483    49  725.4  422.8\n1484    49  779.1  318.1\n1485    49  821.3  243.6\n1486    49  388.3  246.3\n1487    49  340.0  256.1\n1488    49  215.3  280.4\n1489    49  232.5  111.9\n1490    49  557.1  133.3\n1491    49  324.0   83.0\n1492    49  787.7  195.5\n1493    49  705.4  210.7\n1494    49  321.0  461.8\n1495    49  237.1  774.7\n1496    49  279.5  857.9\n1497    49  358.9  944.8\n1498    49  637.9  923.9\n1499    49  582.6  584.3\n1500    49  766.9  954.7\n1501    49  622.0  958.1\n1502    49  875.1  936.9\n1503    49  240.4  958.8\n1504    49  982.5  917.6\n1505    49  940.4  923.8\n1506    49  783.7  944.0\n1507    49  179.6  957.1\n1508    49  889.4  891.3\n1509    49  918.0  860.0\n1510    49  276.6  956.8\n1511    49  497.5  678.0\n1512    49  165.5  693.4\n1513    49  179.3  500.2\n1514    49  189.5  364.2\n1515    49  472.2  564.9\n1516    49  495.0  555.6\n1517    49  253.0  464.0\n1518    49  370.2  381.2\n1519    49  368.1  197.9\n1520    49  627.1  193.7\n1521    49  729.3  172.7\n1522    49  852.0  254.1\n1523    49  837.0  555.6\n1524    49  786.7  663.2\n1525    49  878.0  678.6\n1526    49  775.6  762.8\n1527    49  796.2  378.5\n1528    49  540.4  328.6\n1529    49  500.5  170.9\n1530    49  546.2  237.9\n1531    49  658.5  274.3\n1532    49  463.4  -16.4\n1533    49  539.7  430.6\n1534    49  774.6  622.4\n1535    49  830.0  732.2\n1536    49  411.0  422.1\n1537    49  809.5  738.2\n1538    49  915.1  866.8\n1539    49  521.9  640.1\n1540    49  293.2  626.7\n1541    49  202.9  581.0\n1542    49  203.7  438.4\n1543    49  329.6  359.9\n1544    49  702.6  270.7\n1545    49  849.0  265.2\n1546    49  336.6  195.8\n1547    49  396.7  352.0\n1548    49  795.1  448.6\n1549    49  843.0  488.7\n1550    49  856.1  502.6\n1551    49  479.6  325.1\n1552    49  386.2  173.5\n1553    49  647.7   92.7\n1554    49  809.1  101.8\n1555    49  235.5  182.1\n1556    49  239.2  420.4\n1557    49  219.5  606.6\n1558    49  212.0  315.9\n1559    49  494.9  538.1\n1560    49  602.7  714.8\n1561    49  775.7  820.7\n1562    50  495.1  443.3\n1563    50  490.8  376.9\n1564    50  418.3  284.9\n1565    50  790.8  527.1\n1566    50  808.0  830.8\n1567    50  358.4  882.7\n1568    50  104.2  924.9\n1569    50  262.6  684.6\n1570    50  440.9  459.6\n1571    50  287.3  326.5\n1572    50  568.5  392.2\n1573    50  613.9  418.5\n1574    50  338.4  333.4\n1575    50  237.0  141.5\n1576    50  706.0  167.7\n1577    50  718.5  132.0\n1578    50  786.1   73.5\n1579    50  915.8  344.8\n1580    50  890.3  489.5\n1581    50  866.2  684.5\n1582    50  844.9  757.3\n1583    50  818.1  917.6\n1584    50  681.1  942.1\n1585    50  666.8  723.3\n1586    50  635.3  658.4\n1587    50  822.6  717.5\n1588    50  909.2  865.1\n1589    50  360.7  887.4\n1590    50  199.4  649.6\n1591    50  121.5  880.9\n1592    50   98.7  844.2\n1593    50  144.4  534.3\n1594    50  202.6  537.4\n1595    50  245.9  328.5\n1596    50  227.5  290.1\n1597    50  204.8  250.1\n1598    50  181.1  216.9\n1599    50  178.4  117.0\n1600    50  610.1  162.0\n1601    50  591.4  326.8\n1602    50  579.3  466.4\n1603    50  618.8  595.9\n1604    51  548.5  466.3\n1605    51  670.9  846.2\n1606    51  773.7  974.3\n1607    51  946.4  978.9\n1608    51  225.2  873.7\n1609    51  117.2  899.8\n1610    51  225.6  415.5\n1611    51  641.4  224.7\n1612    51  857.5  210.7\n1613    51  863.1  560.6\n1614    51  463.5  342.7\n1615    51  402.9  125.1\n1616    51  518.2  217.1\n1617    51  659.8  238.9\n1618    51  793.7  297.8\n1619    51  936.8  161.5\n1620    51  645.8   78.1\n1621    51  441.6   83.1\n1622    51  802.8  145.2\n1623    51  259.8  115.2\n1624    51  351.3  112.5\n1625    51  191.1  519.8\n1626    51  277.1  453.4\n1627    51  161.7  270.7\n1628    51  294.2  258.5\n1629    51  592.1  494.4\n1630    51  735.1  620.0\n1631    51  844.0  720.4\n1632    51  881.8  699.3\n1633    51  874.9  928.7\n1634    51  871.4  977.1\n1635    51  383.9  850.9\n1636    51  251.9  953.8\n1637    51  575.7  766.9\n1638    51  572.8  744.9\n1639    51  266.4  767.9\n1640    51  180.4  688.2\n1641    51  340.4  574.9\n1642    51  349.4  498.0\n1643    51  384.8  510.7\n1644    51  587.2  442.6\n1645    51  565.5  496.5\n1646    51  775.8  430.8\n1647    51  992.4  339.5\n1648    51  286.4  418.3\n1649    51  328.2  435.9\n1650    52  512.0  506.0\n1651    52  592.8  881.7\n1652    52  804.7  894.4\n1653    52  400.5  981.4\n1654    52  907.4  794.9\n1655    52  833.3  359.0\n1656    52  881.7  151.3\n1657    52  433.3  101.2\n1658    52  487.2  109.3\n1659    52  297.3  296.1\n1660    52  136.7  221.7\n1661    52  261.4  673.3\n1662    52  283.0  952.8\n1663    52  366.8  977.6\n1664    52  571.8  627.0\n1665    52  538.6  494.7\n1666    52  604.8  527.0\n1667    52  454.5  715.5\n1668    53  504.5  519.9\n1669    53  523.1  325.7\n1670    53  641.3  249.3\n1671    53  776.6  268.1\n1672    53  779.1  244.9\n1673    53  817.0  699.6\n1674    53  835.1  898.9\n1675    53  826.2  805.6\n1676    53  365.9  875.1\n1677    53  272.3  846.2\n1678    53  394.9  821.8\n1679    53  286.0  557.0\n1680    53  239.6  339.6\n1681    53  288.8  315.6\n1682    53  702.3  340.2\n1683    53  803.5  324.1\n1684    53  888.2  593.9\n1685    53  849.6  845.4\n1686    53  859.7  537.0\n1687    53  872.3  476.2\n1688    53  915.1  267.9\n1689    53  883.1   97.1\n1690    53  331.7  218.9\n1691    53  140.9  208.4\n1692    53  562.1  320.5\n1693    53  405.2  730.2\n1694    53  617.7  394.4\n1695    53  597.3  280.8\n1696    53  200.4  580.7\n1697    53  172.8  617.6\n1698    53  194.1  867.0\n1699    53  571.0  878.5\n1700    53  780.9  895.0\n1701    53  857.1  913.3\n1702    53  883.3  773.7\n1703    53  914.0  595.9\n1704    53  911.5  572.7\n1705    53  860.0  359.3\n1706    53  868.8  204.5\n1707    53  581.3  264.9\n1708    53  621.3  256.5\n1709    53  568.3  298.8\n1710    53  157.6  252.9\n1711    53  218.0  158.4\n1712    53  306.1   74.4\n1713    53  295.7  470.4\n1714    53  226.9  674.7\n1715    53  292.6  712.4\n1716    53  299.3  926.9\n1717    53  511.3  896.3\n1718    53  667.9  967.3\n1719    53  683.3  622.5\n1720    53  471.9  463.7\n1721    53  532.6  467.3\n1722    53  582.7  463.3\n1723    53  750.0  930.9\n1724    53  877.7  919.1\n1725    53  776.0  981.9\n1726    53  845.1  854.4\n1727    53  691.3  863.4\n1728    53  918.3  876.3\n1729    53  784.3  887.1\n1730    53  220.1  910.7\n1731    53  572.3  718.1\n1732    53  533.2  587.1\n1733    53  568.1  405.3\n1734    53  834.8  509.0\n1735    53  855.9  147.3\n1736    53  366.2  148.7\n1737    53  123.1  289.9\n1738    53  479.6  382.3\n1739    53  537.2  379.2\n1740    53  587.4  662.9\n1741    53  238.9  724.7\n1742    53  282.3  395.0\n1743    53  142.6  281.3\n1744    53  373.9   41.5\n1745    53  351.4  111.6\n1746    53  633.4  153.9\n1747    53  871.5  179.4\n1748    53  778.6  424.8\n1749    53  860.4  192.9\n1750    53  446.1  287.4\n1751    53  700.6  422.1\n1752    53  679.7  792.5\n1753    53  765.9  825.0\n1754    53  830.1  814.6\n1755    53  797.9  756.5\n1756    53  806.9  650.6\n1757    54  499.2  435.8\n1758    54  804.4  196.0\n1759    54  888.8  113.7\n1760    54  845.6  766.6\n1761    54  799.9  879.5\n1762    54  404.0  894.1\n1763    54  373.9  901.7\n1764    54  734.0  936.7\n1765    55  504.5  527.2\n1766    55  580.0  468.1\n1767    55  212.8  312.0\n1768    56  498.8  500.4\n1769    56  454.9  375.6\n1770    56  241.5  251.6\n1771    56  252.5   95.1\n1772    56  792.2  206.1\n1773    56  466.2  295.1\n1774    56  811.7  421.1\n1775    56  770.2  774.5\n1776    56  787.6  939.1\n1777    56  318.6  889.3\n1778    56  592.8  987.5\n1779    56  561.4  989.2\n1780    56  589.2  757.2\n1781    56  552.9  642.8\n1782    56  240.3  614.6\n1783    56  208.3  833.7\n1784    56  267.7  843.9\n1785    56  220.3  538.3\n1786    56  562.7  551.2\n1787    56  766.2  546.6\n1788    56  841.9  546.5\n1789    56  585.7  486.9\n1790    56  230.1  394.7\n1791    56  195.4  222.7\n1792    56  246.2  152.1\n1793    56  257.5   97.5\n1794    56  752.5  115.1\n1795    56  876.2  356.3\n1796    56  930.0  358.6\n1797    56  859.2  825.9\n1798    56  825.3  903.1\n1799    56  688.3  927.8\n1800    56  372.8  730.9\n1801    56  613.3  697.9\n1802    56  606.5  541.1\n1803    56  647.4  531.5\n1804    56  619.8  724.5\n1805    56  252.3  771.3\n1806    56  218.3  918.6\n1807    56   37.8  957.0\n1808    56  388.9  645.9\n1809    56  855.5  632.8\n1810    56  825.0  423.6\n1811    56  892.7  253.1\n1812    56  839.2   59.4\n1813    56  373.1  371.1\n1814    56  206.0  314.2\n1815    56  327.6  280.7\n1816    56  437.0  189.9\n1817    57  509.2  502.6\n1818    57  459.9  359.5\n1819    57  398.6  157.3\n1820    57  878.1  176.9\n1821    57  833.3  679.1\n1822    57  598.1  853.7\n1823    58  506.0  523.8\n1824    58  645.0  856.6\n1825    58  735.2  872.4\n1826    59  503.6  516.4\n1827    59  592.2  882.8\n1828    59  890.1  915.4\n1829    59  766.5  931.8\n1830    59  615.7  928.2\n1831    59  346.9  903.5\n1832    59  126.2  758.2\n1833    59  149.2  412.7\n1834    59  139.3  219.1\n1835    59  289.4  212.0\n1836    59  703.2  174.7\n1837    59  796.7  196.9\n1838    59  331.7  124.7\n1839    59  764.4  499.2\n1840    59  807.7  689.5\n1841    59  881.9  780.8\n1842    59  852.5  286.6\n1843    59  850.6  122.8\n1844    59  867.8   99.4\n1845    59  861.6   81.5\n1846    59  595.9   59.6\n1847    59  563.9   59.7\n1848    59  753.1  192.3\n1849    59  753.9  178.2\n1850    59  515.6  418.7\n1851    59  465.7  359.6\n1852    59  586.0  372.0\n1853    59  649.1  649.6\n1854    59  203.8  285.1\n1855    59  387.9  332.0\n1856    59  754.6  594.1\n1857    59  696.0  623.0\n1858    59  781.6  901.1\n1859    59  882.8  911.2\n1860    59  514.0  952.6\n1861    59  447.6  885.5\n1862    59  193.2  896.3\n1863    59  139.8  715.4\n1864    59  228.8  705.6\n1865    59  194.5  552.0\n1866    59  185.2  510.7\n1867    59  191.1  361.8\n1868    59  442.9  405.9\n1869    59  682.3  557.8\n1870    59  773.0  573.4\n1871    59  862.6  668.9\n1872    60  505.7  509.6\n1873    60  478.8  437.2\n1874    60  792.0  553.5\n1875    60  642.8  204.8\n> trialDat\n   trial     x     y\n1      1 502.6 513.1\n2      1 480.1 315.4\n3      1 422.5 247.4\n4      1 718.9 158.3\n5      1 913.2 105.2\n6      1 812.9 419.9\n7      1 816.2 716.9\n8      1 765.2 702.6\n9      1 844.6 801.1\n10     1 868.6 769.7\n11     1 416.6 810.5\n12     1 491.1 824.0\n13     1 537.0 767.1\n14     1 152.9 821.2\n15     1 139.8 933.7\n16     1 141.5 538.4\n17     1 172.2 480.6\n18     1 378.0 404.6\n19     1 521.1 461.9\n20     1 589.5 467.0\n21     1 574.3 274.4\n22     1 148.3 204.1\n23     1 256.0 211.3\n24     1 525.0 110.3\n25     1 741.2 115.5\n26     1 822.8 140.7\n27     1 971.2 110.0\n28     1 735.5 171.5\n29     1 817.9 169.7\n30     1 874.3 127.0\n31     1 849.0 414.8\n32     1 818.3 486.9\n33     1 786.1 608.4\n34     1 856.5 831.2\n35     1 852.4 518.1\n36     1 865.7 468.1\n37     1 869.3 446.0\n38     1 580.6 361.6\n39     1 536.5 189.3\n40     1 517.0 147.0\n41     1 489.6 124.3\n42     1 252.3 163.1\n43     1 263.8 141.0\n44     1 130.1  96.3\n45     1 187.2 322.5\n46     1 241.7 588.7\n47     1 253.6 542.3\n48     1 205.5 769.8\n49     1 218.4 736.3\n50     1 180.4 831.4\n51     1 504.6 753.2\n52     1 518.5 745.2\n53     1 618.3 894.8\n54     1 667.2 910.3\n55     1 859.8 969.8\n56     1 906.7 988.1\n57     1 227.8 990.9\n58     1 185.3 935.1\n59     1 499.5 777.0\n60     1 618.0 580.7\n61     1 629.4 545.1\n62     1 584.8 424.9\n63     1 598.8 390.8\n64     1 801.8 267.0\n65     1 827.9 131.8\n66     1 867.9 111.5\n67     1 367.3 123.1\n> target \n[1] 181 416\n> # get basic analysis\n> source(\"basicAnalysis.R\")\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 1\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path() + geom_point(shape=1)\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targY[t], dat$targX[t])\n> \n> plt = plt + geom_point(aes(x=target[1], y=target[2]))\n> plt\n> # get basic analysis\n> source(\"basicAnalysis.R\")\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 1\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path() + geom_point(shape=1)\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targY[t], dat$targX[t])\n> \n> plt = plt + geom_point(shape=3, aes(x=target[1], y=target[2]))\n> plt\n> # get basic analysis\n> source(\"basicAnalysis.R\")\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), x=numeric(), y=numeric())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  fixDat = rbind(fixDat, data.frame(trial=n, x=as.numeric.factor(fixations$V<ata.frame(trial=n, x=as.numeric.factor(fixations$V4                        ), y=as.numeric.factor(fi<meric.factor(fixations$V4), y=as.numeric.factor(fix                        ations$V5)))\n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> t = 2\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path() + geom_point(shape=1)\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targY[t], dat$targX[t])\n> \n> plt = plt + geom_point(shape=3, aes(x=target[1], y=target[2]))\n> plt\n> summary(fixDat)\n     trial             x                y         \n Min.   : 1.00   Min.   :  37.8   Min.   :-146.0  \n 1st Qu.:13.50   1st Qu.: 323.5   1st Qu.: 288.1  \n Median :34.00   Median : 545.3   Median : 509.1  \n Mean   :30.98   Mean   : 552.0   Mean   : 531.7  \n 3rd Qu.:47.00   3rd Qu.: 798.4   3rd Qu.: 790.8  \n Max.   :60.00   Max.   :1054.8   Max.   :1044.9  \n> # get basic analysis\n> source(\"basicAnalysis.R\")\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), beta=character(), x=numeric(), y=numer<=numeric(), beta=character(), x=numeric(), y=numeri                        c())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  trialbeta = dat$beta[which(dat$trial==n)]\n+  fixDat = rbind(fixDat, data.frame(trial=n, beta=trialBeta, x=as.numeric.fa<ata.frame(trial=n, beta=trialBeta, x=as.numeric.fac                        tor(fixations$V4), y=as.n<ialBeta, x=as.numeric.factor(fixations$V4), y=as.nu                        meric.factor(fixations$V5<or(fixations$V4), y=as.numeric.factor(fixations$V5)                        ))\n+ \n+ }\nError in data.frame(trial = n, beta = trialBeta, x = as.numeric.factor(fixations$V4),  : \n  object 'trialBeta' not found\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> \n> \n> \n> # get some sumamry stats\n> agDat = aggregate(data=fixDat,  )\nError in is.ts(x) : argument \"x\" is missing, with no default\n> \n> t = 2\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path() + geom_point(shape=1)\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targY[t], dat$targX[t])\n> \n> plt = plt + geom_point(shape=3, aes(x=target[1], y=target[2]))\n> plt\n>  dat$beta[which(dat$trial==n)]\n[1] 1.6\n> # get basic analysis\n> source(\"basicAnalysis.R\")\n> \n> # parse eye-tracking data\n> asc = readLines(\"../results/ac_99_vs.asc\")\n> asc = strsplit(asc, \"\\t\")\n> \n> trialStarts = grep(\"SYNCTIME\", asc)\n> trialEnds = grep(\"TRIAL_OVER\", asc)\n> \n> nTrials = length(trialStarts)\n> \n> as.numeric.factor <- function(x) {as.numeric(levels(x))[x]}\n> \n> fixDat = data.frame(trial=numeric(), beta=character(), x=numeric(), y=numer<=numeric(), beta=character(), x=numeric(), y=numeri                        c())\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  trialbeta = dat$beta[which(dat$trial==n)]\n+  fixDat = rbind(fixDat, data.frame(trial=n, beta=trialbeta, x=as.numeric.fa<ata.frame(trial=n, beta=trialbeta, x=as.numeric.fac                        tor(fixations$V4), y=as.n<ialbeta, x=as.numeric.factor(fixations$V4), y=as.nu                        meric.factor(fixations$V5<or(fixations$V4), y=as.numeric.factor(fixations$V5)                        ))\n+ \n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> \n> \n> \n> \n> \n> # get some sumamry stats\n> agDat = aggregate(data=fixDat,  )\nError in is.ts(x) : argument \"x\" is missing, with no default\n> \n> t = 2\n> library(ggplot2)\n> trialDat = fixDat[which(fixDat$trial==t),]\n> plt = ggplot(trialDat, aes(x,y)) + geom_path() + geom_point(shape=1)\n> plt = plt + scale_x_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> plt = plt + scale_y_continuous(limits=c(1,1024), breaks=c(1,256,512,768,102<nuous(limits=c(1,1024), breaks=c(1,256,512,768,1024                        ))\n> \n> # get target info\n> target = c(dat$targY[t], dat$targX[t])\n> \n> plt = plt + geom_point(shape=3, aes(x=target[1], y=target[2]))\n> plt\n> head(fixDat)\n  trial beta     x     y\n1     1  1.6 502.6 513.1\n2     1  1.6 480.1 315.4\n3     1  1.6 422.5 247.4\n4     1  1.6 718.9 158.3\n5     1  1.6 913.2 105.2\n6     1  1.6 812.9 419.9\n> \n> for (n in 1:nTrials)\n+ {\n+  trial = asc[trialStarts[n]:trialEnds[n]]\n+  fixationLines = grep(\"EFIX\", trial)\n+  fixations = as.data.frame(matrix(unlist(trial[fixationLines]), byrow=T, nc<e(matrix(unlist(trial[fixationLines]), byrow=T, nco                        l=6))\n+  trialbeta = dat$beta[which(dat$trial==n)]\n+  fixDat = rbind(fixDat, data.frame(trial=n, beta=trialbeta, x=as.numeric.fa<ata.frame(trial=n, beta=trialbeta, x=as.numeric.fac                        tor(fixations$V4), y=as.n<ialbeta, x=as.numeric.factor(fixations$V4), y=as.nu                        meric.factor(fixations$V5<or(fixations$V4), y=as.numeric.factor(fixations$V5)                        ))\n+ \n+ }\n> fixDat$x = fixDat$x - (1920-1024)/2\n> fixDat$y = fixDat$y - (1080-1024)/2\n> fixDat$beta = as.factor(fixDat$beta)\n> \n> # get some sumamry stats\n> agDat = aggregate(data=fixDat,  trial~beta, FUN=\"length\")\n> agDat \n  beta trial\n1  1.6  2248\n2 1.65  1114\n3  1.7   388\n> ",
+			"settings":
+			{
+				"buffer_size": 110218,
+				"line_ending": "Unix",
+				"name": "*REPL* [r]",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"R",
+				"SublimeREPL: R"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"R ",
+				"SublimeREPL: R"
+			],
+			[
+				"r",
+				"SublimeREPL: R"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"p",
+				"SublimeREPL: Python"
+			],
+			[
+				"py",
+				"SublimeREPL: Python"
+			],
+			[
+				"Py",
+				"SublimeREPL: Python"
+			],
+			[
+				"i",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"ip",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"R python",
+				"SublimeREPL: Python"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl",
+				"SublimeREPL: R"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet read",
+				"Snippet: Read From File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rep",
+				"SublimeREPL: R"
+			],
+			[
+				"pref",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"repl R",
+				"SublimeREPL: R"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lat",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 555.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/analysis",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/results"
+	],
+	"file_history":
+	[
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /analysePart2.R",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /KK2results.txt",
+		"/Users/s09ac3/Documents/My Papers/2014 StochasticSearch/TextureExpReplication/results/ac_99_vs.edf",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /part2hoopPos.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/L3Session1.R",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /JS2results.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /JS1results.txt",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /analysePart2.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Alasdair_level3/analysePart2ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Alasdair_level3/analysePart1ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/analysePart2ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/analysePart1ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /DK1resultsCHECK.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /DK1results.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/L3Session1.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /LJ1results.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /LJ1results.R",
+		"/Users/s09ac3/Documents/GIT-general-private/NG_optimal/ngOpt.R",
+		"/Users/s09ac3/Documents/level3eyetrack/analysePart1ac.R",
+		"/Users/s09ac3/Documents/level3eyetrack/plotpilotLMdata.R",
+		"/Users/s09ac3/Documents/level3eyetrack/Amelias Group/L3Session1.R",
+		"/Users/s09ac3/Documents/level3eyetrack/plotpilotdata3.R",
+		"/Users/s09ac3/Documents/My Papers/2014 StochasticSearch/NG_optimal/ngOpt.R",
+		"/Users/s09ac3/Documents/level3eyetrack/Amelias Group/L3Session3.R",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/EhingerPedestrians/makePlotsAreaSubset.R",
+		"/Users/s09ac3/ObjectSalience/Experiments/makeStimulus.m",
+		"/Users/s09ac3/ObjectSalience/Experiments/lookAtResults.R",
+		"/Users/s09ac3/Documents/level3eyetrack/plotpilotLMdata2.R",
+		"/Users/s09ac3/Documents/WheresWallyComp/VisualSearchStudy.m",
+		"/Users/s09ac3/Downloads/lvl3ah_pilot.txt",
+		"/Users/s09ac3/Documents/MATLAB/vlfeat-0.9.18/toolbox/vl_setup.m",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/writeup/ObjSal.tex",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/NamingData/makeplot.R",
+		"/Users/s09ac3/Documents/level3eyetrack/LouisaTestBeanBags.txt",
+		"/Users/s09ac3/Downloads/BMS-mex/readme.txt",
+		"/Users/s09ac3/Downloads/BMS/readme.txt",
+		"/Users/s09ac3/Documents/level3eyetrack/analysePart1.R",
+		"/Users/s09ac3/ClarkeCocoKeller2013-ObjectNamingDataset/makeExFigure.m",
+		"/Users/s09ac3/Documents/MATLAB/vlfeat-0.9.18/README",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/insensitive2noiseTest/GenFractalTexPublic.m",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtSaccDirectionByTargPos.R",
+		"/Users/s09ac3/Documents/checkLeftBias/scriptsToRun/checkLeftBias.R",
+		"/Users/s09ac3/Dropbox/Riloids2/mldsMagEstComparison.R",
+		"/Users/s09ac3/Dropbox/Riloids2/Analysis_part2.R",
+		"/Users/s09ac3/Dropbox/Riloids2/Analysis_part1.R",
+		"/Users/s09ac3/Dropbox/Riloids2/runMLDS.R",
+		"/Users/s09ac3/ObjectSalience/createGoodGaborBank_keep.m",
+		"/Users/s09ac3/ObjectSalience/gaborfilterbank.py",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtAccAndRT.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/timeCourse.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtNumFixAndDur.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/initDataProcessing.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/SimHemi.sublime-project",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtSaccDirection.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/roseplot.pdf",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/whiteSpaceFixations.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/plotScanpath.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/SaccIntoBlindSide.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/hemiSearch.sublime-project",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/plotScanpath.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/lookAtSaccDirection.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/lookAtAccAndRT.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/flipThings.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/RTandAcc3.txt",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/processedItemlData.txt",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/lookAtNumFixAndDur.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/hemiSearch.sublime-project",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/initDataProcessing.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/SaccIntoBlindSide.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/tmp.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/allTrialData.txt",
+		"/Users/s09ac3/ObjectSalience/objsal.py",
+		"/Users/s09ac3/Documents/StochasticSearch/StochasticSearchManuscript2/literature.bib",
+		"/Users/s09ac3/Documents/StochasticSearch/StochasticSearchManuscript2/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/HumanSaccAmpAndAngle.R",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/getSaccStats.R",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/plotExampleScanpaths.R",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/OneAndTwoStepSaccStats.R",
+		"/Users/s09ac3/Dropbox/StochasticSearchManuscript2/literature.bib",
+		"/Volumes/KINGSTON/BALeverhume/extractData/final.txt",
+		"/Users/s09ac3/Documents/StochasticSearch/NG_optimal/ngOpt.R",
+		"/Users/s09ac3/Dropbox/BALeverhume/AlasdairScripts/riloidRatings.R",
+		"/Users/s09ac3/Dropbox/BALeverhume/EEGresults/EXG3/101s2aEXG3Observ24Steady-Deci-N.txt",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/R.sublime-settings",
+		"/Users/s09ac3/Dropbox/withMicha/objSalModel/testImage4.py",
+		"/Users/s09ac3/Desktop/testImage3.py",
+		"/Users/s09ac3/Documents/StochasticSearch/StochasticSearchManuscript/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/StochasticSearch/matlabSearchSim/plotNFixResults.R",
+		"/Users/s09ac3/Downloads/image_tutorial-8.py",
+		"/Volumes/ESD-USB/ASC files/Dl3.asc",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/R Console.sublime-settings",
+		"/Volumes/ESD-USB/ASC files/fixData.txt",
+		"/Users/s09ac3/Documents/StochasticSearch/newwriteup/literature.bib",
+		"/Users/s09ac3/Documents/StochasticSearch/newwriteup/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/My Papers/20xx Stochastic Search/Version2ofPaper/SignalDetectionExperiment.tex",
+		"/Users/s09ac3/Documents/My Papers/20xx Stochastic Search/Version2ofPaper/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/StochasticSearch/Alasdair StochSearch Exp 2/3_present_absent/Analyse/simAnalysis.R",
+		"/Users/s09ac3/Documents/StochasticSearch/clarke2009data/makePlots.R",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/s09ac3/Documents/StochasticSearch/matlabSearchSim/checkCentrality.R",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/TrackRecord.tex",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/PilotWork.tex",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/CaseForSupport.tex",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/CaseForSupport.sublime-project",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/EdDatTrial.txt",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/NamingData/exportForR.m",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/EinhauserSpainPerona_JVis2008_data/makeplot.R",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/EinhauserSpainPerona_JVis2008_data/salTrial.txt",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/CaseForSupport.pdf",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/writeup/literature.bib",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/PilotWork.aux",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/literature.bib",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/Background.tex",
+		"/Users/s09ac3/Documents/StochasticSearch/Exp2/pilotAnalysis.R",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/revised/method.tex",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/revised/manuscript.tex",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/insensitive2noiseTest/vssPlot1.R",
+		"/Users/s09ac3/Desktop/Riloids2/EssexAnalysis_part1.R",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/writeup/ObjSal.bbl",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/scripts and data/scriptsToRun/reduceNumberOfFix/bootstrapAUC.m",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/scripts and data/scriptsToRun/reduceNumberOfFix/ROCanalysisRepGaussPerSubject2.m",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/scripts and data/scriptsToRun/reduceNumberOfFix/FitGaussianPerSubject.m",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/scripts and data/scriptsToRun/reduceNumberOfFix/FitGaussianForCentralBias.m",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/scripts and data/scriptsToRun/reduceNumberOfFix/masterScriptSmallN.m",
+		"/Users/s09ac3/Dropbox/Alasdair_Ben/revised/introduction.tex"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dat$x",
+			"mydata",
+			"agDat",
+			"allDat",
+			"m",
+			"bestpos1",
+			"	bestpos1",
+			"bestpos1 ",
+			"hoopPos$",
+			"possFixLocatios",
+			"dprimeI(",
+			"gk",
+			"w",
+			"w ",
+			"precompute_dprimeI",
+			"precompute_drimeI",
+			"lab90",
+			"slab10",
+			"is.da",
+			"print",
+			"sigma",
+			"sigma(i,T+1)",
+			"probCorrectForPotFix",
+			"print",
+			"Phi",
+			"prior",
+			"dprimeI(t,k)",
+			"k",
+			"dprime ",
+			"origin",
+			"sigma",
+			"log",
+			"cc",
+			"response",
+			"beanbagdat = read.csv(\"lvl3ah_pilot.txt\", sep=\" \")\n	names(beanbagdat) = c(\"participant\", \"slab\", \"inhoop\")	\n	beanbagdat$participant = factor(beanbagdat$participant)\n	beanbagdat$out = 12 - beanbagdat$inhoop\n	beanbagdat$trials = beanbagdat$inhoop+beanbagdat$out\n	beanbagdat$acc = beanbagdat$inhoop/beanbagdat$trials\n	library(ggplot2)\n\n	plt = ggplot(beanbagdat, aes(x=slab, y=acc, colour=participant)) + geom_point() \n	plt = plt + geom_smooth(method=\"glm\", family=\"binomial\",aes(weight = trials), fullrange=T, se=T)\n	plt = plt + scale_x_continuous(limit=c(1,23))  +scale_y_continuous(name=\"accuracy\") + theme_minimal()\n	ggsave(\"pilotresults.pdf\")",
+			"einhauser2008",
+			"[1]",
+			"logLik=logLik",
+			"clarke2013",
+			"))))",
+			"[1]",
+			"]))",
+			" * scale(ct_cent)",
+			"+ (1|im)",
+			"glmer",
+			"family=\"normal\"",
+			"family",
+			"poisson",
+			"nfix",
+			"range",
+			"dat.binary",
+			"dat",
+			"dat ",
+			"sin",
+			"cos",
+			"\", ",
+			"reqBandwidth",
+			"intSig",
+			"fixN",
+			"log(Frequency)",
+			"nls_binaryclassification",
+			"intoBlind",
+			"sideplt",
+			"itemda",
+			"Blind",
+			"roseplt",
+			"subj)[1]",
+			"readRDS",
+			"itemdat",
+			"ItemDat",
+			"itemdat",
+			"itemDat",
+			"itemdat",
+			"itemDat",
+			"levels(dat$subj)",
+			"subjdat",
+			"subjDat",
+			"subjdat",
+			"subjD",
+			"dat",
+			"Dat",
+			"dat",
+			"itemdat",
+			"dat",
+			"Dat",
+			"dat",
+			"fixdat",
+			"dat",
+			"number of fixations\"",
+			"nfdat2",
+			"pNF2",
+			"pNF1",
+			"rtdat2",
+			"pRT1",
+			"levels(dat$subj)",
+			"\"Blank right 3\"",
+			"itemDat",
+			"dat",
+			"trialD",
+			"trialDat",
+			"dat",
+			"[trialDat$itemID!=\"Target\"]",
+			"Alex",
+			"texttt",
+			"strategy",
+			"stochastic",
+			"ampDat",
+			"verghese",
+			"verghese2012",
+			"hunt",
+			"print",
+			"])",
+			"prior",
+			"sumdprimeI2_1toT",
+			"locs",
+			"plt2",
+			"library(ggplot)\n\n\n\n\n# parameters \nc 	= 1 # rms contrast of target\nen 	= 1 # contrast power (rms contrast squared) of background noise\nalpha = 0.0218 # some constant?\n\ndprimeE = sqrt(c^2/(alpha/en))\n\ndprimeI = function(fix, locs)\n{\n	# for now, lets assume a linear fall-off with distance\n	print(locs)\n	print(dim(locs))\n	distFromFix = sqrt((locs[1,]-fix[1,])^2+(locs[2,]-fix[2,])^2)\n}\n\n# set up stimuli \n# i will count item locations\nitemLoctations 	= array(dim=c(2,2), c(-1,0, 1,0)\nitemIDs 		= c(0.5, -0.5)\n# add external noise\nX = rnorm(length(itemIDs), mean=0, sd=1/dprimeE)\n# inital fixation at origin\nfixations = list(c(0,0))\nprior = rep(1/length(itemIDs), length(itemIDs))\nW = array(dim=c(10, length(itemIDs)))\nitemProb = list()\n# for first fixation\nf = 1\n# generate internal noise\nN = rnorm(length(itemIDs), mean=0, sd=1/dprimeI(fixations[[f]], itemLoctations))\n# calculate template responses\nW[f,] = itemIDs + N + X\n# calculate prob for each item location\n\nfor (i in 1:2)\n{\n	g_Tik1 = dprimeE^2 * dprimeI(fixations[f], itemLoctations[,i])^2\n	g_Tik2 = dprimeE^2\n	for (t in 1:f)\n	{\n	g_Tik2 = g_Tik2 + dprimeI(fixations[[t]], itemLoctations[,i])^2\n	}\n	g_Tik = g_Tik1 / g_Tik2\n	rm(g_Tik1, g_Tik2)\n\n	gTsumW = 0\n	for (t in 1:f)\n	{\n		gTsumW = gTsum + g_Tik * W[t,]\n	}\n	piT = prior[i] * exp(gTsumW)\n	rm(gTsum)\n\n}",
+			"absandrelangles",
+			"histAllv",
+			"histQv",
+			"histPv",
+			"bins + 1",
+			"binnedImg",
+			"propto",
+			"Chi",
+			"subsubsection",
+			"\\texttt{hard}",
+			"\\texttt{easy}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "analysis/parseEyeTrack.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1369,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								949,
+								390
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "analysis/basicAnalysis.R",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "results/ac_99_vs.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								239,
+								239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								110218,
+								110218
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "r",
+							"repl_id": "07fc14f00ee0413cb35e02ac4f718698",
+							"repl_restart_args":
+							{
+								"additional_scopes":
+								[
+									"tex.latex.knitr"
+								],
+								"cmd":
+								{
+									"linux":
+									[
+										"R",
+										"--interactive",
+										"--no-readline"
+									],
+									"osx":
+									[
+										"R",
+										"--interactive",
+										"--no-readline"
+									],
+									"windows":
+									[
+										"Rterm.exe",
+										"--ess",
+										"--encoding=$win_cmd_encoding"
+									]
+								},
+								"cmd_postfix": "\n",
+								"cwd": "$file_path",
+								"encoding":
+								{
+									"linux": "utf8",
+									"osx": "utf8",
+									"windows": "$win_cmd_encoding"
+								},
+								"extend_env":
+								{
+									"linux":
+									{
+										"PATH": "{PATH}:/usr/local/bin"
+									},
+									"osx":
+									{
+										"PATH": "{PATH}:/usr/local/bin"
+									},
+									"windows":
+									{
+									}
+								},
+								"external_id": "r",
+								"soft_quit": "\nquit(save=\"no\")\n",
+								"suppress_echo":
+								{
+									"linux": true,
+									"osx": true,
+									"windows": false
+								},
+								"syntax": "Packages/R/R Console.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/R/R Console.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54799.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 241.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "TexReplication.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"r",
+				"~/Documents/GIT-general-private/Amelias level3/part2 /analysePart2.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"R ",
+				"~/ObjectSalience/ObjSal.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

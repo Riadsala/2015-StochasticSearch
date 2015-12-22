@@ -1,0 +1,6 @@
+% function getSaccadeFromDist
+
+% read in data
+shift = csvread('shift.csv');
+map = csvread('cornerTL.csv', map);
+

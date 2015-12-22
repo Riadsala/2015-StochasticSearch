@@ -1,0 +1,48 @@
+\appendix
+\section{Appendix: LNL model comparison}
+\label{appendix:LNL}
+In our previous work we have applied an LNL-based model to the problem of modelling search for a target on a rough surface (Clarke, et al., 2009). A bank of Gabor filters was applied to the input image and then passed through a non-linearity. This nonlinear processing strengthened the signal of filter response maps containing a small number of strong local maxima (as opposed to maps which contained a large number of local maxima). Finally these feature maps were passed through a 2nd order linear filter (local energy pooling) before being summed together to give an activation map. This activation map was then passed to a simple saccade selection algorithm. For each fixation an exponential distance dependant fall-off was applied to the activation map along with a simple inhibition of return process. The model would then randomly select one of the n (=3) largest local maxima as its saccade target.
+\par
+While the algorithm succeeded in modelling human performance (in terms of the number of saccades required to find the target), it did not account for the selection of individual fixation points on each saccade, in trials where more than one or two saccades were required to find the target. There was no apparent relationship between human fixation locations and (non-target) local maxima in the activation map. While one possibility would be that the fall-off function is too strong, we can discard this suggestion as weakening the activation fall-off function would cause the model to diverge from human performance in terms of number of saccades to targets at high eccentricities. 
+\par
+To explore this further we compared saccade targets for the model with those chosen by human observers  in the experiment reported by \cite{clarke2009}. Over all observers, trials and fixations, 22\% of saccades were directed to within $1^{\circ}$ of one of the three saccade targets considered by the model, and over 25\% fell more than $4.3^{\circ}$  (equal to a quarter of the display's length) away from the nearest point considered by the model.  The LNL model is therefore able to predict the locations of only a small proportion of non-target fixations during visual search. Furthermore, most of the successful cases can be accounted for by chance. Let us assume (a) that all model and human saccades are no more than $r$ in amplitude; and (b) 	the three potential fixations considered by the model are separated from each other by at least $2^{\circ}$
+\par
+Then the fixations will occur somewhere within an circle with area $A=\pi r^2$. Therefore the probability of the human saccade landing within $1^{\circ}$ of one of the model's saccades is $p=3\pi/A=3/r^2$. If we take $r=4^{\circ}$ (over half of the human saccades are under $4^{\circ}$ in amplitude) then we would expect human observers to fixate within $1^{\circ}$ of one of the fixation locations considered by the model 19\% of the time, which is close to the 22\% we obtained from the empirical comparison. 
+\par
+The above analysis suggests that the LNL model, while offering a good prediction of the difficulty of the search task, does not succeed in modelling saccade selections any better than if it did not possess an activation map.
+
+\section{Appendix: Texture Synthesis}
+\label{appendix:synthesis}
+
+For the experiments in this paper a very simple model referred to as $1/f^{\beta}$-noise will be used. We can represent a surface by an $n\times n$ matrix $h$. This matrix is referred to as a height map and for any $(x, y)\in\{Z\times Z | 0 < x, y < n\}$,$ h(x, y) = z$ gives us the height of the surface. The $1/f^{\beta}$ noise has only two parameters: the frequency roll-off, $\beta$, and the RMS-roughness, $\sigma_{RMS}$. The RMS-roughness is the standard deviation of the surface's height map and acts as a scaling factor in the $z$-axis. The roll off factor $\beta$ controls the amount of high frequency information in the surface: increasing $\beta$causes the high frequencies to drop off more quickly, so the texture appears smoother \citep{padilla2008}. Note that we use $\beta$ here to denote the roll-off of the magnitude of the inverse discrete Fourier transform of the height map. The same term and symbol also sometimes refers to the roll off factor in the power spectrum of an image. See \cite{chantler2005} for a model relating these two parameters. 
+\par
+The surface is generated in the Fourier domain with the magnitude spectrum given by:
+\begin{equation}
+S(u,v)=\frac{k}{\sqrt{u^2+v^2}}
+\end{equation}
+where $k$ is the scaling factor required to give the desired $\sigma_{RMS}$. The phase spectrum is randomised and by using different values to seed the random number generator we can create many different surfaces with the same properties. Taking the inverse discrete Fourier transform of the magnitude and phase spectra gives us our height map $h$.
+
+\par
+The two dimensional height map that represents our surface texture is then rendered to
+generate an image of the surface under specified illumination. This stage is important, as a surface can have drastically different appearances under different light conditions \citep{chantler1995}. We will use one of the simplest models, known as Lambert's Cosine Law. This treats the surface as a perfectly diffuse reflector, i.e. it reflects the same amount of light in all directions. It is easily modelled by the dot product:
+\begin{equation}
+i(x,y) = \lambda . \rho (x,y) \underline{n}(x,y) \underline{l}
+\end{equation}
+
+where $i$ is the image we are creating, $\underline{n}$ is the unit surface normal to
+the height map and $\underline{l}$ is the unit illumination vector. The albedo, $\rho$, determines how much light is reflected by the surface. The strength of the source light is denoted by $k$. The surface normal $\underline{n}$ is estimated by:
+
+\begin{equation}
+p(x,y) = h(x,y)-h(x-1,y) \ \  \  \  q(x,y)=h(x,y)-h(x,y-1)
+\end{equation}
+\begin{equation}
+\underline{n} = \frac{1}{\sqrt{1+p^2+q^2}}[p,q,1]^T
+\end{equation} 
+ 
+Self shadowing occurs when $i(x,y)<.0$ i.e. the surface is orientated such that its normal makes an obtuse angle with the illumination vector. Self shadowing is implemented by setting all negative values to 0. Cast shadows are not implemented in this model. The illumination conditions will be kept constant throughout this paper with elevation $= 60^{\circ}$ ,azimuth = $= 90^{\circ}$ and the strength of the source light being set at 150 $cd/m^2$. The albedo value will be kept constant at 0.8 throughout all the experiments, which is approximately the value of matte white paint.
+\par
+To use rendered surfaces in visual search experiments, we need to choose a target. Rather than using a target with an artificial appearance, we create an anomaly in the surface texture, in the form of a small pothole in the surface. We create these targets by subtracting the lower half of a small three dimensional ellipsoid from the surface. Our ellipsoid defect is defined by
+\begin{equation}
+\frac{x^2}{a^2}+\frac{y^2}{b^2}+\frac{z^2}{c^2}=1
+\end{equation}
+To make the indent appear more realistic it is convolved with a two dimensional smoothing filter to soften the hard vertical edges.

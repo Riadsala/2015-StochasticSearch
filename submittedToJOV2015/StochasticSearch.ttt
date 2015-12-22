@@ -1,0 +1,16 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+
+\centering
+\begin{tabular}{c|ccc}
+ $\beta$  & rough & medium & smooth \\
+\hline
+intercept & -0.17 & 1.27 & 2.39\\
+$x^2$ & -0.089 & -0.062 & -0.074 \\
+$y^2$ & -0.103 & -0.103 & -0.103 \\
+\end{tabular}
+\caption{Coefficients used in Equation \ref{eq:targDet}, the target detection function.}
+\label{tab:targdetcoef}
+\end{table*}
+\efloatseparator
+ 

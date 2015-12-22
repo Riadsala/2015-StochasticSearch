@@ -1,0 +1,13 @@
+% stuff for Louisa
+
+
+% make a pretend forground image
+colourednoise = randn(500, 500, 3);
+colourednoise(:,:,3) = 0;
+foreground  = ones(750,750,3);
+foreground(126:625, 126:625,:) = noise;
+
+imshow(noise)
+
+
+

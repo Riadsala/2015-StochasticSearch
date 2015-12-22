@@ -1,0 +1,739 @@
+Data properties:
+ 
+Recording date: 10/1/2008
+Recording time : 12:11:48:228 (corresponds to time 0)
+Study: SD Experiment
+Subject: LM
+Recording: LM14
+Screen resolution: 1600 x 1200
+Coordinate unit: Pixels
+ 
+ 
+Time	Event	Event key	Data 1	Data 2	Description
+
+31	ShowSlide	4	1	0	Image: breakrest.jpg
+917	Keyboard	3	37	0	Left
+924	ShowSlide	4	2	0	Image: fixcross.jpg
+2925	ShowSlide	4	3	0	Image: _beta=1.6_r=350_phi=270_seed=8.png
+3126	ShowSlide	4	4	0	Image: mask.jpg
+3629	ShowSlide	4	5	0	Image: respdot.jpg
+4085	Keyboard	3	39	0	Right
+4089	ShowSlide	4	6	0	Image: fixcross.jpg
+6089	ShowSlide	4	7	0	Image: _beta=1.65_r=150_phi=225_seed=15.png
+6291	ShowSlide	4	8	0	Image: mask.jpg
+6794	ShowSlide	4	9	0	Image: respdot.jpg
+7429	Keyboard	3	37	0	Left
+7437	ShowSlide	4	10	0	Image: fixcross.jpg
+9438	ShowSlide	4	11	0	Image: _beta=1.6_r=450_phi=270_seed=9.png
+9640	ShowSlide	4	12	0	Image: mask.jpg
+10144	ShowSlide	4	13	0	Image: respdot.jpg
+11173	Keyboard	3	39	0	Right
+11184	ShowSlide	4	14	0	Image: fixcross.jpg
+13184	ShowSlide	4	15	0	Image: _beta=1.7_r=250_phi=315_seed=23.png
+13386	ShowSlide	4	16	0	Image: mask.jpg
+13889	ShowSlide	4	17	0	Image: respdot.jpg
+14421	Keyboard	3	39	0	Right
+14432	ShowSlide	4	18	0	Image: breakrest.jpg
+15349	Keyboard	3	39	0	Right
+15355	ShowSlide	4	19	0	Image: fixcross.jpg
+17356	ShowSlide	4	20	0	Image: _beta=1.7_r=200_phi=0_seed=30.png
+17558	ShowSlide	4	21	0	Image: mask.jpg
+18060	ShowSlide	4	22	0	Image: respdot.jpg
+18661	Keyboard	3	39	0	Right
+18671	ShowSlide	4	23	0	Image: fixcross.jpg
+20672	ShowSlide	4	24	0	Image: _beta=1.65_r=150_phi=0_seed=20.png
+20873	ShowSlide	4	25	0	Image: mask.jpg
+21375	ShowSlide	4	26	0	Image: respdot.jpg
+21845	Keyboard	3	37	0	Left
+21847	ShowSlide	4	27	0	Image: fixcross.jpg
+23847	ShowSlide	4	28	0	Image: _beta=1.7_r=150_phi=45_seed=29.png
+24049	ShowSlide	4	29	0	Image: mask.jpg
+24551	ShowSlide	4	30	0	Image: respdot.jpg
+24933	Keyboard	3	39	0	Right
+24937	ShowSlide	4	31	0	Image: fixcross.jpg
+26938	ShowSlide	4	32	0	Image: _beta=1.65_r=150_phi=90_seed=18.png
+27140	ShowSlide	4	33	0	Image: mask.jpg
+27642	ShowSlide	4	34	0	Image: respdot.jpg
+28181	Keyboard	3	37	0	Left
+28185	ShowSlide	4	35	0	Image: breakrest.jpg
+28981	Keyboard	3	37	0	Left
+28989	ShowSlide	4	36	0	Image: fixcross.jpg
+30991	ShowSlide	4	37	0	Image: _beta=1.6_r=200_phi=270_seed=1.png
+31192	ShowSlide	4	38	0	Image: mask.jpg
+31695	ShowSlide	4	39	0	Image: respdot.jpg
+32213	Keyboard	3	39	0	Right
+32219	ShowSlide	4	40	0	Image: fixcross.jpg
+34219	ShowSlide	4	41	0	Image: _beta=1.6_r=200_phi=45_seed=1.png
+34420	ShowSlide	4	42	0	Image: mask.jpg
+34924	ShowSlide	4	43	0	Image: respdot.jpg
+35301	Keyboard	3	39	0	Right
+35310	ShowSlide	4	44	0	Image: fixcross.jpg
+37311	ShowSlide	4	45	0	Image: _beta=1.6_r=450_phi=45_seed=9.png
+37512	ShowSlide	4	46	0	Image: mask.jpg
+38015	ShowSlide	4	47	0	Image: respdot.jpg
+38549	Keyboard	3	39	0	Right
+38550	ShowSlide	4	48	0	Image: fixcross.jpg
+40550	ShowSlide	4	49	0	Image: _beta=1.6_r=150_phi=0_seed=8.png
+40751	ShowSlide	4	50	0	Image: mask.jpg
+41254	ShowSlide	4	51	0	Image: respdot.jpg
+41621	Keyboard	3	39	0	Right
+41625	ShowSlide	4	52	0	Image: breakrest.jpg
+42437	Keyboard	3	39	0	Right
+42441	ShowSlide	4	53	0	Image: fixcross.jpg
+44442	ShowSlide	4	54	0	Image: _beta=1.6_r=TA_seed=3.png
+44643	ShowSlide	4	55	0	Image: mask.jpg
+45146	ShowSlide	4	56	0	Image: respdot.jpg
+45477	Keyboard	3	39	0	Right
+45488	ShowSlide	4	57	0	Image: fixcross.jpg
+47489	ShowSlide	4	58	0	Image: _beta=1.6_r=TA_seed=3.png
+47690	ShowSlide	4	59	0	Image: mask.jpg
+48193	ShowSlide	4	60	0	Image: respdot.jpg
+48500	Keyboard	3	39	0	Right
+48502	ShowSlide	4	61	0	Image: fixcross.jpg
+50502	ShowSlide	4	62	0	Image: _beta=1.65_r=250_phi=180_seed=20.png
+50705	ShowSlide	4	63	0	Image: mask.jpg
+51207	ShowSlide	4	64	0	Image: respdot.jpg
+51732	Keyboard	3	37	0	Left
+51743	ShowSlide	4	65	0	Image: fixcross.jpg
+53744	ShowSlide	4	66	0	Image: _beta=1.65_r=350_phi=135_seed=20.png
+53946	ShowSlide	4	67	0	Image: mask.jpg
+54449	ShowSlide	4	68	0	Image: respdot.jpg
+54852	Keyboard	3	39	0	Right
+54863	ShowSlide	4	69	0	Image: breakrest.jpg
+55476	Keyboard	3	39	0	Right
+55484	ShowSlide	4	70	0	Image: fixcross.jpg
+57485	ShowSlide	4	71	0	Image: _beta=1.65_r=250_phi=45_seed=18.png
+57687	ShowSlide	4	72	0	Image: mask.jpg
+58190	ShowSlide	4	73	0	Image: respdot.jpg
+58644	Keyboard	3	37	0	Left
+58650	ShowSlide	4	74	0	Image: fixcross.jpg
+60651	ShowSlide	4	75	0	Image: _beta=1.65_r=150_phi=270_seed=17.png
+60853	ShowSlide	4	76	0	Image: mask.jpg
+61356	ShowSlide	4	77	0	Image: respdot.jpg
+61700	Keyboard	3	39	0	Right
+61708	ShowSlide	4	78	0	Image: fixcross.jpg
+63709	ShowSlide	4	79	0	Image: _beta=1.65_r=200_phi=135_seed=14.png
+63911	ShowSlide	4	80	0	Image: mask.jpg
+64414	ShowSlide	4	81	0	Image: respdot.jpg
+65220	Keyboard	3	39	0	Right
+65228	ShowSlide	4	82	0	Image: fixcross.jpg
+67228	ShowSlide	4	83	0	Image: _beta=1.6_r=350_phi=225_seed=2.png
+67430	ShowSlide	4	84	0	Image: mask.jpg
+67933	ShowSlide	4	85	0	Image: respdot.jpg
+68596	Keyboard	3	39	0	Right
+68605	ShowSlide	4	86	0	Image: breakrest.jpg
+69364	Keyboard	3	39	0	Right
+69367	ShowSlide	4	87	0	Image: fixcross.jpg
+71368	ShowSlide	4	88	0	Image: _beta=1.7_r=350_phi=315_seed=24.png
+71569	ShowSlide	4	89	0	Image: mask.jpg
+72071	ShowSlide	4	90	0	Image: respdot.jpg
+72836	Keyboard	3	39	0	Right
+72843	ShowSlide	4	91	0	Image: fixcross.jpg
+74843	ShowSlide	4	92	0	Image: _beta=1.7_r=450_phi=135_seed=23.png
+75045	ShowSlide	4	93	0	Image: mask.jpg
+75546	ShowSlide	4	94	0	Image: respdot.jpg
+75956	Keyboard	3	39	0	Right
+75964	ShowSlide	4	95	0	Image: fixcross.jpg
+77965	ShowSlide	4	96	0	Image: _beta=1.6_r=50_phi=0_seed=5.png
+78166	ShowSlide	4	97	0	Image: mask.jpg
+78665	ShowSlide	4	98	0	Image: respdot.jpg
+79076	Keyboard	3	37	0	Left
+79083	ShowSlide	4	99	0	Image: fixcross.jpg
+81083	ShowSlide	4	100	0	Image: _beta=1.65_r=450_phi=90_seed=18.png
+81285	ShowSlide	4	101	0	Image: mask.jpg
+81787	ShowSlide	4	102	0	Image: respdot.jpg
+82100	Keyboard	3	39	0	Right
+82104	ShowSlide	4	103	0	Image: breakrest.jpg
+82628	Keyboard	3	39	0	Right
+82629	ShowSlide	4	104	0	Image: fixcross.jpg
+84631	ShowSlide	4	105	0	Image: _beta=1.7_r=150_phi=315_seed=23.png
+84832	ShowSlide	4	106	0	Image: mask.jpg
+85336	ShowSlide	4	107	0	Image: respdot.jpg
+85700	Keyboard	3	37	0	Left
+85710	ShowSlide	4	108	0	Image: fixcross.jpg
+87711	ShowSlide	4	109	0	Image: _beta=1.65_r=50_phi=135_seed=12.png
+87913	ShowSlide	4	110	0	Image: mask.jpg
+88416	ShowSlide	4	111	0	Image: respdot.jpg
+88916	Keyboard	3	37	0	Left
+88919	ShowSlide	4	112	0	Image: fixcross.jpg
+90920	ShowSlide	4	113	0	Image: _beta=1.65_r=350_phi=270_seed=18.png
+91121	ShowSlide	4	114	0	Image: mask.jpg
+91624	ShowSlide	4	115	0	Image: respdot.jpg
+91972	Keyboard	3	39	0	Right
+91978	ShowSlide	4	116	0	Image: fixcross.jpg
+93979	ShowSlide	4	117	0	Image: _beta=1.7_r=450_phi=225_seed=21.png
+94180	ShowSlide	4	118	0	Image: mask.jpg
+94682	ShowSlide	4	119	0	Image: respdot.jpg
+94996	Keyboard	3	39	0	Right
+95000	ShowSlide	4	120	0	Image: breakrest.jpg
+95636	Keyboard	3	39	0	Right
+95643	ShowSlide	4	121	0	Image: fixcross.jpg
+97643	ShowSlide	4	122	0	Image: _beta=1.6_r=250_phi=180_seed=3.png
+97846	ShowSlide	4	123	0	Image: mask.jpg
+98348	ShowSlide	4	124	0	Image: respdot.jpg
+98852	Keyboard	3	39	0	Right
+98863	ShowSlide	4	125	0	Image: fixcross.jpg
+100863	ShowSlide	4	126	0	Image: _beta=1.6_r=200_phi=45_seed=6.png
+101065	ShowSlide	4	127	0	Image: mask.jpg
+101568	ShowSlide	4	128	0	Image: respdot.jpg
+101988	Keyboard	3	39	0	Right
+101996	ShowSlide	4	129	0	Image: fixcross.jpg
+103996	ShowSlide	4	130	0	Image: _beta=1.7_r=250_phi=45_seed=22.png
+104198	ShowSlide	4	131	0	Image: mask.jpg
+104701	ShowSlide	4	132	0	Image: respdot.jpg
+105236	Keyboard	3	37	0	Left
+105247	ShowSlide	4	133	0	Image: fixcross.jpg
+107247	ShowSlide	4	134	0	Image: _beta=1.6_r=450_phi=270_seed=8.png
+107449	ShowSlide	4	135	0	Image: mask.jpg
+107952	ShowSlide	4	136	0	Image: respdot.jpg
+108260	Keyboard	3	39	0	Right
+108269	ShowSlide	4	137	0	Image: breakrest.jpg
+108916	Keyboard	3	39	0	Right
+108923	ShowSlide	4	138	0	Image: fixcross.jpg
+110923	ShowSlide	4	139	0	Image: _beta=1.65_r=100_phi=0_seed=17.png
+111125	ShowSlide	4	140	0	Image: mask.jpg
+111628	ShowSlide	4	141	0	Image: respdot.jpg
+112660	Keyboard	3	37	0	Left
+112668	ShowSlide	4	142	0	Image: fixcross.jpg
+114669	ShowSlide	4	143	0	Image: _beta=1.6_r=250_phi=315_seed=8.png
+114870	ShowSlide	4	144	0	Image: mask.jpg
+115372	ShowSlide	4	145	0	Image: respdot.jpg
+115683	Keyboard	3	39	0	Right
+115692	ShowSlide	4	146	0	Image: fixcross.jpg
+117692	ShowSlide	4	147	0	Image: _beta=1.7_r=200_phi=90_seed=28.png
+117895	ShowSlide	4	148	0	Image: mask.jpg
+118396	ShowSlide	4	149	0	Image: respdot.jpg
+118947	Keyboard	3	37	0	Left
+118952	ShowSlide	4	150	0	Image: fixcross.jpg
+120952	ShowSlide	4	151	0	Image: _beta=1.6_r=TA_seed=6.png
+121154	ShowSlide	4	152	0	Image: mask.jpg
+121657	ShowSlide	4	153	0	Image: respdot.jpg
+122371	Keyboard	3	39	0	Right
+122383	ShowSlide	4	154	0	Image: breakrest.jpg
+127667	Keyboard	3	37	0	Left
+127678	ShowSlide	4	155	0	Image: fixcross.jpg
+129679	ShowSlide	4	156	0	Image: _beta=1.7_r=TA_seed=23.png
+129880	ShowSlide	4	157	0	Image: mask.jpg
+130382	ShowSlide	4	158	0	Image: respdot.jpg
+130867	Keyboard	3	39	0	Right
+130875	ShowSlide	4	159	0	Image: fixcross.jpg
+132875	ShowSlide	4	160	0	Image: _beta=1.65_r=350_phi=225_seed=19.png
+133076	ShowSlide	4	161	0	Image: mask.jpg
+133578	ShowSlide	4	162	0	Image: respdot.jpg
+134019	Keyboard	3	39	0	Right
+134029	ShowSlide	4	163	0	Image: fixcross.jpg
+136030	ShowSlide	4	164	0	Image: _beta=1.65_r=TA_seed=11.png
+136231	ShowSlide	4	165	0	Image: mask.jpg
+136733	ShowSlide	4	166	0	Image: respdot.jpg
+137491	Keyboard	3	39	0	Right
+137495	ShowSlide	4	167	0	Image: fixcross.jpg
+139496	ShowSlide	4	168	0	Image: _beta=1.65_r=100_phi=270_seed=12.png
+139698	ShowSlide	4	169	0	Image: mask.jpg
+140200	ShowSlide	4	170	0	Image: respdot.jpg
+140883	Keyboard	3	39	0	Right
+140894	ShowSlide	4	171	0	Image: breakrest.jpg
+141539	Keyboard	3	39	0	Right
+141547	ShowSlide	4	172	0	Image: fixcross.jpg
+143547	ShowSlide	4	173	0	Image: _beta=1.7_r=400_phi=270_seed=21.png
+143748	ShowSlide	4	174	0	Image: mask.jpg
+144251	ShowSlide	4	175	0	Image: respdot.jpg
+145075	Keyboard	3	39	0	Right
+145076	ShowSlide	4	176	0	Image: fixcross.jpg
+147076	ShowSlide	4	177	0	Image: _beta=1.65_r=450_phi=225_seed=14.png
+147278	ShowSlide	4	178	0	Image: mask.jpg
+147780	ShowSlide	4	179	0	Image: respdot.jpg
+148563	Keyboard	3	39	0	Right
+148575	ShowSlide	4	180	0	Image: fixcross.jpg
+150576	ShowSlide	4	181	0	Image: _beta=1.65_r=150_phi=270_seed=14.png
+150777	ShowSlide	4	182	0	Image: mask.jpg
+151279	ShowSlide	4	183	0	Image: respdot.jpg
+151923	Keyboard	3	39	0	Right
+151933	ShowSlide	4	184	0	Image: fixcross.jpg
+153933	ShowSlide	4	185	0	Image: _beta=1.6_r=100_phi=315_seed=1.png
+154134	ShowSlide	4	186	0	Image: mask.jpg
+154638	ShowSlide	4	187	0	Image: respdot.jpg
+155235	Keyboard	3	39	0	Right
+155245	ShowSlide	4	188	0	Image: breakrest.jpg
+174915	Keyboard	3	37	0	Left
+174923	ShowSlide	4	189	0	Image: fixcross.jpg
+176924	ShowSlide	4	190	0	Image: _beta=1.6_r=TA_seed=4.png
+177125	ShowSlide	4	191	0	Image: mask.jpg
+177628	ShowSlide	4	192	0	Image: respdot.jpg
+178067	Keyboard	3	39	0	Right
+178077	ShowSlide	4	193	0	Image: fixcross.jpg
+180078	ShowSlide	4	194	0	Image: _beta=1.65_r=250_phi=0_seed=13.png
+180280	ShowSlide	4	195	0	Image: mask.jpg
+180782	ShowSlide	4	196	0	Image: respdot.jpg
+181203	Keyboard	3	39	0	Right
+181210	ShowSlide	4	197	0	Image: fixcross.jpg
+183210	ShowSlide	4	198	0	Image: _beta=1.6_r=50_phi=135_seed=3.png
+183412	ShowSlide	4	199	0	Image: mask.jpg
+183914	ShowSlide	4	200	0	Image: respdot.jpg
+184355	Keyboard	3	37	0	Left
+184364	ShowSlide	4	201	0	Image: fixcross.jpg
+186364	ShowSlide	4	202	0	Image: _beta=1.7_r=50_phi=90_seed=21.png
+186566	ShowSlide	4	203	0	Image: mask.jpg
+187069	ShowSlide	4	204	0	Image: respdot.jpg
+187442	Keyboard	3	39	0	Right
+187451	ShowSlide	4	205	0	Image: breakrest.jpg
+188034	Keyboard	3	39	0	Right
+188039	ShowSlide	4	206	0	Image: fixcross.jpg
+190040	ShowSlide	4	207	0	Image: _beta=1.65_r=TA_seed=17.png
+190242	ShowSlide	4	208	0	Image: mask.jpg
+190744	ShowSlide	4	209	0	Image: respdot.jpg
+191138	Keyboard	3	39	0	Right
+191140	ShowSlide	4	210	0	Image: fixcross.jpg
+193141	ShowSlide	4	211	0	Image: _beta=1.7_r=400_phi=135_seed=28.png
+193342	ShowSlide	4	212	0	Image: mask.jpg
+193846	ShowSlide	4	213	0	Image: respdot.jpg
+194162	Keyboard	3	39	0	Right
+194166	ShowSlide	4	214	0	Image: fixcross.jpg
+196168	ShowSlide	4	215	0	Image: _beta=1.6_r=TA_seed=6.png
+196369	ShowSlide	4	216	0	Image: mask.jpg
+196871	ShowSlide	4	217	0	Image: respdot.jpg
+197602	Keyboard	3	39	0	Right
+197611	ShowSlide	4	218	0	Image: fixcross.jpg
+199611	ShowSlide	4	219	0	Image: _beta=1.6_r=50_phi=225_seed=9.png
+199813	ShowSlide	4	220	0	Image: mask.jpg
+200316	ShowSlide	4	221	0	Image: respdot.jpg
+200738	Keyboard	3	39	0	Right
+200741	ShowSlide	4	222	0	Image: breakrest.jpg
+231058	Keyboard	3	37	0	Left
+231066	ShowSlide	4	223	0	Image: fixcross.jpg
+233066	ShowSlide	4	224	0	Image: _beta=1.6_r=400_phi=135_seed=1.png
+233267	ShowSlide	4	225	0	Image: mask.jpg
+233769	ShowSlide	4	226	0	Image: respdot.jpg
+234162	Keyboard	3	39	0	Right
+234166	ShowSlide	4	227	0	Image: fixcross.jpg
+236166	ShowSlide	4	228	0	Image: _beta=1.65_r=150_phi=90_seed=19.png
+236367	ShowSlide	4	229	0	Image: mask.jpg
+236869	ShowSlide	4	230	0	Image: respdot.jpg
+237298	Keyboard	3	37	0	Left
+237308	ShowSlide	4	231	0	Image: fixcross.jpg
+239308	ShowSlide	4	232	0	Image: _beta=1.6_r=250_phi=225_seed=7.png
+239510	ShowSlide	4	233	0	Image: mask.jpg
+240011	ShowSlide	4	234	0	Image: respdot.jpg
+240434	Keyboard	3	39	0	Right
+240441	ShowSlide	4	235	0	Image: fixcross.jpg
+242442	ShowSlide	4	236	0	Image: _beta=1.6_r=350_phi=270_seed=1.png
+242643	ShowSlide	4	237	0	Image: mask.jpg
+243145	ShowSlide	4	238	0	Image: respdot.jpg
+243554	Keyboard	3	39	0	Right
+243559	ShowSlide	4	239	0	Image: breakrest.jpg
+244850	Keyboard	3	39	0	Right
+244859	ShowSlide	4	240	0	Image: fixcross.jpg
+246860	ShowSlide	4	241	0	Image: _beta=1.6_r=TA_seed=6.png
+247061	ShowSlide	4	242	0	Image: mask.jpg
+247564	ShowSlide	4	243	0	Image: respdot.jpg
+247970	Keyboard	3	39	0	Right
+247971	ShowSlide	4	244	0	Image: fixcross.jpg
+249972	ShowSlide	4	245	0	Image: _beta=1.7_r=400_phi=45_seed=29.png
+250173	ShowSlide	4	246	0	Image: mask.jpg
+250676	ShowSlide	4	247	0	Image: respdot.jpg
+251058	Keyboard	3	39	0	Right
+251062	ShowSlide	4	248	0	Image: fixcross.jpg
+253062	ShowSlide	4	249	0	Image: _beta=1.6_r=50_phi=180_seed=2.png
+253264	ShowSlide	4	250	0	Image: mask.jpg
+253766	ShowSlide	4	251	0	Image: respdot.jpg
+254321	Keyboard	3	37	0	Left
+254323	ShowSlide	4	252	0	Image: fixcross.jpg
+256324	ShowSlide	4	253	0	Image: _beta=1.7_r=TA_seed=23.png
+256525	ShowSlide	4	254	0	Image: mask.jpg
+257028	ShowSlide	4	255	0	Image: respdot.jpg
+257425	Keyboard	3	39	0	Right
+257432	ShowSlide	4	256	0	Image: breakrest.jpg
+258225	Keyboard	3	39	0	Right
+258235	ShowSlide	4	257	0	Image: fixcross.jpg
+260235	ShowSlide	4	258	0	Image: _beta=1.65_r=150_phi=45_seed=19.png
+260438	ShowSlide	4	259	0	Image: mask.jpg
+260940	ShowSlide	4	260	0	Image: respdot.jpg
+261393	Keyboard	3	39	0	Right
+261401	ShowSlide	4	261	0	Image: fixcross.jpg
+263402	ShowSlide	4	262	0	Image: _beta=1.7_r=TA_seed=24.png
+263603	ShowSlide	4	263	0	Image: mask.jpg
+264105	ShowSlide	4	264	0	Image: respdot.jpg
+264545	Keyboard	3	39	0	Right
+264555	ShowSlide	4	265	0	Image: fixcross.jpg
+266556	ShowSlide	4	266	0	Image: _beta=1.65_r=300_phi=180_seed=14.png
+266758	ShowSlide	4	267	0	Image: mask.jpg
+267261	ShowSlide	4	268	0	Image: respdot.jpg
+267889	Keyboard	3	39	0	Right
+267892	ShowSlide	4	269	0	Image: fixcross.jpg
+269893	ShowSlide	4	270	0	Image: _beta=1.7_r=200_phi=270_seed=23.png
+270095	ShowSlide	4	271	0	Image: mask.jpg
+270598	ShowSlide	4	272	0	Image: respdot.jpg
+270993	Keyboard	3	37	0	Left
+271001	ShowSlide	4	273	0	Image: breakrest.jpg
+273409	Keyboard	3	37	0	Left
+273416	ShowSlide	4	274	0	Image: fixcross.jpg
+275417	ShowSlide	4	275	0	Image: _beta=1.65_r=TA_seed=13.png
+275619	ShowSlide	4	276	0	Image: mask.jpg
+276122	ShowSlide	4	277	0	Image: respdot.jpg
+276513	Keyboard	3	39	0	Right
+276517	ShowSlide	4	278	0	Image: fixcross.jpg
+278517	ShowSlide	4	279	0	Image: _beta=1.65_r=200_phi=0_seed=20.png
+278718	ShowSlide	4	280	0	Image: mask.jpg
+279221	ShowSlide	4	281	0	Image: respdot.jpg
+279553	Keyboard	3	39	0	Right
+279565	ShowSlide	4	282	0	Image: fixcross.jpg
+281571	ShowSlide	4	283	0	Image: _beta=1.65_r=150_phi=45_seed=18.png
+281766	ShowSlide	4	284	0	Image: mask.jpg
+282269	ShowSlide	4	285	0	Image: respdot.jpg
+282657	Keyboard	3	39	0	Right
+282663	ShowSlide	4	286	0	Image: fixcross.jpg
+284663	ShowSlide	4	287	0	Image: _beta=1.65_r=150_phi=0_seed=15.png
+284865	ShowSlide	4	288	0	Image: mask.jpg
+285368	ShowSlide	4	289	0	Image: respdot.jpg
+285697	Keyboard	3	39	0	Right
+285707	ShowSlide	4	290	0	Image: breakrest.jpg
+286289	Keyboard	3	39	0	Right
+286296	ShowSlide	4	291	0	Image: fixcross.jpg
+288297	ShowSlide	4	292	0	Image: _beta=1.65_r=150_phi=225_seed=19.png
+288498	ShowSlide	4	293	0	Image: mask.jpg
+289000	ShowSlide	4	294	0	Image: respdot.jpg
+289409	Keyboard	3	39	0	Right
+289418	ShowSlide	4	295	0	Image: fixcross.jpg
+291418	ShowSlide	4	296	0	Image: _beta=1.65_r=200_phi=0_seed=15.png
+291620	ShowSlide	4	297	0	Image: mask.jpg
+292122	ShowSlide	4	298	0	Image: respdot.jpg
+292545	Keyboard	3	39	0	Right
+292550	ShowSlide	4	299	0	Image: fixcross.jpg
+294551	ShowSlide	4	300	0	Image: _beta=1.65_r=100_phi=315_seed=17.png
+294753	ShowSlide	4	301	0	Image: mask.jpg
+295255	ShowSlide	4	302	0	Image: respdot.jpg
+295601	Keyboard	3	37	0	Left
+295609	ShowSlide	4	303	0	Image: fixcross.jpg
+297610	ShowSlide	4	304	0	Image: _beta=1.7_r=100_phi=45_seed=28.png
+297811	ShowSlide	4	305	0	Image: mask.jpg
+298313	ShowSlide	4	306	0	Image: respdot.jpg
+298673	Keyboard	3	37	0	Left
+298684	ShowSlide	4	307	0	Image: breakrest.jpg
+299601	Keyboard	3	37	0	Left
+299607	ShowSlide	4	308	0	Image: fixcross.jpg
+301608	ShowSlide	4	309	0	Image: _beta=1.6_r=TA_seed=4.png
+301809	ShowSlide	4	310	0	Image: mask.jpg
+302312	ShowSlide	4	311	0	Image: respdot.jpg
+302721	Keyboard	3	39	0	Right
+302730	ShowSlide	4	312	0	Image: fixcross.jpg
+304730	ShowSlide	4	313	0	Image: _beta=1.6_r=400_phi=180_seed=10.png
+304931	ShowSlide	4	314	0	Image: mask.jpg
+305435	ShowSlide	4	315	0	Image: respdot.jpg
+305905	Keyboard	3	39	0	Right
+305916	ShowSlide	4	316	0	Image: fixcross.jpg
+307916	ShowSlide	4	317	0	Image: _beta=1.65_r=250_phi=315_seed=16.png
+308118	ShowSlide	4	318	0	Image: mask.jpg
+308621	ShowSlide	4	319	0	Image: respdot.jpg
+309169	Keyboard	3	39	0	Right
+309179	ShowSlide	4	320	0	Image: fixcross.jpg
+311179	ShowSlide	4	321	0	Image: _beta=1.6_r=450_phi=0_seed=2.png
+311380	ShowSlide	4	322	0	Image: mask.jpg
+311883	ShowSlide	4	323	0	Image: respdot.jpg
+312337	Keyboard	3	39	0	Right
+312340	ShowSlide	4	324	0	Image: breakrest.jpg
+313265	Keyboard	3	39	0	Right
+313273	ShowSlide	4	325	0	Image: fixcross.jpg
+315273	ShowSlide	4	326	0	Image: _beta=1.7_r=TA_seed=21.png
+315474	ShowSlide	4	327	0	Image: mask.jpg
+315977	ShowSlide	4	328	0	Image: respdot.jpg
+316609	Keyboard	3	39	0	Right
+316619	ShowSlide	4	329	0	Image: fixcross.jpg
+318620	ShowSlide	4	330	0	Image: _beta=1.6_r=TA_seed=9.png
+318821	ShowSlide	4	331	0	Image: mask.jpg
+319317	ShowSlide	4	332	0	Image: respdot.jpg
+319841	Keyboard	3	39	0	Right
+319852	ShowSlide	4	333	0	Image: fixcross.jpg
+321853	ShowSlide	4	334	0	Image: _beta=1.6_r=150_phi=270_seed=5.png
+322054	ShowSlide	4	335	0	Image: mask.jpg
+322557	ShowSlide	4	336	0	Image: respdot.jpg
+323217	Keyboard	3	39	0	Right
+323221	ShowSlide	4	337	0	Image: fixcross.jpg
+325222	ShowSlide	4	338	0	Image: _beta=1.6_r=200_phi=0_seed=1.png
+325424	ShowSlide	4	339	0	Image: mask.jpg
+325927	ShowSlide	4	340	0	Image: respdot.jpg
+326624	Keyboard	3	39	0	Right
+326631	ShowSlide	4	341	0	Image: breakrest.jpg
+327792	Keyboard	3	39	0	Right
+327800	ShowSlide	4	342	0	Image: fixcross.jpg
+329800	ShowSlide	4	343	0	Image: _beta=1.6_r=250_phi=135_seed=1.png
+330001	ShowSlide	4	344	0	Image: mask.jpg
+330504	ShowSlide	4	345	0	Image: respdot.jpg
+331136	Keyboard	3	39	0	Right
+331147	ShowSlide	4	346	0	Image: fixcross.jpg
+333147	ShowSlide	4	347	0	Image: _beta=1.7_r=250_phi=45_seed=28.png
+333348	ShowSlide	4	348	0	Image: mask.jpg
+333852	ShowSlide	4	349	0	Image: respdot.jpg
+334352	Keyboard	3	37	0	Left
+334354	ShowSlide	4	350	0	Image: fixcross.jpg
+336354	ShowSlide	4	351	0	Image: _beta=1.7_r=350_phi=270_seed=24.png
+336555	ShowSlide	4	352	0	Image: mask.jpg
+337058	ShowSlide	4	353	0	Image: respdot.jpg
+337392	Keyboard	3	39	0	Right
+337399	ShowSlide	4	354	0	Image: fixcross.jpg
+339400	ShowSlide	4	355	0	Image: _beta=1.7_r=TA_seed=22.png
+339601	ShowSlide	4	356	0	Image: mask.jpg
+340104	ShowSlide	4	357	0	Image: respdot.jpg
+345984	Keyboard	3	39	0	Right
+345986	ShowSlide	4	358	0	Image: breakrest.jpg
+362224	Keyboard	3	37	0	Left
+362228	ShowSlide	4	359	0	Image: fixcross.jpg
+364228	ShowSlide	4	360	0	Image: _beta=1.65_r=350_phi=270_seed=15.png
+364429	ShowSlide	4	361	0	Image: mask.jpg
+364931	ShowSlide	4	362	0	Image: respdot.jpg
+365232	Keyboard	3	39	0	Right
+365243	ShowSlide	4	363	0	Image: fixcross.jpg
+367244	ShowSlide	4	364	0	Image: _beta=1.65_r=100_phi=45_seed=13.png
+367446	ShowSlide	4	365	0	Image: mask.jpg
+367948	ShowSlide	4	366	0	Image: respdot.jpg
+368400	Keyboard	3	39	0	Right
+368409	ShowSlide	4	367	0	Image: fixcross.jpg
+370409	ShowSlide	4	368	0	Image: _beta=1.7_r=TA_seed=28.png
+370610	ShowSlide	4	369	0	Image: mask.jpg
+371112	ShowSlide	4	370	0	Image: respdot.jpg
+371664	Keyboard	3	39	0	Right
+371669	ShowSlide	4	371	0	Image: fixcross.jpg
+373670	ShowSlide	4	372	0	Image: _beta=1.7_r=TA_seed=30.png
+373871	ShowSlide	4	373	0	Image: mask.jpg
+374373	ShowSlide	4	374	0	Image: respdot.jpg
+374784	Keyboard	3	39	0	Right
+374787	ShowSlide	4	375	0	Image: breakrest.jpg
+375568	Keyboard	3	39	0	Right
+375570	ShowSlide	4	376	0	Image: fixcross.jpg
+377570	ShowSlide	4	377	0	Image: _beta=1.65_r=TA_seed=18.png
+377772	ShowSlide	4	378	0	Image: mask.jpg
+378275	ShowSlide	4	379	0	Image: respdot.jpg
+378784	Keyboard	3	39	0	Right
+378789	ShowSlide	4	380	0	Image: fixcross.jpg
+380789	ShowSlide	4	381	0	Image: _beta=1.6_r=50_phi=0_seed=2.png
+380990	ShowSlide	4	382	0	Image: mask.jpg
+381493	ShowSlide	4	383	0	Image: respdot.jpg
+381872	Keyboard	3	39	0	Right
+381879	ShowSlide	4	384	0	Image: fixcross.jpg
+383880	ShowSlide	4	385	0	Image: _beta=1.7_r=350_phi=225_seed=25.png
+384081	ShowSlide	4	386	0	Image: mask.jpg
+384584	ShowSlide	4	387	0	Image: respdot.jpg
+385040	Keyboard	3	40	0	Down
+385045	ShowSlide	4	388	0	Image: fixcross.jpg
+387045	ShowSlide	4	389	0	Image: _beta=1.65_r=200_phi=135_seed=17.png
+387246	ShowSlide	4	390	0	Image: mask.jpg
+387749	ShowSlide	4	391	0	Image: respdot.jpg
+388912	Keyboard	3	39	0	Right
+388915	ShowSlide	4	392	0	Image: breakrest.jpg
+390464	Keyboard	3	39	0	Right
+390471	ShowSlide	4	393	0	Image: fixcross.jpg
+392472	ShowSlide	4	394	0	Image: _beta=1.7_r=150_phi=270_seed=25.png
+392673	ShowSlide	4	395	0	Image: mask.jpg
+393176	ShowSlide	4	396	0	Image: respdot.jpg
+393599	Keyboard	3	37	0	Left
+393603	ShowSlide	4	397	0	Image: fixcross.jpg
+395604	ShowSlide	4	398	0	Image: _beta=1.6_r=TA_seed=2.png
+395806	ShowSlide	4	399	0	Image: mask.jpg
+396308	ShowSlide	4	400	0	Image: respdot.jpg
+396799	Keyboard	3	39	0	Right
+396801	ShowSlide	4	401	0	Image: fixcross.jpg
+398802	ShowSlide	4	402	0	Image: _beta=1.6_r=200_phi=315_seed=10.png
+399003	ShowSlide	4	403	0	Image: mask.jpg
+399506	ShowSlide	4	404	0	Image: respdot.jpg
+400191	Keyboard	3	39	0	Right
+400203	ShowSlide	4	405	0	Image: fixcross.jpg
+402203	ShowSlide	4	406	0	Image: _beta=1.6_r=300_phi=315_seed=2.png
+402404	ShowSlide	4	407	0	Image: mask.jpg
+402907	ShowSlide	4	408	0	Image: respdot.jpg
+403423	Keyboard	3	39	0	Right
+403429	ShowSlide	4	409	0	Image: breakrest.jpg
+404255	Keyboard	3	39	0	Right
+404264	ShowSlide	4	410	0	Image: fixcross.jpg
+406265	ShowSlide	4	411	0	Image: _beta=1.65_r=350_phi=45_seed=19.png
+406468	ShowSlide	4	412	0	Image: mask.jpg
+406971	ShowSlide	4	413	0	Image: respdot.jpg
+407327	Keyboard	3	39	0	Right
+407333	ShowSlide	4	414	0	Image: fixcross.jpg
+409333	ShowSlide	4	415	0	Image: _beta=1.6_r=300_phi=270_seed=2.png
+409535	ShowSlide	4	416	0	Image: mask.jpg
+410039	ShowSlide	4	417	0	Image: respdot.jpg
+410463	Keyboard	3	37	0	Left
+410469	ShowSlide	4	418	0	Image: fixcross.jpg
+412469	ShowSlide	4	419	0	Image: _beta=1.7_r=250_phi=225_seed=27.png
+412670	ShowSlide	4	420	0	Image: mask.jpg
+413173	ShowSlide	4	421	0	Image: respdot.jpg
+413519	Keyboard	3	39	0	Right
+413524	ShowSlide	4	422	0	Image: fixcross.jpg
+415525	ShowSlide	4	423	0	Image: _beta=1.65_r=150_phi=135_seed=16.png
+415727	ShowSlide	4	424	0	Image: mask.jpg
+416229	ShowSlide	4	425	0	Image: respdot.jpg
+416623	Keyboard	3	37	0	Left
+416633	ShowSlide	4	426	0	Image: breakrest.jpg
+431599	Keyboard	3	37	0	Left
+431607	ShowSlide	4	427	0	Image: fixcross.jpg
+433608	ShowSlide	4	428	0	Image: _beta=1.65_r=100_phi=315_seed=16.png
+433810	ShowSlide	4	429	0	Image: mask.jpg
+434311	ShowSlide	4	430	0	Image: respdot.jpg
+434799	Keyboard	3	37	0	Left
+434804	ShowSlide	4	431	0	Image: fixcross.jpg
+436805	ShowSlide	4	432	0	Image: _beta=1.65_r=100_phi=315_seed=18.png
+437006	ShowSlide	4	433	0	Image: mask.jpg
+437508	ShowSlide	4	434	0	Image: respdot.jpg
+437935	Keyboard	3	37	0	Left
+437937	ShowSlide	4	435	0	Image: fixcross.jpg
+439937	ShowSlide	4	436	0	Image: _beta=1.7_r=450_phi=135_seed=26.png
+440138	ShowSlide	4	437	0	Image: mask.jpg
+440640	ShowSlide	4	438	0	Image: respdot.jpg
+441087	Keyboard	3	37	0	Left
+441089	ShowSlide	4	439	0	Image: fixcross.jpg
+443090	ShowSlide	4	440	0	Image: _beta=1.7_r=450_phi=90_seed=23.png
+443291	ShowSlide	4	441	0	Image: mask.jpg
+443793	ShowSlide	4	442	0	Image: respdot.jpg
+444175	Keyboard	3	39	0	Right
+444186	ShowSlide	4	443	0	Image: breakrest.jpg
+444911	Keyboard	3	39	0	Right
+444915	ShowSlide	4	444	0	Image: fixcross.jpg
+446915	ShowSlide	4	445	0	Image: _beta=1.6_r=250_phi=225_seed=4.png
+447117	ShowSlide	4	446	0	Image: mask.jpg
+447619	ShowSlide	4	447	0	Image: respdot.jpg
+448047	Keyboard	3	39	0	Right
+448058	ShowSlide	4	448	0	Image: fixcross.jpg
+450058	ShowSlide	4	449	0	Image: _beta=1.7_r=100_phi=180_seed=30.png
+450260	ShowSlide	4	450	0	Image: mask.jpg
+450764	ShowSlide	4	451	0	Image: respdot.jpg
+451183	Keyboard	3	37	0	Left
+451193	ShowSlide	4	452	0	Image: fixcross.jpg
+453193	ShowSlide	4	453	0	Image: _beta=1.7_r=100_phi=225_seed=28.png
+453394	ShowSlide	4	454	0	Image: mask.jpg
+453898	ShowSlide	4	455	0	Image: respdot.jpg
+454239	Keyboard	3	37	0	Left
+454250	ShowSlide	4	456	0	Image: fixcross.jpg
+456250	ShowSlide	4	457	0	Image: _beta=1.65_r=400_phi=45_seed=13.png
+456452	ShowSlide	4	458	0	Image: mask.jpg
+456954	ShowSlide	4	459	0	Image: respdot.jpg
+457247	Keyboard	3	39	0	Right
+457250	ShowSlide	4	460	0	Image: breakrest.jpg
+457999	Keyboard	3	39	0	Right
+458000	ShowSlide	4	461	0	Image: fixcross.jpg
+460001	ShowSlide	4	462	0	Image: _beta=1.7_r=350_phi=0_seed=22.png
+460203	ShowSlide	4	463	0	Image: mask.jpg
+460705	ShowSlide	4	464	0	Image: respdot.jpg
+461279	Keyboard	3	39	0	Right
+461284	ShowSlide	4	465	0	Image: fixcross.jpg
+463285	ShowSlide	4	466	0	Image: _beta=1.7_r=150_phi=135_seed=28.png
+463486	ShowSlide	4	467	0	Image: mask.jpg
+463990	ShowSlide	4	468	0	Image: respdot.jpg
+464478	Keyboard	3	37	0	Left
+464483	ShowSlide	4	469	0	Image: fixcross.jpg
+466483	ShowSlide	4	470	0	Image: _beta=1.6_r=300_phi=315_seed=4.png
+466684	ShowSlide	4	471	0	Image: mask.jpg
+467187	ShowSlide	4	472	0	Image: respdot.jpg
+467534	Keyboard	3	39	0	Right
+467540	ShowSlide	4	473	0	Image: fixcross.jpg
+469540	ShowSlide	4	474	0	Image: _beta=1.65_r=400_phi=315_seed=14.png
+469743	ShowSlide	4	475	0	Image: mask.jpg
+470245	ShowSlide	4	476	0	Image: respdot.jpg
+470606	Keyboard	3	39	0	Right
+470617	ShowSlide	4	477	0	Image: breakrest.jpg
+472190	Keyboard	3	39	0	Right
+472194	ShowSlide	4	478	0	Image: fixcross.jpg
+474195	ShowSlide	4	479	0	Image: _beta=1.6_r=200_phi=315_seed=3.png
+474397	ShowSlide	4	480	0	Image: mask.jpg
+474891	ShowSlide	4	481	0	Image: respdot.jpg
+475646	Keyboard	3	39	0	Right
+475651	ShowSlide	4	482	0	Image: fixcross.jpg
+477651	ShowSlide	4	483	0	Image: _beta=1.6_r=50_phi=225_seed=1.png
+477852	ShowSlide	4	484	0	Image: mask.jpg
+478355	ShowSlide	4	485	0	Image: respdot.jpg
+478734	Keyboard	3	39	0	Right
+478739	ShowSlide	4	486	0	Image: fixcross.jpg
+480740	ShowSlide	4	487	0	Image: _beta=1.7_r=100_phi=225_seed=22.png
+480941	ShowSlide	4	488	0	Image: mask.jpg
+481444	ShowSlide	4	489	0	Image: respdot.jpg
+481838	Keyboard	3	37	0	Left
+481849	ShowSlide	4	490	0	Image: fixcross.jpg
+483849	ShowSlide	4	491	0	Image: _beta=1.65_r=50_phi=180_seed=19.png
+484051	ShowSlide	4	492	0	Image: mask.jpg
+484554	ShowSlide	4	493	0	Image: respdot.jpg
+484926	Keyboard	3	39	0	Right
+484936	ShowSlide	4	494	0	Image: breakrest.jpg
+485614	Keyboard	3	39	0	Right
+485623	ShowSlide	4	495	0	Image: fixcross.jpg
+487624	ShowSlide	4	496	0	Image: _beta=1.6_r=250_phi=0_seed=7.png
+487826	ShowSlide	4	497	0	Image: mask.jpg
+488328	ShowSlide	4	498	0	Image: respdot.jpg
+488750	Keyboard	3	39	0	Right
+488757	ShowSlide	4	499	0	Image: fixcross.jpg
+490757	ShowSlide	4	500	0	Image: _beta=1.65_r=250_phi=0_seed=18.png
+490959	ShowSlide	4	501	0	Image: mask.jpg
+491460	ShowSlide	4	502	0	Image: respdot.jpg
+491934	Keyboard	3	37	0	Left
+491943	ShowSlide	4	503	0	Image: fixcross.jpg
+493943	ShowSlide	4	504	0	Image: _beta=1.65_r=350_phi=225_seed=18.png
+494145	ShowSlide	4	505	0	Image: mask.jpg
+494647	ShowSlide	4	506	0	Image: respdot.jpg
+495198	Keyboard	3	39	0	Right
+495205	ShowSlide	4	507	0	Image: fixcross.jpg
+497205	ShowSlide	4	508	0	Image: _beta=1.65_r=100_phi=45_seed=16.png
+497407	ShowSlide	4	509	0	Image: mask.jpg
+497909	ShowSlide	4	510	0	Image: respdot.jpg
+498302	Keyboard	3	39	0	Right
+498312	ShowSlide	4	511	0	Image: breakrest.jpg
+580845	Keyboard	3	37	0	Left
+580857	ShowSlide	4	512	0	Image: fixcross.jpg
+582864	ShowSlide	4	513	0	Image: _beta=1.7_r=TA_seed=27.png
+583067	ShowSlide	4	514	0	Image: mask.jpg
+583562	ShowSlide	4	515	0	Image: respdot.jpg
+583917	Keyboard	3	39	0	Right
+583923	ShowSlide	4	516	0	Image: fixcross.jpg
+585926	ShowSlide	4	517	0	Image: _beta=1.6_r=300_phi=270_seed=1.png
+586127	ShowSlide	4	518	0	Image: mask.jpg
+586630	ShowSlide	4	519	0	Image: respdot.jpg
+587005	Keyboard	3	39	0	Right
+587016	ShowSlide	4	520	0	Image: fixcross.jpg
+589017	ShowSlide	4	521	0	Image: _beta=1.7_r=TA_seed=25.png
+589217	ShowSlide	4	522	0	Image: mask.jpg
+589721	ShowSlide	4	523	0	Image: respdot.jpg
+590061	Keyboard	3	39	0	Right
+590064	ShowSlide	4	524	0	Image: fixcross.jpg
+592065	ShowSlide	4	525	0	Image: _beta=1.65_r=TA_seed=13.png
+592267	ShowSlide	4	526	0	Image: mask.jpg
+592770	ShowSlide	4	527	0	Image: respdot.jpg
+593085	Keyboard	3	39	0	Right
+593087	ShowSlide	4	528	0	Image: breakrest.jpg
+593677	Keyboard	3	39	0	Right
+593687	ShowSlide	4	529	0	Image: fixcross.jpg
+595688	ShowSlide	4	530	0	Image: _beta=1.7_r=100_phi=135_seed=27.png
+595889	ShowSlide	4	531	0	Image: mask.jpg
+596392	ShowSlide	4	532	0	Image: respdot.jpg
+596797	Keyboard	3	37	0	Left
+596798	ShowSlide	4	533	0	Image: fixcross.jpg
+598799	ShowSlide	4	534	0	Image: _beta=1.7_r=250_phi=90_seed=29.png
+599001	ShowSlide	4	535	0	Image: mask.jpg
+599504	ShowSlide	4	536	0	Image: respdot.jpg
+600188	Keyboard	3	39	0	Right
+600190	ShowSlide	4	537	0	Image: fixcross.jpg
+602190	ShowSlide	4	538	0	Image: _beta=1.7_r=300_phi=225_seed=30.png
+602391	ShowSlide	4	539	0	Image: mask.jpg
+602894	ShowSlide	4	540	0	Image: respdot.jpg
+603164	Keyboard	3	39	0	Right
+603171	ShowSlide	4	541	0	Image: fixcross.jpg
+605172	ShowSlide	4	542	0	Image: _beta=1.6_r=TA_seed=8.png
+605372	ShowSlide	4	543	0	Image: mask.jpg
+605875	ShowSlide	4	544	0	Image: respdot.jpg
+606188	Keyboard	3	39	0	Right
+606193	ShowSlide	4	545	0	Image: breakrest.jpg
+606924	Keyboard	3	39	0	Right
+606932	ShowSlide	4	546	0	Image: fixcross.jpg
+608932	ShowSlide	4	547	0	Image: _beta=1.65_r=400_phi=45_seed=12.png
+609134	ShowSlide	4	548	0	Image: mask.jpg
+609637	ShowSlide	4	549	0	Image: respdot.jpg
+610124	Keyboard	3	39	0	Right
+610130	ShowSlide	4	550	0	Image: fixcross.jpg
+612131	ShowSlide	4	551	0	Image: _beta=1.6_r=300_phi=45_seed=7.png
+612333	ShowSlide	4	552	0	Image: mask.jpg
+612827	ShowSlide	4	553	0	Image: respdot.jpg
+613292	Keyboard	3	39	0	Right
+613297	ShowSlide	4	554	0	Image: fixcross.jpg
+615297	ShowSlide	4	555	0	Image: _beta=1.6_r=200_phi=225_seed=5.png
+615499	ShowSlide	4	556	0	Image: mask.jpg
+616001	ShowSlide	4	557	0	Image: respdot.jpg
+616588	Keyboard	3	39	0	Right
+616600	ShowSlide	4	558	0	Image: fixcross.jpg
+618601	ShowSlide	4	559	0	Image: _beta=1.7_r=TA_seed=25.png
+618802	ShowSlide	4	560	0	Image: mask.jpg
+619305	ShowSlide	4	561	0	Image: respdot.jpg
+620316	Keyboard	3	39	0	Right

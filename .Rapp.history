@@ -1,0 +1,385 @@
+setwd("Desktop/StochasticSearch")
+dat <- read.csv("targetDetExp/rawAccDat.csv")
+dir()
+dat <- read.csv("targetDetExp/rawAccDat.txt")
+dat <- read.csv("targetDetExp/rawAccDat.csv")
+dat <- read.csv("targetDetExp/rawAccDat.txt")
+summary(dat)
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)
+library(ggplot2)
+ggplot(dat, aes(x=phi, y=acc, colour=r))+ geom_smooth()
+ggplot(dat, aes(x=phi, y=acc, colour=r))+ geom_point())
+ggplot(dat, aes(x=phi, y=acc, colour=r))+ geom_point()
+ggplot(dat, aes(x=phi, y=acc, colour=as.factor(r)))+ geom_point()
+ggplot(dat, aes(x=phi, y=acc, colour=as.factor(r)))+ geom_path()
+ggplot(dat, aes(x=phi, y=acc, colour=as.factor(r)))+ geom_path() + facet_grid(.~obs)
+ggplot(dat, aes(x=phi, y=acc, colour=as.factor(r)))+ geom_path() + facet_grid(beta~obs)
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_path() + facet_grid(obs~r)
+levels(dat$phi)
+level(dat$phi)
+label(dat$phi)
+labels(dat$phi)
+dat$phi = 45 * dat$phi - 45
+labels(dat$phi)
+dat$phi
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_path() + facet_grid(obs~r)
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_path() + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_point() + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_bar() + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_bar(width=1) + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_smooth(width=1) + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_point() + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_bar() + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_bar(stat=bin) + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_bar(stat="bin") + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_bar(stat="identity") + facet_grid(obs~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_bar(stat="identity") + facet_grid(beta~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=obs), width=12, height=5)+ geom_bar(stat="identity") + facet_grid(beta~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path(stat="identity") + facet_grid(beta~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_smooth() + facet_grid(beta~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path()) + facet_grid(beta~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path() + facet_grid(beta~r)+coord_polar()
+ggsave("polarPlotsAcc.png")
+summary(dat)
+dat$X = dat$r * cosd(dat$phi)
+dat$X = dat$r * cos(dat$phi*pi/180
+)
+dat$X
+dat$X = dat$r * cos(dat$phi*pi/180)
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+plot(dat$X, day$Y)
+plot(dat$X, dat$Y)
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-((X/zx[beta])^2 + (X/zy[beta])^2), #
+	data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4),ky=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+)
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-((X/zx[beta])^2 + (X/zy[beta])^2)), #
+	data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4),ky=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-((X/zx[beta])^2 + (X/zy[beta])^2)), #
+	data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4),zy=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+summary(dat)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (X/zy[beta])^2)), #
+	data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4),zy=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (X/zy[beta])^2)), #
+	data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (X/zy[beta])^2)), #
+	data=dat, start = list(a=c(1,1,1), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zy[beta])^2)), #
+	data=dat, start = list(a=c(1,1,1), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+summary(targetDetectionModel)
+p <- ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_points() + facet_grid(obs~r)
+p <- ggplot(dat, aes(x=phi, y=acc, colour=beta))+ geom_point() + facet_grid(obs~r)
+p <- p  + geom_line(aes(y=fitted(targetDetectionModel)))
+p
+ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path() + facet_grid(beta~r)+coord_polar()
+ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path() + facet_grid(beta~r)+coord_polar()
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path() + facet_grid(beta~r)+coord_polar()
+p <- p  + geom_line(aes(y=fitted(targetDetectionModel)))
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_points() + facet_grid(beta~r)+coord_polar()
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()
+p <- p  + geom_line(aes(y=fitted(targetDetectionModel)))
+p
+dat$R <- sqrt(dat$X^2 + dat$Y^2)
+summary(dat)
+dat$R == dat$r
+dat$R - dat$r
+max(dat$R - dat$r)
+dat$R <- as.factor(50*dat$R)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zy[beta])^2)), #
+	data=dat, start = list(a=c(1,1,1), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+library(ggplot2)
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$R <- as.factor(50*dat$R)#
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path() + facet_grid(beta~r)+coord_polar()#
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+summary(dat)
+dat$R <- as.factor(50*dat$r)
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_path() + facet_grid(beta~r)+coord_polar()#
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zy[beta])^2)), #
+	data=dat, start = list(a=c(1,1,1), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))#
+#
+p <- p  + geom_line(aes(y=fitted(targetDetectionModel)))
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()
+p <- p  + geom_line(aes(y=fitted(targetDetectionModel)))
+p
+dat$X
+mean(dat$X)
+mean(dat$Y)
+dat$r <- 50*dat$r
+summary(dat)
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+summary(dat)
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()
+p
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zy[beta])^2)), #
+	data=dat, start = list(a=c(1,1,1), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zy[beta])^2)), #
+	data=dat, start = list(a=c(1,1,1), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zx[beta])^2)), #
+	data=dat, start = list(a=c(1,1,1), zx=c(4,4,4),zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10),zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zx[beta])^2)), #
+	data=dat, start = list(a=1, zx=4), lower=c(z=0), upper= c(a=1, zx=10), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx[beta])^2 + (Y/zx[beta])^2)), #
+	data=dat, start = list(a=1, zx=4), lower=c(a=0, zx=0), upper= c(a=1, zx=10), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-((X/zx)^2 + (Y/zx)^2)), #
+	data=dat, start = list(a=1, zx=4), lower=c(a=0, zx=0), upper= c(a=1, zx=10), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/zx)^2 + (Y/zx)^2) ), #
+	data=dat, start = list(a=1, zx=c(4,4,4), lower=c(a=0, zx=0), upper= c(a=1, zx=10), algorithm="port", nls.control(maxiter = 5000))
+)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/zx)^2 + (Y/zx)^2) ), #
+	data=dat, start = list(a=1, zx=c(4,4,4)), lower=c(a=0, zx=0), upper= c(a=1, zx=10), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/zx)^2 + (Y/zx)^2) ), #
+	data=dat, start = list(a=1, zx=c(4,4,4)), lower=c(a=0, zx=0), upper= c(a=1, zx=100), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/zx)^2 + (Y/zx)^2) ), #
+	data=dat, start = list(a=1, zx=c(4,4,4)), lower=c(a=0,), upper= c(a=1, zx=100), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-(ecc/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(ecc/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(r/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+dat1 <- read.table("targetDetExp/acc1.csv", sep = ",")#
+dat2 <- read.table("targetDetExp/acc2.csv", sep = ",")#
+dat1$ecc = 50*1:9#
+dat2$ecc = 50*1:9#
+dat1 <- melt(dat1, id.vars="ecc")#
+dat2 <- melt(dat2, id.vars="ecc")#
+dat = rbind(dat1, dat2)#
+dat$obs <- as.factor(c(rep("A", 27), rep("B", 27)))#
+names(dat) <- c("ecc", "beta", "prob", "obs")#
+levels(dat$beta) <- c("1.6", "1.65", "1.7")#
+dat$ecc <- dat$ecc / 60 # approx vis degrees. .. fix properly later#
+# fitGaussian function to data#
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-(ecc/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))#
+p <- ggplot(dat, aes(x=ecc, y=prob, colour=beta, shape=obs)) + geom_point() + geom_line(aes(y=fitted(targetDetectionModel)))
+library(reshape2)#
+library(ggplot2)#
+#
+dat1 <- read.table("targetDetExp/acc1.csv", sep = ",")#
+dat2 <- read.table("targetDetExp/acc2.csv", sep = ",")#
+dat1$ecc = 50*1:9#
+dat2$ecc = 50*1:9#
+dat1 <- melt(dat1, id.vars="ecc")#
+dat2 <- melt(dat2, id.vars="ecc")#
+dat = rbind(dat1, dat2)#
+dat$obs <- as.factor(c(rep("A", 27), rep("B", 27)))#
+names(dat) <- c("ecc", "beta", "prob", "obs")#
+levels(dat$beta) <- c("1.6", "1.65", "1.7")#
+dat$ecc <- dat$ecc / 60 # approx vis degrees. .. fix properly later#
+# fitGaussian function to data#
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-(ecc/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))#
+p <- ggplot(dat, aes(x=ecc, y=prob, colour=beta, shape=obs)) + geom_point() + geom_line(aes(y=fitted(targetDetectionModel)))
+p
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$r <- 50*dat$r#
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)#
+#
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(r/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+#
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)#
+#
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(r/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/z[beta])^2 + (Y/z[beta])^2 ), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/z[beta])^2 + (Y/z[beta])^2 )) data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/z[beta])^2 + (Y/z[beta])^2 )), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/z[beta])^2 + (Y/z[beta])^2 )), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+summary(dat)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (r/z[beta])^2 )), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (r/z[beta])^2 )), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(1,1,1),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (50*r/z[beta])^2 )), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+dat1 <- read.table("targetDetExp/acc1.csv", sep = ",")#
+dat2 <- read.table("targetDetExp/acc2.csv", sep = ",")#
+dat1$ecc = 50*1:9#
+dat2$ecc = 50*1:9#
+dat1 <- melt(dat1, id.vars="ecc")#
+dat2 <- melt(dat2, id.vars="ecc")#
+dat = rbind(dat1, dat2)#
+dat$obs <- as.factor(c(rep("A", 27), rep("B", 27)))#
+names(dat) <- c("ecc", "beta", "prob", "obs")#
+levels(dat$beta) <- c("1.6", "1.65", "1.7")#
+dat$ecc <- dat$ecc / 60 # approx vis degrees. .. fix properly later#
+# fitGaussian function to data#
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-(ecc/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+summary(dat)
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45
+summary(dat)
+dat$r <- 5/6 * dat$r
+summary(dat)
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+exp(-0)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/z[beta])^2 + (Y/z[beta])^2 )) data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (X/z[beta])^2 + (Y/z[beta])^2 )), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (r/z[beta])^2 ), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-( (r/z[beta])^2 )), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+summary(dat)
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-(r/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(r/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(prob ~ a[beta] * exp(-(X/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/z[beta])^k[beta]), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/z[beta])^2), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(r/z[beta])^2), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4),k=c(2,2,2)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10),k=c(5,5,5)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(r/z[beta])^2), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/z[beta])^2), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/z[beta])^2-(Y/z[beta])^2), data=dat, start = list(a=c(.5,.5,.5), z=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), z=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+summary(targetDetectionModel)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()
+p <- p  + geom_line(aes(y=fitted(targetDetectionModel)))
+p
+predict(targetDetectionModel, 3)
+dat$predictions = predict(targetDetectionModel, dat)
+sumamry(dat)
+summary(dat)
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))#
+p <- p  + geom_line(aes(y=predictions))
+p
+dat$p = predict(targetDetectionModel, dat)#
+#
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))#
+p <- p  + geom_line(aes(y=p))
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=p))
+p
+p <- ggplot(dat, aes(x=phi, y=acc))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=p))
+p
+p <- ggplot(dat, aes(x=phi, y=acc))+ geom_point() + facet_grid(beta~r)+coord_polar()
+p
+library(ggplot2)
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$r <- 5/6 * dat$r#
+#
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()
+p
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$phi <- dat$phi * pi / 180#
+dat$r <- 5/6 * dat$r#
+#
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()
+p
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)
+p
+p <- p  + geom_line(aes(y=p))
+p
+dat$modelFit = predict(targetDetectionModel, dat)
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$phi <- dat$phi * pi / 180#
+dat$r <- 5/6 * dat$r#
+#
+dat$X = dat$r * cos(dat$phi*pi/180)#
+dat$Y = dat$r * sin(dat$phi*pi/180)#
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))#
+dat$modelFit = predict(targetDetectionModel, dat)#
+#
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))
+p
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$phi <- dat$phi * pi / 180#
+dat$r <- 5/6 * dat$r#
+#
+dat$X = dat$r * cos(dat$phi)#
+dat$Y = dat$r * sin(dat$phi)#
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))#
+dat$modelFit = predict(targetDetectionModel, dat)#
+#
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))
+p
+hist(dat$phi)
+summary(as.factor(dat$phi))
+(as.factor(dat$phi))
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$phi <- dat$phi * pi / 180#
+dat$r <- 5/6 * dat$r#
+#
+dat$X = dat$r * cos(dat$phi)#
+dat$Y = dat$r * sin(dat$phi)#
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))#
+dat$modelFit = predict(targetDetectionModel, dat)#
+#
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)#+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)
+p <- p  + geom_line(aes(y=modelFit))
+p
+p <- p  + geom_line(aes(y=modelFit, colour="black"))
+p
+dat <- read.csv("targetDetExp/rawAccDat.txt")#
+dat$obs <- as.factor(dat$obs)#
+dat$beta <- as.factor(dat$beta)#
+dat$phi = 45 * dat$phi - 45#
+dat$phi <- dat$phi * pi / 180#
+dat$r <- 5/6 * dat$r#
+#
+dat$X = dat$r * cos(dat$phi)#
+dat$Y = dat$r * sin(dat$phi)#
+targetDetectionModel <- nls(acc ~ a[beta] * exp(-(X/zx[beta])^2-(Y/zy[beta])^2), data=dat, start = list(a=c(.5,.5,.5), zx=c(4,4,4), zy=c(4,4,4)), lower=c(z=0), upper= c(a=c(1,1,1), zx=c(10,10,10), zy=c(10,10,10)), algorithm="port", nls.control(maxiter = 5000))#
+dat$modelFit = predict(targetDetectionModel, dat)#
+#
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)#+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))
+p
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)+coord_polar()#
+p <- p  + geom_line(aes(y=modelFit))
+p
+p <- ggplot(dat, aes(x=phi, y=acc, colour=obs))+ geom_point() + facet_grid(beta~r)#
+p <- p  + geom_line(aes(y=modelFit))
+p
+summary(targetDetectionModel)

@@ -1,0 +1,1074 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fa",
+				"factor"
+			],
+			[
+				"hem",
+				"hemiType"
+			],
+			[
+				"fix",
+				"fixCross"
+			],
+			[
+				"he",
+				"hemiType"
+			],
+			[
+				"targ",
+				"targPres"
+			],
+			[
+				"trial",
+				"trialDat"
+			],
+			[
+				"from",
+				"fromX"
+			],
+			[
+				"fac",
+				"facet_wrap"
+			],
+			[
+				"n",
+				"numeric"
+			],
+			[
+				"sacc",
+				"saccDat"
+			],
+			[
+				"tria",
+				"trialInfo"
+			],
+			[
+				"geom_",
+				"geom_smooth"
+			],
+			[
+				"geom",
+				"geom_smooth"
+			],
+			[
+				"sum",
+				"sumBias"
+			],
+			[
+				"fi",
+				"fixNum"
+			],
+			[
+				"hi",
+				"horiDist"
+			],
+			[
+				"ho",
+				"horiDist"
+			],
+			[
+				"acc",
+				"accdat"
+			],
+			[
+				"nu",
+				"numFixDat"
+			],
+			[
+				"num",
+				"numFixDat"
+			],
+			[
+				"par",
+				"participantNumber"
+			],
+			[
+				"tiral",
+				"trialInfo"
+			],
+			[
+				"GEOM",
+				"geom_path"
+			],
+			[
+				"pre",
+				"predictionStood"
+			],
+			[
+				"pred",
+				"predictionOptimal"
+			],
+			[
+				"ses",
+				"sess1pred"
+			],
+			[
+				"agg",
+				"aggSess1predictions"
+			],
+			[
+				"off",
+				"off_set"
+			],
+			[
+				"sa",
+				"saccDat"
+			],
+			[
+				"per",
+				"perPersonAcc"
+			],
+			[
+				"tp",
+				"tpTrials"
+			],
+			[
+				"numF",
+				"numFixDat"
+			],
+			[
+				"cat",
+				"catchCorrect"
+			],
+			[
+				"tri",
+				"trialInfo"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"fixa",
+				"fixationLines"
+			],
+			[
+				"tr",
+				"trialStarts"
+			],
+			[
+				"test",
+				"testDat1"
+			],
+			[
+				"cent",
+				"centralP"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"ag",
+				"agDat"
+			],
+			[
+				"a",
+				"accuracy "
+			],
+			[
+				"accD",
+				"accDatAll"
+			],
+			[
+				"f",
+				"frame"
+			],
+			[
+				"all",
+				"allDat2"
+			],
+			[
+				"hoop",
+				"hoopPos"
+			],
+			[
+				"best",
+				"bestpos"
+			],
+			[
+				"m",
+				"mydat"
+			],
+			[
+				"d",
+				"dvmnorm"
+			],
+			[
+				"dp",
+				"dpI2"
+			],
+			[
+				"dprime",
+				"dprimeI"
+			],
+			[
+				"dprim",
+				"dprimeI"
+			],
+			[
+				"dpri",
+				"dprimeI"
+			],
+			[
+				"tra",
+				"traceback"
+			],
+			[
+				"col",
+				"colScale"
+			],
+			[
+				"sla",
+				"slabs_to_test"
+			],
+			[
+				"out",
+				"output"
+			],
+			[
+				"prob",
+				"probCorrectForPosFix"
+			],
+			[
+				"sl",
+				"slabs_to_test"
+			],
+			[
+				"of",
+				"off_set"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"dpr",
+				"dprimeI"
+			],
+			[
+				"dis",
+				"distFromFix"
+			],
+			[
+				"r",
+				"results"
+			],
+			[
+				"slab",
+				"slab90"
+			],
+			[
+				"slb",
+				"slab10"
+			],
+			[
+				"fin",
+				"final_slab"
+			],
+			[
+				"pT",
+				"pTdat"
+			],
+			[
+				"pos",
+				"possFixLocatios"
+			],
+			[
+				"pro",
+				"probCorrectForPosFix"
+			],
+			[
+				"por",
+				"probCorrectForPosFix"
+			],
+			[
+				"probC",
+				"probCorrectForPotFix"
+			],
+			[
+				"scale",
+				"scale_y_continuous"
+			],
+			[
+				"part",
+				"participant"
+			],
+			[
+				"pa",
+				"participant"
+			],
+			[
+				"mod",
+				"modelprob"
+			],
+			[
+				"item",
+				"itemLocations"
+			],
+			[
+				"inte",
+				"integrand"
+			],
+			[
+				"ine",
+				"integrand"
+			],
+			[
+				"int",
+				"integrand"
+			],
+			[
+				"drp",
+				"dprimeE"
+			],
+			[
+				"im",
+				"itemLocations"
+			],
+			[
+				"me",
+				"metric"
+			],
+			[
+				"lo",
+				"logarea"
+			],
+			[
+				"scal",
+				"scale_y_continuous"
+			],
+			[
+				"bean",
+				"beanbagdat"
+			],
+			[
+				"mo",
+				"model"
+			],
+			[
+				"su",
+				"summary"
+			],
+			[
+				"area",
+				"arearesults"
+			],
+			[
+				"are",
+				"arearesults"
+			],
+			[
+				"q",
+				"quantile"
+			],
+			[
+				"da",
+				"day"
+			],
+			[
+				"dev",
+				"deviance"
+			],
+			[
+				"na",
+				"names"
+			],
+			[
+				"log",
+				"logarea"
+			],
+			[
+				"min",
+				"minLogArea"
+			],
+			[
+				"logL",
+				"logLik"
+			],
+			[
+				"ct",
+				"ct_cet"
+			],
+			[
+				"ce",
+				"central"
+			],
+			[
+				"cor",
+				"corResults"
+			],
+			[
+				"b",
+				"beanbagdat"
+			],
+			[
+				"co",
+				"correct"
+			],
+			[
+				"trans",
+				"transList"
+			],
+			[
+				"tran",
+				"transList"
+			],
+			[
+				"mlds",
+				"mldsModel"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"ps",
+				"pscale"
+			],
+			[
+				"pS",
+				"pscale"
+			],
+			[
+				"Obs",
+				"Observer"
+			],
+			[
+				"R",
+				"ResponseN2"
+			],
+			[
+				"fil",
+				"filterbankIm	statement"
+			],
+			[
+				"start",
+				"startScale	statement"
+			],
+			[
+				"ra",
+				"ratioyx	statement"
+			],
+			[
+				"sigma",
+				"sigma_v	statement"
+			],
+			[
+				"un",
+				"uniformLogLik"
+			],
+			[
+				"ex",
+				"expfittedLogLik2"
+			],
+			[
+				"base",
+				"baselineLogLik"
+			],
+			[
+				"exp",
+				"expfittedLogLik"
+			],
+			[
+				"fre",
+				"frequency"
+			],
+			[
+				"mag",
+				"magmean"
+			],
+			[
+				"vis",
+				"visdisScore"
+			],
+			[
+				"nl",
+				"nls4"
+			],
+			[
+				"low",
+				"lowpassSig	statement"
+			],
+			[
+				"lowpass",
+				"lowpassSig"
+			],
+			[
+				"fiter",
+				"filterbank	statement"
+			],
+			[
+				"s",
+				"shape"
+			],
+			[
+				"ban",
+				"bankpowerspec"
+			],
+			[
+				"bank",
+				"bankpowerspec	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "StochasticSearch.tex",
+			"settings":
+			{
+				"buffer_size": 29405,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"R",
+				"SublimeREPL: R"
+			],
+			[
+				"r",
+				"SublimeREPL: R"
+			],
+			[
+				"R ",
+				"SublimeREPL: R"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"p",
+				"SublimeREPL: Python"
+			],
+			[
+				"py",
+				"SublimeREPL: Python"
+			],
+			[
+				"Py",
+				"SublimeREPL: Python"
+			],
+			[
+				"i",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"ip",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"R python",
+				"SublimeREPL: Python"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl",
+				"SublimeREPL: R"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet read",
+				"Snippet: Read From File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rep",
+				"SublimeREPL: R"
+			],
+			[
+				"pref",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"repl R",
+				"SublimeREPL: R"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lat",
+				"LaTeXTools: Reconfigure and migrate settings"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 656.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/s09ac3/Documents/GIT-general-private/2014 StochasticSearch/StochasticSearchManuscript2 revision"
+	],
+	"file_history":
+	[
+		"/Users/s09ac3/Documents/GIT-general-private/2014 StochasticSearch/StochasticSearchManuscript2 revision/pilotStudy.tex",
+		"/Users/s09ac3/Documents/GIT-general-private/2014 StochasticSearch/StochasticSearchManuscript2 revision/mainExperiment.tex",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/analysis/targDetExperiment.R",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/analysis/saccDistEstimation.R",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/analysis/parseEyeTrack.R",
+		"/Users/s09ac3/Documents/checkLeftBias/scriptsToRun/checkLeftBias.R",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/analysis/createSaccDist.R",
+		"/Users/s09ac3/Documents/GIT-general-private/2014 StochasticSearch/targetDetExp/fitTargDetectionModel2.R",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/analysis/basicAnalysis.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtSaccDirection.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/timeCourse.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/initDataProcessing.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/meanHoriPos.R",
+		"/Users/s09ac3/Documents/GIT-general-private/2014 StochasticSearch/targetDetExp/fitTargDetectionModel.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtAccAndRT.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtNumFixAndDur.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/analysePart2ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/analysePart1ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /analysePart2.R",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /analysePart2b.R",
+		"/Users/s09ac3/Documents/GIT-general-private/TextureExpReplication/commonfiles/RMSroughness.m",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /KK2results.txt",
+		"/Users/s09ac3/Documents/My Papers/2014 StochasticSearch/TextureExpReplication/results/ac_99_vs.edf",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /part2hoopPos.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/L3Session1.R",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /JS2results.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/Amelias level3/part2 /JS1results.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /analysePart2.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Alasdair_level3/analysePart2ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Alasdair_level3/analysePart1ac.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /DK1resultsCHECK.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /DK1results.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/L3Session1.R",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /LJ1results.txt",
+		"/Users/s09ac3/Documents/GIT-general-private/level3eyetrack/Amelias Group/part2 /LJ1results.R",
+		"/Users/s09ac3/Documents/GIT-general-private/NG_optimal/ngOpt.R",
+		"/Users/s09ac3/Documents/level3eyetrack/analysePart1ac.R",
+		"/Users/s09ac3/Documents/level3eyetrack/plotpilotLMdata.R",
+		"/Users/s09ac3/Documents/level3eyetrack/Amelias Group/L3Session1.R",
+		"/Users/s09ac3/Documents/level3eyetrack/plotpilotdata3.R",
+		"/Users/s09ac3/Documents/My Papers/2014 StochasticSearch/NG_optimal/ngOpt.R",
+		"/Users/s09ac3/Documents/level3eyetrack/Amelias Group/L3Session3.R",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/EhingerPedestrians/makePlotsAreaSubset.R",
+		"/Users/s09ac3/ObjectSalience/Experiments/makeStimulus.m",
+		"/Users/s09ac3/ObjectSalience/Experiments/lookAtResults.R",
+		"/Users/s09ac3/Documents/level3eyetrack/plotpilotLMdata2.R",
+		"/Users/s09ac3/Documents/WheresWallyComp/VisualSearchStudy.m",
+		"/Users/s09ac3/Downloads/lvl3ah_pilot.txt",
+		"/Users/s09ac3/Documents/MATLAB/vlfeat-0.9.18/toolbox/vl_setup.m",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/writeup/ObjSal.tex",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/NamingData/makeplot.R",
+		"/Users/s09ac3/Documents/level3eyetrack/LouisaTestBeanBags.txt",
+		"/Users/s09ac3/Downloads/BMS-mex/readme.txt",
+		"/Users/s09ac3/Downloads/BMS/readme.txt",
+		"/Users/s09ac3/Documents/level3eyetrack/analysePart1.R",
+		"/Users/s09ac3/ClarkeCocoKeller2013-ObjectNamingDataset/makeExFigure.m",
+		"/Users/s09ac3/Documents/MATLAB/vlfeat-0.9.18/README",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/insensitive2noiseTest/GenFractalTexPublic.m",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/lookAtSaccDirectionByTargPos.R",
+		"/Users/s09ac3/Dropbox/Riloids2/mldsMagEstComparison.R",
+		"/Users/s09ac3/Dropbox/Riloids2/Analysis_part2.R",
+		"/Users/s09ac3/Dropbox/Riloids2/Analysis_part1.R",
+		"/Users/s09ac3/Dropbox/Riloids2/runMLDS.R",
+		"/Users/s09ac3/ObjectSalience/createGoodGaborBank_keep.m",
+		"/Users/s09ac3/ObjectSalience/gaborfilterbank.py",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/SimHemi.sublime-project",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/roseplot.pdf",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/whiteSpaceFixations.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/plotScanpath.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/scripts/SaccIntoBlindSide.R",
+		"/Users/s09ac3/Documents/SimulatedHemianopia/hemiSearch.sublime-project",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/plotScanpath.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/lookAtSaccDirection.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/lookAtAccAndRT.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/flipThings.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/RTandAcc3.txt",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/processedItemlData.txt",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/lookAtNumFixAndDur.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/hemiSearch.sublime-project",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/initDataProcessing.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/SaccIntoBlindSide.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/scripts/tmp.R",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/allTrialData.txt",
+		"/Users/s09ac3/ObjectSalience/objsal.py",
+		"/Users/s09ac3/Documents/StochasticSearch/StochasticSearchManuscript2/literature.bib",
+		"/Users/s09ac3/Documents/StochasticSearch/StochasticSearchManuscript2/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/HumanSaccAmpAndAngle.R",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/getSaccStats.R",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/plotExampleScanpaths.R",
+		"/Users/s09ac3/Documents/StochasticSearch/CompareScanpaths/OneAndTwoStepSaccStats.R",
+		"/Users/s09ac3/Dropbox/StochasticSearchManuscript2/literature.bib",
+		"/Volumes/KINGSTON/BALeverhume/extractData/final.txt",
+		"/Users/s09ac3/Documents/StochasticSearch/NG_optimal/ngOpt.R",
+		"/Users/s09ac3/Dropbox/BALeverhume/AlasdairScripts/riloidRatings.R",
+		"/Users/s09ac3/Dropbox/BALeverhume/EEGresults/EXG3/101s2aEXG3Observ24Steady-Deci-N.txt",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/R.sublime-settings",
+		"/Users/s09ac3/Dropbox/withMicha/objSalModel/testImage4.py",
+		"/Users/s09ac3/Desktop/testImage3.py",
+		"/Users/s09ac3/Documents/StochasticSearch/StochasticSearchManuscript/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/StochasticSearch/matlabSearchSim/plotNFixResults.R",
+		"/Users/s09ac3/Downloads/image_tutorial-8.py",
+		"/Volumes/ESD-USB/ASC files/Dl3.asc",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/R Console.sublime-settings",
+		"/Volumes/ESD-USB/ASC files/fixData.txt",
+		"/Users/s09ac3/Documents/StochasticSearch/newwriteup/literature.bib",
+		"/Users/s09ac3/Documents/StochasticSearch/newwriteup/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/My Papers/20xx Stochastic Search/Version2ofPaper/SignalDetectionExperiment.tex",
+		"/Users/s09ac3/Documents/My Papers/20xx Stochastic Search/Version2ofPaper/StochasticSearch.tex",
+		"/Users/s09ac3/Documents/StochasticSearch/Alasdair StochSearch Exp 2/3_present_absent/Analyse/simAnalysis.R",
+		"/Users/s09ac3/Documents/StochasticSearch/clarke2009data/makePlots.R",
+		"/Users/s09ac3/Library/Application Support/Sublime Text 3/Packages/User/LaTeX.sublime-settings",
+		"/Users/s09ac3/Documents/StochasticSearch/matlabSearchSim/checkCentrality.R",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/TrackRecord.tex",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/PilotWork.tex",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/CaseForSupport.tex",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/CaseForSupport.sublime-project",
+		"/Users/s09ac3/Documents/optimalSearchAnna/data/EdDatTrial.txt",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/NamingData/exportForR.m",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/EinhauserSpainPerona_JVis2008_data/makeplot.R",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/EinhauserSpainPerona_JVis2008_data/salTrial.txt",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/CaseForSupport.pdf",
+		"/Users/s09ac3/Documents/2014ObjSalPaper/writeup/literature.bib",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/PilotWork.aux",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/literature.bib",
+		"/Users/s09ac3/Dropbox/Alasdair - BBSRC Fellowship Application/CaseForSupport/Background.tex"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dat",
+			"csv",
+			"fig:numFixHumanModel",
+			"x^22",
+			"sub",
+			"subsection",
+			"respose",
+			"dat",
+			"==n",
+			"trialInfo",
+			"dat$x",
+			"mydata",
+			"agDat",
+			"allDat",
+			"m",
+			"bestpos1",
+			"	bestpos1",
+			"bestpos1 ",
+			"hoopPos$",
+			"possFixLocatios",
+			"dprimeI(",
+			"gk",
+			"w",
+			"w ",
+			"precompute_dprimeI",
+			"precompute_drimeI",
+			"lab90",
+			"slab10",
+			"is.da",
+			"print",
+			"sigma",
+			"sigma(i,T+1)",
+			"probCorrectForPotFix",
+			"print",
+			"Phi",
+			"prior",
+			"dprimeI(t,k)",
+			"k",
+			"dprime ",
+			"origin",
+			"sigma",
+			"log",
+			"cc",
+			"response",
+			"beanbagdat = read.csv(\"lvl3ah_pilot.txt\", sep=\" \")\n	names(beanbagdat) = c(\"participant\", \"slab\", \"inhoop\")	\n	beanbagdat$participant = factor(beanbagdat$participant)\n	beanbagdat$out = 12 - beanbagdat$inhoop\n	beanbagdat$trials = beanbagdat$inhoop+beanbagdat$out\n	beanbagdat$acc = beanbagdat$inhoop/beanbagdat$trials\n	library(ggplot2)\n\n	plt = ggplot(beanbagdat, aes(x=slab, y=acc, colour=participant)) + geom_point() \n	plt = plt + geom_smooth(method=\"glm\", family=\"binomial\",aes(weight = trials), fullrange=T, se=T)\n	plt = plt + scale_x_continuous(limit=c(1,23))  +scale_y_continuous(name=\"accuracy\") + theme_minimal()\n	ggsave(\"pilotresults.pdf\")",
+			"einhauser2008",
+			"[1]",
+			"logLik=logLik",
+			"clarke2013",
+			"))))",
+			"[1]",
+			"]))",
+			" * scale(ct_cent)",
+			"+ (1|im)",
+			"glmer",
+			"family=\"normal\"",
+			"family",
+			"poisson",
+			"nfix",
+			"range",
+			"dat.binary",
+			"dat",
+			"dat ",
+			"sin",
+			"cos",
+			"\", ",
+			"reqBandwidth",
+			"intSig",
+			"fixN",
+			"log(Frequency)",
+			"nls_binaryclassification",
+			"intoBlind",
+			"sideplt",
+			"itemda",
+			"Blind",
+			"roseplt",
+			"subj)[1]",
+			"readRDS",
+			"itemdat",
+			"ItemDat",
+			"itemdat",
+			"itemDat",
+			"itemdat",
+			"itemDat",
+			"levels(dat$subj)",
+			"subjdat",
+			"subjDat",
+			"subjdat",
+			"subjD",
+			"dat",
+			"Dat",
+			"dat",
+			"itemdat",
+			"dat",
+			"Dat",
+			"dat",
+			"fixdat",
+			"dat",
+			"number of fixations\"",
+			"nfdat2",
+			"pNF2",
+			"pNF1",
+			"rtdat2",
+			"pRT1",
+			"levels(dat$subj)",
+			"\"Blank right 3\"",
+			"itemDat",
+			"dat",
+			"trialD",
+			"trialDat",
+			"dat",
+			"[trialDat$itemID!=\"Target\"]",
+			"Alex",
+			"texttt",
+			"strategy",
+			"stochastic",
+			"ampDat",
+			"verghese",
+			"verghese2012",
+			"hunt",
+			"print",
+			"])",
+			"prior",
+			"sumdprimeI2_1toT",
+			"locs",
+			"plt2",
+			"library(ggplot)\n\n\n\n\n# parameters \nc 	= 1 # rms contrast of target\nen 	= 1 # contrast power (rms contrast squared) of background noise\nalpha = 0.0218 # some constant?\n\ndprimeE = sqrt(c^2/(alpha/en))\n\ndprimeI = function(fix, locs)\n{\n	# for now, lets assume a linear fall-off with distance\n	print(locs)\n	print(dim(locs))\n	distFromFix = sqrt((locs[1,]-fix[1,])^2+(locs[2,]-fix[2,])^2)\n}\n\n# set up stimuli \n# i will count item locations\nitemLoctations 	= array(dim=c(2,2), c(-1,0, 1,0)\nitemIDs 		= c(0.5, -0.5)\n# add external noise\nX = rnorm(length(itemIDs), mean=0, sd=1/dprimeE)\n# inital fixation at origin\nfixations = list(c(0,0))\nprior = rep(1/length(itemIDs), length(itemIDs))\nW = array(dim=c(10, length(itemIDs)))\nitemProb = list()\n# for first fixation\nf = 1\n# generate internal noise\nN = rnorm(length(itemIDs), mean=0, sd=1/dprimeI(fixations[[f]], itemLoctations))\n# calculate template responses\nW[f,] = itemIDs + N + X\n# calculate prob for each item location\n\nfor (i in 1:2)\n{\n	g_Tik1 = dprimeE^2 * dprimeI(fixations[f], itemLoctations[,i])^2\n	g_Tik2 = dprimeE^2\n	for (t in 1:f)\n	{\n	g_Tik2 = g_Tik2 + dprimeI(fixations[[t]], itemLoctations[,i])^2\n	}\n	g_Tik = g_Tik1 / g_Tik2\n	rm(g_Tik1, g_Tik2)\n\n	gTsumW = 0\n	for (t in 1:f)\n	{\n		gTsumW = gTsum + g_Tik * W[t,]\n	}\n	piT = prior[i] * exp(gTsumW)\n	rm(gTsum)\n\n}",
+			"absandrelangles"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "StochasticSearch.tex",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29405,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11780,
+								11780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2431.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 241.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "stochasticSearch.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"r",
+				"~/Documents/GIT-general-private/2014 StochasticSearch/targetDetExp/fitTargDetectionModel2.R"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"R ",
+				"~/ObjectSalience/ObjSal.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 212.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

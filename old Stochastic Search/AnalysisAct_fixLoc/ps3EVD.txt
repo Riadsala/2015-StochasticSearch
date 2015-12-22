@@ -1,0 +1,283 @@
+Data properties:
+ 
+Recording date: 27/03/2008
+Recording time : 14:31:19:995 (corresponds to time 0)
+Study: AlasdairTPOnlyRoughness
+Subject: PS
+Recording: ps3
+Screen resolution: 1600 x 1200
+Coordinate unit: Pixels
+ 
+ 
+Time	Event	Event key	Data 1	Data 2	Description
+
+53	ShowSlide	4	1	0	Image: fixcross.jpg
+2058	ShowSlide	4	2	0	Image: RMS=0.9_beta=1.6_r=100_seed=11.png
+7015	Keyboard	3	32	0	Space
+7026	ShowSlide	4	3	0	Image: fixcross.jpg
+9026	ShowSlide	4	4	0	Image: RMS=1.1_beta=1.6_r=100_seed=17.png
+12519	Keyboard	3	32	0	Space
+12526	ShowSlide	4	5	0	Image: fixcross.jpg
+14526	ShowSlide	4	6	0	Image: RMS=1.1_beta=1.7_r=100_seed=46.png
+17303	Keyboard	3	32	0	Space
+17307	ShowSlide	4	7	0	Image: fixcross.jpg
+19307	ShowSlide	4	8	0	Image: RMS=1.1_beta=1.65_r=100_seed=25.png
+21143	Keyboard	3	32	0	Space
+21151	ShowSlide	4	9	0	Image: fixcross.jpg
+23151	ShowSlide	4	10	0	Image: RMS=1.1_beta=1.65_r=350_seed=30.png
+28055	Keyboard	3	32	0	Space
+28057	ShowSlide	4	11	0	Image: fixcross.jpg
+30057	ShowSlide	4	12	0	Image: RMS=0.9_beta=1.6_r=225_seed=12.png
+33175	Keyboard	3	32	0	Space
+33182	ShowSlide	4	13	0	Image: fixcross.jpg
+35182	ShowSlide	4	14	0	Image: RMS=1.1_beta=1.65_r=100_seed=36.png
+39126	Keyboard	3	32	0	Space
+39135	ShowSlide	4	15	0	Image: fixcross.jpg
+41135	ShowSlide	4	16	0	Image: RMS=1.1_beta=1.6_r=225_seed=13.png
+49238	Keyboard	3	32	0	Space
+49244	ShowSlide	4	17	0	Image: fixcross.jpg
+51244	ShowSlide	4	18	0	Image: RMS=0.9_beta=1.6_r=225_seed=13.png
+59126	Keyboard	3	32	0	Space
+59135	ShowSlide	4	19	0	Image: fixcross.jpg
+61135	ShowSlide	4	20	0	Image: RMS=0.9_beta=1.7_r=350_seed=59.png
+66614	Keyboard	3	32	0	Space
+66619	ShowSlide	4	21	0	Image: fixcross.jpg
+68619	ShowSlide	4	22	0	Image: RMS=1.1_beta=1.65_r=100_seed=24.png
+79318	Keyboard	3	32	0	Space
+79322	ShowSlide	4	23	0	Image: fixcross.jpg
+81322	ShowSlide	4	24	0	Image: RMS=1.1_beta=1.65_r=100_seed=32.png
+87893	Keyboard	3	32	0	Space
+87900	ShowSlide	4	25	0	Image: fixcross.jpg
+89900	ShowSlide	4	26	0	Image: RMS=0.9_beta=1.6_r=100_seed=2.png
+92469	Keyboard	3	32	0	Space
+92478	ShowSlide	4	27	0	Image: fixcross.jpg
+94478	ShowSlide	4	28	0	Image: RMS=1.1_beta=1.7_r=350_seed=57.png
+97589	Keyboard	3	32	0	Space
+97603	ShowSlide	4	29	0	Image: fixcross.jpg
+99603	ShowSlide	4	30	0	Image: RMS=1.1_beta=1.7_r=225_seed=42.png
+105701	Keyboard	3	32	0	Space
+105712	ShowSlide	4	31	0	Image: fixcross.jpg
+107712	ShowSlide	4	32	0	Image: RMS=0.9_beta=1.7_r=100_seed=48.png
+115061	Keyboard	3	32	0	Space
+115072	ShowSlide	4	33	0	Image: fixcross.jpg
+117072	ShowSlide	4	34	0	Image: RMS=1.1_beta=1.65_r=225_seed=29.png
+124261	Keyboard	3	32	0	Space
+124275	ShowSlide	4	35	0	Image: fixcross.jpg
+126275	ShowSlide	4	36	0	Image: RMS=0.9_beta=1.65_r=350_seed=33.png
+136772	Keyboard	3	32	0	Space
+136774	ShowSlide	4	37	0	Image: fixcross.jpg
+138774	ShowSlide	4	38	0	Image: RMS=1.1_beta=1.65_r=100_seed=35.png
+149444	Keyboard	3	32	0	Space
+149446	ShowSlide	4	39	0	Image: fixcross.jpg
+151446	ShowSlide	4	40	0	Image: RMS=1.1_beta=1.7_r=100_seed=48.png
+157604	Keyboard	3	32	0	Space
+157618	ShowSlide	4	41	0	Image: fixcross.jpg
+159618	ShowSlide	4	42	0	Image: RMS=1.1_beta=1.6_r=350_seed=2.png
+184915	Keyboard	3	32	0	Space
+184930	ShowSlide	4	43	0	Image: fixcross.jpg
+186930	ShowSlide	4	44	0	Image: RMS=0.9_beta=1.7_r=100_seed=54.png
+190099	Keyboard	3	32	0	Space
+190101	ShowSlide	4	45	0	Image: fixcross.jpg
+192102	ShowSlide	4	46	0	Image: RMS=1.1_beta=1.6_r=100_seed=4.png
+193459	Keyboard	3	32	0	Space
+193461	ShowSlide	4	47	0	Image: fixcross.jpg
+195461	ShowSlide	4	48	0	Image: RMS=1.1_beta=1.7_r=350_seed=46.png
+198387	Keyboard	3	32	0	Space
+198398	ShowSlide	4	49	0	Image: fixcross.jpg
+200398	ShowSlide	4	50	0	Image: RMS=1.1_beta=1.7_r=225_seed=55.png
+201859	Keyboard	3	32	0	Space
+201867	ShowSlide	4	51	0	Image: fixcross.jpg
+203867	ShowSlide	4	52	0	Image: RMS=0.9_beta=1.7_r=225_seed=57.png
+205811	Keyboard	3	32	0	Space
+205820	ShowSlide	4	53	0	Image: fixcross.jpg
+207820	ShowSlide	4	54	0	Image: RMS=0.9_beta=1.65_r=225_seed=22.png
+210339	Keyboard	3	32	0	Space
+210351	ShowSlide	4	55	0	Image: fixcross.jpg
+212351	ShowSlide	4	56	0	Image: RMS=1.1_beta=1.6_r=350_seed=15.png
+228834	Keyboard	3	32	0	Space
+228851	ShowSlide	4	57	0	Image: fixcross.jpg
+230851	ShowSlide	4	58	0	Image: RMS=0.9_beta=1.7_r=100_seed=46.png
+231922	Keyboard	3	32	0	Space
+231929	ShowSlide	4	59	0	Image: fixcross.jpg
+233929	ShowSlide	4	60	0	Image: RMS=1.1_beta=1.7_r=350_seed=43.png
+237010	Keyboard	3	32	0	Space
+237023	ShowSlide	4	61	0	Image: fixcross.jpg
+239023	ShowSlide	4	62	0	Image: RMS=0.9_beta=1.7_r=350_seed=54.png
+240962	Keyboard	3	32	0	Space
+240976	ShowSlide	4	63	0	Image: fixcross.jpg
+242976	ShowSlide	4	64	0	Image: RMS=0.9_beta=1.7_r=350_seed=49.png
+245106	Keyboard	3	32	0	Space
+245116	ShowSlide	4	65	0	Image: fixcross.jpg
+247117	ShowSlide	4	66	0	Image: RMS=0.9_beta=1.6_r=225_seed=19.png
+251506	Keyboard	3	32	0	Space
+251523	ShowSlide	4	67	0	Image: fixcross.jpg
+253523	ShowSlide	4	68	0	Image: RMS=0.9_beta=1.65_r=350_seed=21.png
+256130	Keyboard	3	32	0	Space
+256132	ShowSlide	4	69	0	Image: fixcross.jpg
+258132	ShowSlide	4	70	0	Image: RMS=0.9_beta=1.7_r=350_seed=41.png
+261170	Keyboard	3	32	0	Space
+261178	ShowSlide	4	71	0	Image: fixcross.jpg
+263179	ShowSlide	4	72	0	Image: RMS=1.1_beta=1.65_r=225_seed=33.png
+279153	Keyboard	3	32	0	Space
+279163	ShowSlide	4	73	0	Image: fixcross.jpg
+281163	ShowSlide	4	74	0	Image: RMS=1.1_beta=1.6_r=100_seed=5.png
+283585	Keyboard	3	32	0	Space
+283600	ShowSlide	4	75	0	Image: fixcross.jpg
+285600	ShowSlide	4	76	0	Image: RMS=1.1_beta=1.6_r=350_seed=6.png
+338160	Keyboard	3	32	0	Space
+338162	ShowSlide	4	77	0	Image: fixcross.jpg
+340162	ShowSlide	4	78	0	Image: RMS=1.1_beta=1.6_r=350_seed=18.png
+342576	Keyboard	3	32	0	Space
+342583	ShowSlide	4	79	0	Image: fixcross.jpg
+344584	ShowSlide	4	80	0	Image: RMS=0.9_beta=1.65_r=350_seed=22.png
+348272	Keyboard	3	32	0	Space
+348287	ShowSlide	4	81	0	Image: fixcross.jpg
+350287	ShowSlide	4	82	0	Image: RMS=0.9_beta=1.65_r=350_seed=23.png
+351920	Keyboard	3	32	0	Space
+351927	ShowSlide	4	83	0	Image: fixcross.jpg
+353927	ShowSlide	4	84	0	Image: RMS=0.9_beta=1.6_r=350_seed=4.png
+362815	Keyboard	3	32	0	Space
+362818	ShowSlide	4	85	0	Image: fixcross.jpg
+364818	ShowSlide	4	86	0	Image: RMS=1.1_beta=1.7_r=100_seed=44.png
+366367	Keyboard	3	32	0	Space
+366380	ShowSlide	4	87	0	Image: fixcross.jpg
+368380	ShowSlide	4	88	0	Image: RMS=1.1_beta=1.6_r=350_seed=4.png
+376063	Keyboard	3	32	0	Space
+376068	ShowSlide	4	89	0	Image: fixcross.jpg
+378068	ShowSlide	4	90	0	Image: RMS=1.1_beta=1.65_r=350_seed=23.png
+381615	Keyboard	3	32	0	Space
+381630	ShowSlide	4	91	0	Image: fixcross.jpg
+383630	ShowSlide	4	92	0	Image: RMS=1.1_beta=1.65_r=350_seed=34.png
+387807	Keyboard	3	32	0	Space
+387817	ShowSlide	4	93	0	Image: fixcross.jpg
+389818	ShowSlide	4	94	0	Image: RMS=1.1_beta=1.7_r=100_seed=57.png
+392831	Keyboard	3	32	0	Space
+392833	ShowSlide	4	95	0	Image: fixcross.jpg
+394833	ShowSlide	4	96	0	Image: RMS=0.9_beta=1.7_r=100_seed=51.png
+396623	Keyboard	3	32	0	Space
+396630	ShowSlide	4	97	0	Image: fixcross.jpg
+398630	ShowSlide	4	98	0	Image: RMS=0.9_beta=1.65_r=225_seed=30.png
+403775	Keyboard	3	32	0	Space
+403786	ShowSlide	4	99	0	Image: fixcross.jpg
+405786	ShowSlide	4	100	0	Image: RMS=1.1_beta=1.65_r=225_seed=34.png
+408062	Keyboard	3	32	0	Space
+408067	ShowSlide	4	101	0	Image: fixcross.jpg
+410067	ShowSlide	4	102	0	Image: RMS=1.1_beta=1.7_r=350_seed=47.png
+415598	Keyboard	3	32	0	Space
+415614	ShowSlide	4	103	0	Image: fixcross.jpg
+417614	ShowSlide	4	104	0	Image: RMS=0.9_beta=1.7_r=225_seed=45.png
+420414	Keyboard	3	32	0	Space
+420426	ShowSlide	4	105	0	Image: fixcross.jpg
+422426	ShowSlide	4	106	0	Image: RMS=1.1_beta=1.65_r=225_seed=35.png
+430174	Keyboard	3	32	0	Space
+430176	ShowSlide	4	107	0	Image: fixcross.jpg
+432176	ShowSlide	4	108	0	Image: RMS=0.9_beta=1.7_r=100_seed=57.png
+434270	Keyboard	3	32	0	Space
+434285	ShowSlide	4	109	0	Image: fixcross.jpg
+436286	ShowSlide	4	110	0	Image: RMS=0.9_beta=1.6_r=225_seed=16.png
+441230	Keyboard	3	32	0	Space
+441239	ShowSlide	4	111	0	Image: fixcross.jpg
+443239	ShowSlide	4	112	0	Image: RMS=1.1_beta=1.6_r=100_seed=12.png
+461341	Keyboard	3	32	0	Space
+461348	ShowSlide	4	113	0	Image: fixcross.jpg
+463348	ShowSlide	4	114	0	Image: RMS=0.9_beta=1.6_r=350_seed=3.png
+473869	Keyboard	3	32	0	Space
+473879	ShowSlide	4	115	0	Image: fixcross.jpg
+475879	ShowSlide	4	116	0	Image: RMS=0.9_beta=1.7_r=100_seed=43.png
+478829	Keyboard	3	32	0	Space
+478831	ShowSlide	4	117	0	Image: fixcross.jpg
+480832	ShowSlide	4	118	0	Image: RMS=1.1_beta=1.7_r=225_seed=44.png
+482205	Keyboard	3	32	0	Space
+482206	ShowSlide	4	119	0	Image: fixcross.jpg
+484207	ShowSlide	4	120	0	Image: RMS=1.1_beta=1.65_r=350_seed=25.png
+489725	Keyboard	3	32	0	Space
+489738	ShowSlide	4	121	0	Image: fixcross.jpg
+491738	ShowSlide	4	122	0	Image: RMS=1.1_beta=1.7_r=225_seed=59.png
+495245	Keyboard	3	32	0	Space
+495253	ShowSlide	4	123	0	Image: fixcross.jpg
+497253	ShowSlide	4	124	0	Image: RMS=0.9_beta=1.65_r=350_seed=38.png
+502348	Keyboard	3	32	0	Space
+502363	ShowSlide	4	125	0	Image: fixcross.jpg
+504363	ShowSlide	4	126	0	Image: RMS=0.9_beta=1.6_r=100_seed=14.png
+510620	Keyboard	3	32	0	Space
+510628	ShowSlide	4	127	0	Image: fixcross.jpg
+512628	ShowSlide	4	128	0	Image: RMS=0.9_beta=1.7_r=225_seed=50.png
+514748	Keyboard	3	32	0	Space
+514753	ShowSlide	4	129	0	Image: fixcross.jpg
+516753	ShowSlide	4	130	0	Image: RMS=1.1_beta=1.65_r=350_seed=35.png
+527644	Keyboard	3	32	0	Space
+527659	ShowSlide	4	131	0	Image: fixcross.jpg
+529659	ShowSlide	4	132	0	Image: RMS=1.1_beta=1.6_r=225_seed=7.png
+700088	Keyboard	3	32	0	Space
+700094	ShowSlide	4	133	0	Image: fixcross.jpg
+702094	ShowSlide	4	134	0	Image: RMS=0.9_beta=1.6_r=100_seed=13.png
+705608	Keyboard	3	32	0	Space
+705610	ShowSlide	4	135	0	Image: fixcross.jpg
+707610	ShowSlide	4	136	0	Image: RMS=0.9_beta=1.65_r=100_seed=23.png
+710840	Keyboard	3	32	0	Space
+710844	ShowSlide	4	137	0	Image: fixcross.jpg
+712844	ShowSlide	4	138	0	Image: RMS=0.9_beta=1.7_r=350_seed=48.png
+719096	Keyboard	3	32	0	Space
+719109	ShowSlide	4	139	0	Image: fixcross.jpg
+721109	ShowSlide	4	140	0	Image: RMS=0.9_beta=1.6_r=100_seed=17.png
+724696	Keyboard	3	32	0	Space
+724703	ShowSlide	4	141	0	Image: fixcross.jpg
+726703	ShowSlide	4	142	0	Image: RMS=1.1_beta=1.6_r=100_seed=1.png
+730984	Keyboard	3	32	0	Space
+731000	ShowSlide	4	143	0	Image: fixcross.jpg
+733000	ShowSlide	4	144	0	Image: RMS=0.9_beta=1.6_r=225_seed=7.png
+736663	Keyboard	3	32	0	Space
+736671	ShowSlide	4	145	0	Image: fixcross.jpg
+738672	ShowSlide	4	146	0	Image: RMS=1.1_beta=1.6_r=225_seed=15.png
+747767	Keyboard	3	32	0	Space
+747781	ShowSlide	4	147	0	Image: fixcross.jpg
+749781	ShowSlide	4	148	0	Image: RMS=0.9_beta=1.65_r=350_seed=26.png
+757527	Keyboard	3	32	0	Space
+757531	ShowSlide	4	149	0	Image: fixcross.jpg
+759531	ShowSlide	4	150	0	Image: RMS=0.9_beta=1.65_r=350_seed=29.png
+761927	Keyboard	3	32	0	Space
+761937	ShowSlide	4	151	0	Image: fixcross.jpg
+763937	ShowSlide	4	152	0	Image: RMS=1.1_beta=1.65_r=100_seed=27.png
+766775	Keyboard	3	32	0	Space
+766781	ShowSlide	4	153	0	Image: fixcross.jpg
+768784	ShowSlide	4	154	0	Image: RMS=1.1_beta=1.7_r=350_seed=54.png
+774311	Keyboard	3	32	0	Space
+774327	ShowSlide	4	155	0	Image: fixcross.jpg
+776327	ShowSlide	4	156	0	Image: RMS=1.1_beta=1.7_r=225_seed=58.png
+779270	Keyboard	3	32	0	Space
+779280	ShowSlide	4	157	0	Image: fixcross.jpg
+781280	ShowSlide	4	158	0	Image: RMS=1.1_beta=1.7_r=225_seed=43.png
+785094	Keyboard	3	32	0	Space
+785108	ShowSlide	4	159	0	Image: fixcross.jpg
+787108	ShowSlide	4	160	0	Image: RMS=0.9_beta=1.6_r=225_seed=10.png
+789222	Keyboard	3	32	0	Space
+789233	ShowSlide	4	161	0	Image: fixcross.jpg
+791233	ShowSlide	4	162	0	Image: RMS=1.1_beta=1.6_r=350_seed=12.png
+808406	Keyboard	3	32	0	Space
+808421	ShowSlide	4	163	0	Image: fixcross.jpg
+810421	ShowSlide	4	164	0	Image: RMS=0.9_beta=1.6_r=350_seed=19.png
+816710	Keyboard	3	32	0	Space
+816717	ShowSlide	4	165	0	Image: fixcross.jpg
+818717	ShowSlide	4	166	0	Image: RMS=0.9_beta=1.65_r=350_seed=40.png
+829045	Keyboard	3	32	0	Space
+829061	ShowSlide	4	167	0	Image: fixcross.jpg
+831061	ShowSlide	4	168	0	Image: RMS=0.9_beta=1.6_r=350_seed=15.png
+836069	Keyboard	3	32	0	Space
+836076	ShowSlide	4	169	0	Image: fixcross.jpg
+838076	ShowSlide	4	170	0	Image: RMS=1.1_beta=1.6_r=100_seed=16.png
+849109	Keyboard	3	32	0	Space
+849123	ShowSlide	4	171	0	Image: fixcross.jpg
+851123	ShowSlide	4	172	0	Image: RMS=1.1_beta=1.65_r=350_seed=39.png
+858245	Keyboard	3	32	0	Space
+858248	ShowSlide	4	173	0	Image: fixcross.jpg
+860248	ShowSlide	4	174	0	Image: RMS=0.9_beta=1.65_r=350_seed=36.png
+863509	Keyboard	3	32	0	Space
+863513	ShowSlide	4	175	0	Image: fixcross.jpg
+865514	ShowSlide	4	176	0	Image: RMS=0.9_beta=1.65_r=100_seed=37.png
+868293	Keyboard	3	32	0	Space
+868294	ShowSlide	4	177	0	Image: fixcross.jpg
+870295	ShowSlide	4	178	0	Image: RMS=0.9_beta=1.6_r=100_seed=16.png
+873828	Keyboard	3	32	0	Space
+873841	ShowSlide	4	179	0	Image: fixcross.jpg
+875841	ShowSlide	4	180	0	Image: RMS=0.9_beta=1.7_r=350_seed=43.png
+878724	Keyboard	3	32	0	Space

@@ -1,0 +1,24 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is 'StochasticSearch.blg'
+[40] biber-darwin:276> INFO - === Tue Dec 22, 2015, 11:03:35
+[41] Biber.pm:333> INFO - Reading 'StochasticSearch.bcf'
+[135] Biber.pm:645> INFO - Found 36 citekeys in bib section 0
+[152] Biber.pm:2977> INFO - Processing section 0
+[168] Biber.pm:3115> INFO - Looking for bibtex format file 'literature.bib' for section 0
+[177] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[186] bibtex.pm:895> INFO - Found BibTeX data source 'literature.bib'
+[190] Utils.pm:146> WARN - Duplicate entry key: 'over2006' in file 'literature.bib', skipping ...
+[195] Utils.pm:146> WARN - Duplicate entry key: 'cornelissen2002' in file 'literature.bib', skipping ...
+[201] Utils.pm:146> WARN - Duplicate entry key: 'klein-farrell1989' in file 'literature.bib', skipping ...
+[236] Utils.pm:146> WARN - BibTeX subsystem: /var/folders/33/_w6tvdc16w75x4454gcw8djhcdbhvb/T/WFyKpsDmHp/literature.bib_701.utf8, line 1734, warning: 131 characters of junk seen at toplevel
+[238] Utils.pm:146> WARN - The field 'number' in entry 'clarke_hunt2015' cannot be null, deleting it
+[238] Utils.pm:146> WARN - The field 'pages' in entry 'clarke_hunt2015' cannot be null, deleting it
+[239] Utils.pm:146> WARN - The field 'volume' in entry 'clarke_hunt2015' cannot be null, deleting it
+[598] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[598] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[599] Biber.pm:2854> INFO - Sorting list 'nyt' of type 'entry' with scheme 'nyt' and locale 'en-US'
+[599] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-US'
+[678] bbl.pm:505> INFO - Writing 'StochasticSearch.bbl' with encoding 'ascii'
+[682] Utils.pm:146> WARN - The entry 'kruger2013' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[686] bbl.pm:596> INFO - Output to StochasticSearch.bbl
+[686] Biber.pm:106> INFO - WARNINGS: 8

@@ -1,0 +1,26 @@
+function numrefixes = checkForReFixations
+
+% dummy coords
+X = round(1024*rand(30, 1));
+
+% distance for refixation
+fix_radius = 60;
+
+% how far in the past to check for re-fixations
+stepstocheck = 3;
+
+numrefixes = 0;
+
+numfix = size(X,1);
+
+
+
+% for all fixations after the first...
+for t=2:numfix
+    %  go back through the last n fixations to check for refixations
+
+    for f = (t-stepstocheck):(t-1)
+        
+        
+    end
+end

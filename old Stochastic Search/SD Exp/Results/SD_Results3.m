@@ -1,0 +1,167 @@
+function SD_Results3
+close all
+clear all
+%define offset to turn Clearview output coords to image coords.
+xoffset = (1200-1024)/2;
+yoffset = (1600-1024)/2;
+BlocksInRun = 27;
+TrialsInBlock = 4;
+TrialCounter = 0;
+% Results = zeros(2160, 5);
+
+
+preceedTrialStartTime = 500;
+postTrialEndTime = 000;
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% sort out EventData - filenames and keypresses
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+for part = 1:12
+    FixFile = fopen(['AC' int2str(part) 'FXD.txt']);
+    FixData = fscanf(FixFile, '%c',inf);
+    fclose(FixFile);
+    %%% delete header
+    cursor = regexp(FixData, 'Fix number', 'once');
+    FixData(1:(cursor-1)) = [];
+    cursor = regexp(FixData, '1', 'once');
+    FixData(1:(cursor-1)) = [];
+    % convert to matrix
+    Fixs = str2num(FixData); %#ok<ST2NM>
+    clear FixData
+    EventFile = fopen(['AC' int2str(part) 'EVD.txt']);
+    EventData = fscanf(EventFile, '%c',inf);
+    fclose(EventFile);
+    %%% delete header
+    cursor = regexp(EventData, 'Description', 'once');
+    EventData(1:(cursor+14))=[];
+    N = size(EventData,2);
+    % find fixcross.jpg.
+    FixcrossLocations = regexp(EventData, 'fixcross.jpg');
+%     n = size(FixcrossLocations, 2);
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % go through all the trials in the run and get break times
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    ImageLocations = regexp(EventData, '_beta');
+    T = size(ImageLocations,2);
+    for b = 1:BlocksInRun
+        for t = 1:TrialsInBlock
+            TrialCounter = TrialCounter+1;
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % find relvant fixation cross and get following image display time
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            cursor = FixcrossLocations((b-1).*TrialsInBlock+t);
+            TrialStartTime = str2double(regexp(EventData(cursor:N), '\s\d+\s', 'match', 'once'))-preceedTrialStartTime;
+            cursor = ImageLocations((b-1).*TrialsInBlock+t);
+            TrialEndTime = str2double(regexp(EventData(cursor:N), '\s\d+\s', 'match', 'once'))+postTrialEndTime;
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % Check fixation
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            Fidx = find((Fixs(:,2)<TrialEndTime).*(Fixs(:,2)>TrialStartTime));
+            Fixations.y = 1024-(1200-Fixs(Fidx, 5)-xoffset);
+            Fixations.x = Fixs(Fidx, 4)-yoffset;
+            DistancesFromCentre = getDistances(Fixations);
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            % get surface parameters from filename
+            %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            cursor = ImageLocations((b-1).*TrialsInBlock+t);
+            Filename = regexp(EventData(cursor:N), 'beta[._=\w]*png',  'once', 'match');
+            beta = str2double(regexp(Filename, '(?<=beta=)1\.[567]*', 'match'));
+            r = str2double(regexp(Filename, '(?<=r=)(50|100|150|200|250|300|350|400)', 'match'));
+            if r>0
+                phi = str2double(regexp(Filename, '(?<=phi=)(0|45|90|135|180|225|270|315)', 'match'));
+            else
+                r = inf;
+                phi = inf;
+            end
+            if (max(DistancesFromCentre)<60)&(size(Fidx,1)>0) %#ok<AND2>
+                % get Right|Left Keyboard response
+                Response =  regexp(EventData(cursor:N), '(Right)|(Left)',  'once', 'match');
+                % check that response was found before the next trial was shown
+                % if not, set response to 2 (do not count)
+                if (b-1)*TrialsInBlock+t~=T
+                    RespLoc =  regexp(EventData(cursor:N), '(Right)|(Left)',  'once');
+                    if (RespLoc+cursor)>ImageLocations((b-1).*TrialsInBlock+t+1)
+                        %                         disp('problem with missing response');
+                        %                         disp(part)
+                        %                         disp(Filename)
+                        Results(TrialCounter,4) = 2;
+                    else
+                        if strcmp(Response, 'Right')
+                            Results(TrialCounter,4) = 0;
+                        elseif strcmp(Response, 'Left')
+                            Results(TrialCounter,4) = 1;
+                        end
+                    end
+                end                
+            elseif size(Fidx,1)==0
+                Results(TrialCounter,4) = 3;
+            else
+                Results(TrialCounter,4) = 2;
+            end
+            Results(TrialCounter,1:3) = [beta, r, phi];
+        end
+    end
+end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% sort out Results - how does roughness and r effect signal detection
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+betaSet = [1.6, 1.65, 1.7];
+rSet = 50:50:400;
+phi = [0,45,90,135,180,225,270,315];
+Accuracy = zeros(3,8,8);
+AccuracyOverEcc = zeros(3,8);
+TargetAbsentAccuracy = zeros(3,1);
+TA2Plot = zeros(3,8);
+for b = 1:3
+    for r=1:8
+        for p=1:8
+            beta = betaSet(b);
+            index = find((Results(:,1)==beta).*(Results(:,2)==rSet(r)).*(Results(:,3)==phi(p)).*(Results(:,4)~=2));
+            Accuracy(b,r,p) = sum(Results(index, 4)==1)./size(Results(index, 4)==1, 1);
+        end
+        tmp = Accuracy(b,r,:);
+        tmp=tmp(:);
+        AccuracyOverEcc(b,r) = mean(tmp(isfinite(tmp)));
+    end
+    index = find((Results(:,1)==beta).*isnan(Results(:,2)).*(Results(:,4)~=2));
+    TargetAbsentAccuracy(b) = 1-mean(Results(index, 4)); %#ok<FNDSB>
+    TA2Plot(b,:) = TargetAbsentAccuracy(b)*ones(1,8);
+end
+plot([rSet; rSet; rSet]', 100.*AccuracyOverEcc', '-x')
+legend('\beta=1.6', '\beta=1.65', '\beta=1.7')
+hold on;
+plot([rSet; rSet; rSet]',100.*TA2Plot', ':x')
+xlabel('r (pixels)'); ylabel('% correct');
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% get number of scrapped trials
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+PropOfTrialsScrapped = 100*sum(Results(:,4)>=2)./size(Results,1);
+disp([int2str(PropOfTrialsScrapped) '% of all trials have been scrapped'])
+figure
+mean(Results(index,4));
+hist(Results(:,4))
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% do something with phi data - plot a spider!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+for b=1:3
+    figure;    
+    hold on
+        for p=1:8
+            for r=1:8;
+            [x(r) y(r)] = pol2cart(pi*phi(p)/180, rSet(r));                      
+            end
+        plot3(x,y,Accuracy(b,:,p));
+    end
+    
+end
+
+
+
+
+    function d = getDistances(Fixations)
+        x = (Fixations.x-512).^2;
+        y = (Fixations.y-512).^2;
+        d = sqrt(x+y);
+    end
+
+end

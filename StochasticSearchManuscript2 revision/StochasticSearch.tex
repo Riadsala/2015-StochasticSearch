@@ -1,0 +1,444 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[preprint, authoryear]{elsarticle} % a4paper, oneside, 12pt, onecolumn
+\biboptions{longnamesfirst}
+
+%\usepackage[longnamesfirst]{natbib}
+\usepackage{subfigure}
+%% Math Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath}
+%\usepackage{amsthm}
+%\usepackage{amsfonts}
+
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Human Search for a Target on a Textured Background is Consistent with a Stochastic Model}
+\author[abdn]{A. D. F. Clarke}
+\ead{a.clarke@abdn.ac.uk}
+\author[hw]{P. R. Green}
+\author[hw]{M. J. Chantler}
+\author[abdn]{A. R. Hunt}
+%\date{} %%If commented, the current date is used.
+\address[abdn]{School of Psychology, King's College, University of Aberdeen, Aberdeen, United Kingdom}
+\address[hw]{School of Mathematical and Computer Sciences, Heriot-Watt University, Edinburgh, United Kingdom}
+
+\begin{abstract}
+Here we compare results from both a stochastic and an optimal model to human behaviour in a challenging visual search task. Both the models rely on a target visibility map based on human performance in a separate detection task. The stochastic model randomly selects the next saccade in the sequence from empirical data, while the optimal model fixates the location that will maximise the probability of detecting the target. As with previous work, we find that the number of fixations required by human observers to locate a target on a textured background is consistent with predictions from an optimal model. However, we find that a memoryless stochastic model also matches human performance. The distributions of saccade amplitudes and directions produced by the stochastic model are more similar to human behaviour than the optimal model. We conclude that, when searching for a target in noise, humans use an essentially random strategy, which achieves near optimal behaviour due to biases in the distributions of saccades we have a tendency to make. The findings reconcile the existence of highly efficient search human performance with recent studies demonstrating clear failures of optimality in single and multiple saccade tasks.
+\end{abstract}
+
+\maketitle
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+The human retina provides highly accurate and detailed central vision, but acuity diminishes rapidly with eccentricity. Eye movements shift new locations to central vision, and in doing so sequentially sample finer-grained details from locations that are likely to yield important information, presumably using some combination of peripheral visual signals, inferences based on context, and top-down strategies. Each eye movement during extended search can therefore be useful for understanding how the visual system combines and prioritises information both within each fixation and across a sequence of fixations.
+
+
+Much of the research on visual search to date has formalised this general issue by focusing on questions of  \itshape feature extraction \normalfont  and of \itshape strategy\normalfont. Feature extraction includes both top-down guided search \citep{wolfe2007, zelinsky2008} and stimulus-driven (saliency) effects \citep{itti-koch2000, gao2008, itti-baldi2009}.  For the abstract and discrete search items commonly used as visual search stimuli, categorical features such as colour, orientation, shape and size are often used. Simple qualitative comparisons between the search items and the target can be used to model top-down guidance \citep{pomplun2003, rutishauser-koch2007}. For more complex stimuli, such as a target hidden in image noise or in a photograph of a natural scene, there is no discrete set of items to consider and more sophisticated image processing techniques are required \citep{rao2002, zelinsky2008, pomplun2007,  hwang2009, tavassoli2009}. In either case, the output of a feature extraction mechanism is an activation map; that is, a representation of the visual array in which peaks of activity represent the priority of locations for attention.
+
+\par
+
+Strategy refers to the mechanism for selecting which location to inspect next. While a number of different mechanisms have been put forward, the most commonly implemented has been the Maximum A Priori (MAP) observer. The MAP observer directs saccades to the current maximum of the activation map and a simple inhibition of return (IOR) mechanism is used to stop the model returning to previously fixated maxima. Depending on the model, a maximum will either represent a search item, or the centre of gravity of a number of search items. As most previous computational models have primarily been interested in the feature extraction stage of search, the MAP observer has often been used for simplicity \citep{itti-koch2000, rao2002, pomplun2003, rutishauser-koch2007, clarke2009, zelinsky2008}.
+ 
+ \par
+
+An alternative to the MAP Observer is the Ideal Observer. Here, eye movements are directed to locations that are likely to yield the most information. An example of an Ideal Observer model comes from \cite{najemnik-geisler2005}, who measured visual sensitivity to a Gabor patch in varying amounts of noise across a range of eccentricities and angles from fixation. From the visual sensitivity data they could generate a model of optimal eye movement behaviour that selected as the next fixation the location that would maximize the probability of detecting the target, given the amount of background noise and the known visibility of the target at various eccentricities. The number of fixations made during search for the target by the human observers (the two authors) closely matched the optimal model. In a second study \citep{najemnik-geisler2008} they also measured the fixations generated by an optimal model and found that, when averaged over all trials, the Ideal Observer matched the human spatial distribution of fixations: both the model and human observers exhibited a preference for fixating above and below the centre of the image. The idea that eye movements during search are near-optimal is broadly consistent with studies demonstrating the speed and efficiency with which eye movements can be directed to locations in a naturalistic setting that provide the most task-relevant information. A now-classic example is the demonstration of expert cricket batsmen's ability to shift their eyes rapidly to the anticipated bounce point of the ball based on its trajectory as it leaves the bowler's hand \citep{land2000}. This is a specific example of a number of studies demonstrating that eye movements are tightly constrained by task goals, and driven to maximise task-relevant information gain (for a recent review, see \citet{hayhoe2014}). 
+
+\par
+
+In contrast with the notion that humans are close to optimal in search behaviour is recent evidence of sub-optimality in a very similar context. \cite{morvan2012} instructed observers to first make a single eye movement to their choice of one of three squares aligned in a row, and to then make a judgement about a dot that could appear in either the leftmost or the rightmost square. When the squares are closely spaced, the centre location is the optimal choice because the dot will be visible whether it appears in the left or the right location. As the distance between the squares increases, a point is reached where the centre location is no longer optimal; instead observers can maximize accuracy by selecting either the left or right location. A single saccade in this experiment represents a very similar decision to each saccade in the search task of  \cite{najemnik-geisler2005}, in that observers must use knowledge about their own visual acuity to guide their eyes to the location that is likely to yield the most information. Nonetheless, observers in Morven and Maloney's experiment were far from optimal: not only did observers not change strategy at an optimal spacing, they did not adapt their strategy to changes in the spacing of the squares at all, even though observers were given a monetary reward for each correct response. A similar conclusion was reached by \cite{verghese2012}, who demonstrated that observers failed to adapt their visual search strategies to take target probability information into account, and by \cite{zhang2012} who found sub-optimal eye-hand coordination in a reaching task.
+\par
+How can these demonstrations of sub-optimal eye movement behaviour be reconciled with \cite{najemnik-geisler2005,najemnik-geisler2008}? It is unlikely that observers would be sub-optimal at the level of a single saccade but optimal across multiple saccades. \cite{morvan2012} suggest that observers may adopt heuristics during search that generate sequences of saccades that appear optimal, but are not actually based on a fixation-by-fixation computation of posterior probability of target location. General tendencies observed in search scan-paths that have been taken to be indicative of optimal behaviour may instead be biases in saccade selection related to the scene statistics, the location of the eyes within the scene boundaries, and local mechanisms like inhibition of return and saccadic momentum. For example, \cite{over2007} have shown that search scan-paths exhibit coarse-to-fine structures, that is, observers make shorter saccades as search progresses. \cite{over2003} found that saccade directions are influenced by the edges of the search image and reported a preference for making saccades parallel to the boundaries of the stimuli.  \cite{gilchrist-harvey2006} argue that the presence of a horizontal bias in saccade directions indicates systematic scanning in visual search. They suggest these systematic tendencies can be hard to detect in scan-paths because of interactions with salience-based object selection. 
+\par
+Chance has also been demonstrated to play a significant role in visual search performance. Using saccade amplitude distributions \cite{motter-holsapple2001} calculated the probability of fixating the target by chance under different conditions. While this chance component decreases as the number of distracters increase, it continues to account for a sizeable fraction of performance. Random walks have been successfully used to model an observer's speed and accuracy in present/absent forced choice experiments \citep{stone1960, reeves2005}. Rather than model the spatial distribution of fixations these models simulate the observer's decision making process. The random walk occurs between two boundaries (one for a target present response and one for target absent), and is governed by a drift and bias. 
+\par
+A plausible alternative to the optimal model of human search behaviour is therefore that natural search behaviour is stochastic, but constrained by both scene statistics and heuristics.  Here we directly compare the performance of a random-walk model to human eye movements during search of a textured surface  for an indentation (\cite{clarke2008}, see Figure \ref{fig:exampleStimuli} for an example). We used textured surfaces because they appear naturalistic but, unlike photographs of natural scenes, they are fully controlled and parametrised. Our stochastic model randomly selects the next saccade in the sequence from the total set of saccades made from that region of the search array. This model captures the global biases of saccade programming during search reviewed above, but, unlike the optimal model, it does not take into account previous fixations or the visibility of the target given the roughness of the surface texture. For comparison, we also implemented an optimal model, based loosely on that used by  \cite{najemnik-geisler2005}. Each fixation during search was determined based on maximising the amount of information gained about the probable target location. Information gain was dependent on visual sensitivity at different eccentricities and different amounts of surface roughness, established using a separate target detection experiment. The results demonstrate that the stochastic model and the optimal model both closely match the number of fixations required to detect the target in human data. However, the scan paths produced by the stochastic model are far more similar to human search than the optimal model. 
+
+\section{Experiment 1}
+\label{sec:mainExperiment}
+
+In order to compare the search performance of human observers to a random walk, we carried out an experiment with a group of nine observers, all naive to the aim of the study. There are two main parts to the study (\textit{target detection} and \textit{visual search}). 
+\par
+The goal of the target detection part of the study was to generate a target visibility map to be used in both the stochastic and the optimal search models to determine for each fixation whether or not the target has been found. In order to match as closely as possible the detection task observers would need to perform during each fixation while searching for the target, we presented the target in the target detection task at any one of 64 locations. This is a departure from the method used by \cite{najemnik-geisler2005, najemnik-geisler2008}, in which the target visibility maps were generated from a target detection task in which the target location was cued on every trial and then presented on half of the trials. Certainty about the target location allows covert attention to be allocated to the region of the target, which has been demonstrated to increase visual sensitivity \citep{yeshurun1998}. 
+\par
+Although we believe an uncertain target location provides a better estimate for the visibility of the target during search, the downside of our method is that false positives are problematic. While in \cite{najemnik-geisler2005,najemnik-geisler2008} a false positive rate could be calculated for a given eccentricity, in our method a "target absent" response cannot be linked to a particular location. To cope with this, our experiment was designed to minimise the false positive rate. Participants were aware that the target was present on nearly every trial, and were instructed not to guess, but to respond whenever they saw the target. The experiment included catch trials with no target presented on which feedback was provided to discourage guessing. Two participants were not included in the study because their false positive rates exceeded $15\%$ in the target detection session.
+\par
+In the visual search part of the study, a similar strategy was encouraged in our observers: the target was present on nearly every trial, and observers were encouraged to search until they found the target. Catch trials with feedback were included to discourage guessing.
+
+\subsection{Methods}
+
+\subsubsection{Observers}
+Nine 20-29 year old observers (mean age 23.8 years) with corrected/corrected-to-normal vision took part in the experiment. All were naive to the purpose of the study. Two of the participants were undergraduate RAs and completed the Visual Search session first, and the Target Detection session second.The remaining eight observers were paid \pounds 5 for the visual search experiment (approximately 45 minutes), and \pounds 15 for the target detection part (1hr30-2hr30). Four of these participants carried out the Visual Search experiment first, while the other four carried out the Target Detection session first. All gave informed consent to participate in the experiment, which was approved by the Aberdeen School of Psychology ethics committee.
+
+\subsubsection{Surface Stimuli and Equipment}
+\label{sec:stimuli}
+A range of rough surfaces were generated by applying Lambert's cosine law to height maps generated by a $1/f^{\beta}$-noise process. For full technical details see \citet{clarke2008}. The surface roughness is governed by $\beta$ and a scaling factor, RMS roughness, which was kept constant, $\sigma_{RMS}=1.1$. The three levels of surface roughness created by varying $\beta$ will be referred to as \texttt{smooth} ($\beta=1.70$), \texttt{medium} ($\beta=1.65$) and \texttt{rough} ($\beta=1.60$).  By changing the random seed used to create the noise we can create textured surfaces on each trial that are unique but statistically identical. The target was created by subtracting an ellipsoid from the three dimensional surface. Examples are shown in Figure \ref{fig:exampleStimuli}. 
+
+\begin{figure}[tb]
+	\centering
+		\subfigure[]{\includegraphics[width=5.5cm]{fig/smoothEx.png}}
+		\subfigure[]{\includegraphics[width=5.5cm]{fig/roughEx.png}}
+	\caption{Example stimuli. This is a $256\times 256$ pixel crop of one of the (a) \texttt{smooth} and (b) \texttt{rough} surfaces. In both cases the target is shown in the centre of the image. The stimuli used in the experiment were $1024\times 1024$ pixels in size, making the target much smaller relative to the search area than is shown here. The slight differences in the target's shape is due to randomness in the surface at the location of the target.} 
+	\label{fig:exampleStimuli}
+\end{figure}
+\par
+ 
+Eye movements were monitored using a desktop-mounted Eyelink 1000 (SR Research, Ottawa, Canada). Stimulus presentation was controlled using Psychtoolbox (\cite{brainard1997}) and Eyelinktoolbox (\cite {cornelissen2002}) for Matlab and run on an Apple powermac. All search and detection arrays were $1024\times 1024$ pixels and displayed on a 25" Sony Trimaster EL OLED monitor with linear gamma. The viewing distance was controlled by use of a chin rest placed 57cm away from the display monitor. At this distance, one pixel is approximately $0.014^{\circ}$ of visual angle; images subtend $14.3^{\circ}$ and the targets subtend $0.2^{\circ}$ of visual angle. 
+
+\subsubsection{Set-up: Target Detection}
+Trials were presented in a random order, with a break every 50 trials. Each trial started with a central fixation cross which the observer was required to fixate for 1000ms before the texture appeared. The texture was presented for 200ms, during which time the observer had to maintain a central fixation (within $1.4^{\circ}$ pixels of the centre of the screen). After the stimulus display period a white noise mask was displayed for 500ms, followed by a blank grey response screen. Observers were informed that there was a target on nearly every trial and their task was simply to press a button to indicate if they had seen the target or not. If observer broke central fixation while the stimulus was displayed, the trial was terminated. 
+
+There were eight equally spaced target eccentricities ($r \in [0.70^{\circ}, 5.57^{\circ}]$ from the centre of the screen), and eight equally spaced directions. There were nine trials for every possible target location and surface roughness, and an additional 258 catch (target absent) trials. This gave a total of 1986 trials\footnote{Participant 1 did 1799 trials, and Participant 7 did 2439 trials. These were the first two participants to carry out this part of the experiment, and adjustments to the number of trials was made to make the experiment last approximately  $1.5$ hours.}.   Observers were given feedback only on catch trials: a green screen if they correctly responded that they could not see the target, and a red screen if they responded that they could see the target.
+\par
+
+\subsubsection{Set-up: Visual Search} 
+
+Participants were instructed to search for the target and press a key when they found it. The search display was presented until response, or timed out after a minute. There were 70 target present trials for each value of $\beta$ and the target was positioned randomly with the constraint that it was at least $1.25^{\circ}$ away from the edge of the surface texture, and not contained in a $2.5^{\circ}\times2.5^{\circ}$ pixel window positioned on the stimulus centre. An additional ten target absent catch trials were included for each surface roughness. This gave a total of 240 trials.
+\par
+On catch trials, the search display remained on for a fixed time (30, 15 or 5 seconds depending on surface roughness) and observers were given feedback on these trials: a red screen if they responded that they could see the target, and a green screen if they correctly searched the stimulus for the target for the full display period. A task in which the target was (nearly) always present was used in this phase because in previous work using these stimuli  \citep{clarke2008} observers frequently failed to find targets on rougher surfaces when they had the option of making a target absent response.
+
+\subsubsection{Analysis}
+
+Statistical analysis was carried out using the \texttt{lme4} package for \texttt{R}. $p$-values were obtained using the \texttt{Anova} function from the \texttt{car} package (based on type II Wald $\chi^2$ tests) \citep{fox2010}.
+
+\subsection{Results}
+
+\subsubsection{Target Detection}
+\label{sec:targDet}
+Very few trials were rejected due to failure to maintain central fixation (mean $0.6\%$ rejected trials per participant). These trials are excluded from all further analysis. First we checked each participant's accuracy (Figure \ref{fig:targDetFalsePositive}). We can see that the false positive rate on catch trials is low, ranging from $0.39\%$ to $14.46\%$ with a median of $3.88\%$. This suggests the accuracy rate on target present trials is a valid measure of target visibility, although even a small number of false alarms suggests we may be potentially over-estimating the probability of finding the target by a modest amount. This is important to note, but it is also critical to keep in mind that it will bias both the stochastic and optimal models to the same extent. (We will return to the issue of false alarms and estimating target visibility in the discussion.)
+
+\begin{figure}
+	\centering
+	\includegraphics[width=12cm]{fig/targDet/targDetFalsePositive.pdf}
+	\caption{Accuracy of responses to the target for each observer in the target detection study. We can see that the false positives rate is low.} 
+	\label{fig:targDetFalsePositive}
+\end{figure}
+
+We analysed the results using a general linear mixed model (family=binomial), fit  with the model specified as $y\sim\beta*x^2 + y^2$. (It does not make sense to fit $\beta:x^2$ and $\beta:y^2$ interactions - fitting just one of them is enough to allow for the shape of the target detection function to vary with surface roughness.) The model allowed for random slopes for $\beta$ as well as random intercepts. We find statistically significant effects ($p<0.001)$ of $\beta$ ($\chi^2(2)=233.8$), $x^2$ ($\chi^2(1)=800.2$) and $y^2$ ($\chi^2(1)=1399.2$). The $\beta:x^2$ interaction was also significant ($\chi^2(2)=13.7$, $p=0.001$). A simplified version of the target detection function is showing in Figure \ref{fig:targDetEcc}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=12cm]{fig/targDet/targDetModelEccOnly.pdf}
+	\caption{Probability of detecting the target, collapsed over angle (i.e., only taking the target's eccentricity into account). The individual points show each participant's performance, while the lines show a binomial fit (general linear model).} 
+	\label{fig:targDetEcc}
+\end{figure}
+
+\subsubsection{Visual Search}
+\label{sec:visSearch}
+
+Mean accuracy was $99\%$ and $94\%$ for target present and absent trials respectively. We analyse log reaction time (RT) with a linear mixed model: $rt \sim \beta +(\beta|\texttt{participantID})$. As expected, we find that $\beta$ has a statistically significant effect on log reaction times: $\chi^2=243.75$, $p<0.001$, with slower RTs to find targets on rougher surfaces. In the following section, we will investigate the extent to which the number of fixations required to find the target can be explain by two different models.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Search Strategies}
+\label{sec:strats}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Here we describe two different models - stochastic and optimal search - of the search task described in Section \ref{sec:mainExperiment}. Both models are based on the visibility map derived in Section \ref{sec:targDet}. That is, the probability of detecting a target located at $(x,y)$, when fixating $f_i = (x_f,y_f)$ is given by
+
+\begin{equation}
+ p(d_{x,y}|f_i,\beta) = F(\vec{b_1}\cdot\vec{\beta} + \vec{b_2}\vec{\beta} (x-x_f)^2 + b_3(y-y_f)^2)
+ \label{eq:targDet}
+\end{equation} 
+
+where $\vec{\beta}$ is a vector encoding the categorical factor $\beta \in \{\texttt{rough, medium, smooth}\}$ and $\vec{b_1},\vec{b_1},b_3 $ are the models parameters fit to logistic regression (There is no need to include an interaction between $\beta$ and $y$.) $F$ is the logistic transform:
+\begin{equation}
+F(z)= \frac{1}{1+e^{-z}}
+\end{equation}
+
+This model is fitted to the results of the target detection experiment in Section \ref{sec:targDet}, collapsing over participants. The coefficients are given in Table \ref{tab:targdetcoef} and this function is illustrated in Figure \ref{fig:targDet}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=10cm]{fig/targDet/aggtargdet2.pdf}
+	\caption{Contour plot showing target detection model.} 
+	\label{fig:targDet}
+\end{figure}
+
+\begin{table}
+\centering
+\begin{tabular}{c|ccc}
+ $\beta$ 	& rough & medium & smooth \\
+\hline
+intercept	& -0.17 & 1.27 & 2.39\\
+$x^2$	& -0.089 & -0.062 & -0.074 \\
+$y^2$	& -0.103 & -0.103 & -0.103 \\
+\end{tabular}
+\caption{Coefficients used in Equation \ref{eq:targDet}, the target detection function.}
+\label{tab:targdetcoef}
+\end{table}
+
+
+\subsection{Stochastic Searcher}
+
+The main aim of this study is to explore the extent to which visual search performance can be explained by a random walk. For each fixation, the stochastic searcher uses the target detection function given in Equation \ref{eq:targDet} to determine if the target is present. To decide where to fixate next, this model samples a saccade at random (from empirical data), conditioned on the current fixation location, $S(x',y',x_i, y_i)=p\left((x',y')|(x_i,y_i)\right)$. We base $S$ on the distribution of saccades recorded in Section \ref{sec:visSearch}. To estimate $S$, we start by quantising the fixations to a $Q\times Q$ grid ($Q=32$). Then we simply count the number of saccades from $(q_{x_1}, p_{y_1})$ to $(q_{x_2}, p_{y_2})$, $1\leq x_i, y_i \leq Q$. As the last saccade in each trial is likely to be directed towards the target, rather than searching for the target, these saccades are not included in this distribution. We then convolve $S$ with a four-dimensional Gaussian filter ($\sigma=3$). Figure \ref{fig:saccDistExample} shows a simplified version of this distribution (with $Q=3$). 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=10cm]{fig/saccDistExample.pdf}
+	\caption{Each subplot shows a hotspot map of fixation locations from a different region of the stimuli. For example, we can see that saccades originating from the corner regions tend to be directed back towards the centre, or along one of the edges.}
+	\label{fig:saccDistExample}
+\end{figure}
+
+The use of this distribution allows the stochastic searcher to act as a realistic baseline: it will make saccades with amplitudes and directions similar to those made by human observers, and it avoids making saccades to locations outside of the search area. On the other hand, as the probability of making a fixation to a given location is only conditioned on the sample of saccades to that region in previous data, it has no memory of where it has looked before, and it has no notion of inhibition of return or saccadic momentum. Furthermore, the stochastic searcher does not adjust its behaviour based on the difficulty of the search task or the probability of detecting the target. 
+
+
+\subsection{Optimal searcher}
+
+The optimal model uses the target detection function, $p(d_{x,y}|f_i,\beta)$, to estimate $p(t_{x,y})$, the probability that the target is located at $(x,y)$, defined as:
+
+\begin{equation}
+P_i(x,y) = p(t_{x,y} | \beta, f_1,\ldots, f_i)
+\end{equation}
+
+\subsubsection{Probability that target is located at $(x,y)$}
+
+We start off by setting $P_0$ to our prior on where the target is likely to be located. We will use a uniform distribution over the search area: $P_0(x,y) \propto \hat{P_0}=1$. (i.e.,  $P_0(x,y) = \frac{1}{N^2}$, where $N^2$ gives the area of the search stimulus). However, $P_0$ could be set to any arbitrary distribution. 
+
+After each fixation, we use Equation \ref{eq:targDet} to check if the target has been detected. If the target is detected then $P_i = 1$ at the target's location, 0 everywhere else and the search process is terminated. If the target is not detected then, assuming (i) perfect memory and (ii) that $p(d_{x,y} | \beta, f_i)$ $\forall i$ are independent, we define $P_i\propto \hat{P_i}$ as: 
+
+\begin{align}
+P_i(x,y) \propto \hat{P}_i(x,y)	&= p(t_{x,y} | \beta, f_1,\ldots, f_i)\\
+ 							&= p(t_{x,y} | \beta, f_1,\ldots, f_{i-1})\times p(t_{x,y} | \beta, f_i)\\
+ 							&= \hat{P}_{i-1}(x,y)\times (p(\neg d_{x,y} | \beta, f_i))
+ 			\label{eq:Pupdaterule}
+\end{align}
+
+The logic of this is as follows. Consider our first fixation $f_1 = (x_1,y_1)$, a potential target location $(x',y')$ close to the current fixation, and let us assume that we have not yet detected the target. If the target was located at $(x',y')$, then we would have a relatively good chance of detecting it. For the purpose of this explanation, let us assume that $p(d_{x',y'}|f_1)=0.8$, that is, if we fixate at $(x_1,y_1)$ then we have a $80\%$ chance of detecting the target if it is located at $(x',y')$. Now let us consider the probability that the target is indeed located at $(x',y')$. If there were an $80\%$ chance of target detection, but no target was detected, there is (up to a normalisation step to take into account the total number of possible target locations) a $20\%$ chance that the target is located at $(x',y')$. More generally:
+\begin{equation}
+p(t_{x',y'}|f_1) \propto p(\neg d_{x',y'}|f_1)
+\end{equation}
+We can iterate over successive fixations using Equation \ref{eq:Pupdaterule}.
+
+\subsubsection{Choosing where to fixate next}
+
+Once we have calculated $\hat{P}_i$ we use it to select the next fixation location. As we are only calculating $P_i$ up to a normalisation constant, the map that we actually calculate, $\hat{P_i} =  \hat{P}_{i-1}(x,y)\times p(\neg d_{x,y} | \beta, f_i)$, has the property that $\hat{P}_i(x,y)\leq\hat{P}_{i-1}(x,y)$ $\forall i,x,y$. This can be thought of as measuring how much we still have to search different regions of the stimulus. Our model will make a fixation at the point $f_{i+1}=(x_{i+1},y_{i+1})$ that maximises the difference between $P_i$ and $P_{i+1}$. This can be expressed as: 
+
+\begin{equation}
+(x_{i+1},y_{i+1}) = \argmin_{f_j=(x_j,y_j)}\sum_{x,y} P_i(x,y)p(\neg d_{x,y}|\beta, f_j)
+\end{equation}
+
+This process is illustrated in Figure \ref{fig:planningFix}. In order to reduce computation time, the simulation takes place at a lower resolution, with $N=256$ rather than 1024.
+
+
+\begin{figure}[tb]
+	\begin{center}
+		\subfigure[fixation 1]{\includegraphics[width=3cm]{fig/fixplanning/fixation1.pdf}}
+		\subfigure[fixation 2]{\includegraphics[width=3cm]{fig/fixplanning/fixation2.pdf}}
+		\subfigure[fixation 5]{\includegraphics[width=3cm]{fig/fixplanning/fixation5.pdf}}
+		%\subfigure[fix 10 $\beta=1.6$]{\includegraphics[width=3cm]{fig/fixplanning/fixation10.pdf}}
+		\subfigure[fixation 1]{\includegraphics[width=3cm]{fig/fixplanning/fixation1-2.pdf}}
+		\subfigure[fixation 2]{\includegraphics[width=3cm]{fig/fixplanning/fixation2-2.pdf}}
+		\subfigure[fixation 5]{\includegraphics[width=3cm]{fig/fixplanning/fixation5-2.pdf}}
+		%\subfigure[fix 10 $\beta=1.7$]{\includegraphics[width=3cm]{fig/fixplanning/fixation10-2.pdf}}		
+	\end{center}
+	\caption{This figure shows how $P_i$ is updated with each fixation and used to plan the next fixation. (a), (b) and (c) show fixation 1,2, and 5 in the hard condition, while (d), (e) and (f) show how search progresses in the easy condition.}
+	\label{fig:planningFix}
+\end{figure}
+
+
+\subsection{Comparing human observer to the models}
+
+We now compare the two models to human performance, as detailed in Section \ref{sec:visSearch}
+by simulating search over the same number as trials used in the human experiment. In agreement with \citet{najemnik-geisler2008}, we find that, in terms of the number of saccades required to find the target, human performance is consistent with an optimal search strategy. However, as we can see from Figure \ref{fig:numFixHumanModel}, the stochastic searcher offers very similar performance. Indeed, a one-tailed, paired $t$-test between the two models gives $t(179)=0.70$, $p=0.24$. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=10cm]{fig/modelComp/numFixHumanModel.pdf}
+	\caption{Number of saccades made by human observers and search simulations. The two models differ very little from human observers.} 
+	\label{fig:numFixHumanModel}
+\end{figure}
+
+We can also look at the saccade statistics to see if they offer a way to distinguish between the two models and determine which offers the more human-like behaviour. Figure \ref{fig:exScanpaths} shows some example scanpaths. We can see that the optimal model favours making fixations in the centres of the four quadrants of the search area. These points maximise the area of the stimulus in the effective field of view while minimising the overlap with earlier fixations made to other regions. While this involves re-fixating a previously fixated location, given the low probability of detection on rough surfaces (Figure \ref{fig:targDetEcc}), this is not as unintuitive as it may initially appear - there is a $50\%$ chance that the model will miss a target at fixation on a rough surface. We can also see that after fixating the centre of each quadrant three times (giving a probability $p \approx 1-0.5^3 = 0.875$ of detecting the target at these points), the model switches to fixate the in-between regions. 
+
+Figure \ref{fig:onetwostats} shows the distribution of saccade amplitudes and directions. There are large differences between the behaviour of the optimal model and human observers. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=10cm]{fig/modelComp/exScanpaths.pdf}
+	\caption{Example scanpaths made by a human, stochastic and optimal observer for a rough surface. We can see that similarly to \citet{najemnik-geisler2008}, the optimal model shows a preference for several fixed points on the stimulus. These are the locations which maximise the information gained via para-foveal vision, and minimise the proportion of the effective field of vision that falls outside of the search area. The centre is avoided after the initial fixation because it is frequently sampled by peripheral vision.} 
+	\label{fig:exScanpaths}
+\end{figure}
+
+
+\begin{figure}
+	\centering
+	\subfigure[]{\includegraphics[width=10cm]{fig/onetwosaccamp.pdf}}
+	\subfigure[]{\includegraphics[width=10cm]{fig/saccAngles.pdf}}
+	\caption{(a) Displacement over one and two saccades. (b) Absolute and relative direction of saccades. The fact that the stochastic model matches the distribution of displacement and direction over a single saccade is a direct result of sampling from empirical data and is therefore unsurprising. The distributions over two saccades are, however, more interesting: we see that there is no need to add an IOR or saccade momentum component to the stochastic model beyond what is implicitly included in the distribution of saccades from which the model samples.}
+	\label{fig:onetwostats}
+\end{figure}
+
+Interestingly we see that even though the stochastic model is only constrained by the distribution of saccades made by human observers, this is sufficient to give a good match for the displacement over two saccades, and hence it exhibits a similar level of inhibition of return as the human observers. 
+
+
+\subsection{Discussion}
+
+In general, the stochastic model results provide a good match for human behaviour, both in terms of the number of fixations to find the target and the overall pattern of fixations. Our optimal model finds the target in a similar number of fixations, but does not match well with human saccade behaviour on any other metrics. This conclusion is at odds with \cite{najemnik-geisler2008}, who pointed to the similarity in fixation distributions between human and ideal observers as evidence that humans employ an optimal strategy. Specifically, the optimal observer predicts a doughnut shaped distribution with peaks above and below the central fixation cross, which they also observed in their human searchers.  One plausible reason our results from nine observers did not produce this pattern is that our experiments used a square search array while their array was circular. In order to investigate this potential reason for the discrepant findings, we repeated our visual search experiment with a circular search array with three of our observers. The resulting hotspot maps for each observer for square and circular search stimuli are shown in Figure \ref{fig:hotspots}. The distinctive pattern of fixation locations observed in  \cite{najemnik-geisler2008} was not replicated.
+
+\begin{figure}
+	\centering
+	\subfigure[square search areas.]{\includegraphics[width=10cm]{fig/visSearch/hotspotmaps.pdf}}
+	\subfigure[circular search areas.]{\includegraphics[width=10cm]{fig/hotspotmaps.pdf} }
+	\caption{Hotspot maps for square search areas for participants 2, 4 and 5 (left to right). We can see some individual differences, in particular, how strong the central bias is for each observer. However, there is no clear tendency to fixate above and below the fixation.} 
+	\label{fig:hotspots}	
+\end{figure}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Reanalysis of \cite{clarke2009}}
+\label{sec:surfacesearch}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In the previous experiment we found evidence that a random walk is a viable explanation of human visual search performance. In this section we apply the same analysis to a similar existing dataset \citep{clarke2009}.The empirical data were collected in a different lab with a different eye-tracker and fixation filter, and should therefore provide a good test of the robustness of our results. In addition, in the visual search task used in this dataset the target's eccentricity is systematically varied, allowing us to compare the stochastic and optimal models to human performance separately for different target eccentricities. As in Experiment 1, we first generated a target visibility function using a target detection task. We collected target visibility data from two naive observers who did not perform the visual search task.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Target detection experiment}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection{Observers}
+
+Two observers carried out all the trials, split into twenty blocks of 132 trials each, over a number of days. They were paid \pounds50 each. The research was conducted in accord with the Code of Ethics of the World Medical Association (Declaration of Helsinki) and informed consent was obtained from both observers. 
+
+\subsubsection{Stimuli}
+
+Surface textures were created as detailed above. For the target present trials, the target was located at one of 72 potential locations: nine different eccentricities were used ($0.84^{\circ}\leq r\leq 7.5^{\circ}$), and eight evenly-spaced orientations. For each parameter combination, 20 different trials were created.  Based on pilot results, we created 160 target absent trials for each value of $\beta$, giving a total of 2160 target present trials and 480 target absent trials. This ratio of target present to absent trials ensured that observers made roughly equal numbers of ``present'' and ``absent'' responses.
+
+\subsubsection{Set-up}
+
+Observers were instructed to keep their eyes fixated on the centre of the image. After each trial, they were asked to respond with a button press to indicate if they had seen the target or not.  Each trial consisted of a fixation cross (500ms), stimulus (200ms), white noise mask (500ms), and finally a fixation cross was displayed until a target present or absent response was given. 
+\par
+A Tobii x50 eyetracker was used to sample the observers' gaze every 20ms and trials were included in the further analysis only if (i) the mean gaze location was within $1^{\circ}$ of the central fixation cross (ii) the standard deviation of the gaze's $x$ and $y$ components was less than $2/3^{\circ}$.
+
+\subsubsection{Results}
+
+$13.6\%$ of trials were removed from analysis (due to breaking central fixation). 
+We first checked the false positive rate on target absent trials, which were similar to those seen in Experiment One (less than $10\%$ in all conditions for both observers). We therefore focus on the probability of detecting the target when it was present as a measure of visibility. We collapse over the two observers and fit a model as in Section \ref{sec:targDet}. Results and model coefficients are similar. 
+
+% \begin{table}
+% \centering
+% \begin{tabular}{c|ccc}
+% $\beta$	& rough & medium & smooth \\
+% \hline
+% observer 1 	& 0.028 & 0.020 & 0.007 \\
+% observer 2	& 0.090 & 0.029 & 0.015 \\
+% \end{tabular}
+% \caption{The proportion of false positives is less than 0.1 in all conditions.}
+% \label{tab:falsepostives}
+% \end{table}
+
+% As both observers' results are similar, we collapse over observer and fit a generalised linear model (\texttt{family="binomial"} with \texttt{response $\sim \beta * (x^2+y^2)$}. The resulting target detection functions are very similar to those shown in Figure \ref{fig:targDet}. The following are statistically significant: $\beta$  ($\chi^2(2)=380$, $p<0.001$), $x^2$, ($\chi^2(1)=366$, $p<0.001$), $y^2$, ($\chi^2(1)=547$, $p<0.001$), and the interaction between $\beta$ and $y^2$ ($\chi^2(2)=18$, $p<0.001$). Model coefficients were very similar to those presented in Table \ref{tab:targdetcoef}. 
+
+\subsection{Visual Search Dataset}
+
+The visual search data were taken from an experiment originally published in \citet{clarke2009}. The methods and data are summarised here. 
+
+\subsubsection{Observers}
+Seven observers, aged 18-30, were given several practice trials and were informed that the target would be present in all trials and would always be an indent in the surface of the same size and shape. They were instructed to respond by pressing the space bar on the keyboard once they had found the target. No time limit was imposed on the task. Observers were told to inform the experimenter if they were having great difficulty in finding the target, in which case they were allowed to skip the trial (in practice this accounted for less than 1\% of trials). 
+
+\subsubsection{Surface Stimuli}
+This stimuli were created as in Section \ref{sec:stimuli}. For each trial a target was positioned randomly on a circle, centred on the middle of the image, with radius $1.7^{\circ} \pm 0.7^{\circ}$, $3.8^{\circ} \pm 0.7^{\circ}$ or $5.9^{\circ} \pm 0.7^{\circ}$ visual angle. 
+
+\subsubsection{Set-up}
+Stimulus presentation was controlled by Clearview (Tobii Technology Inc). All stimuli were $1024 \times 1024$ pixels in size and displayed on a NEC LCD2090UXi monitor. The pixel dimensions were 0.255mm by 0.255mm resulting in images with physical dimensions 26.1cm by 26.1cm. The monitor was linearly calibrated with a Gretag-MacBeth Eye-One; maximum luminance was set at 120 cd/m$^2$. This results in the rendered images appearing as if they were under bright room lighting conditions.
+
+A Tobii x50 eye-tracker was used to record observers' gaze patterns. The fixation filter was set to count only those fixations lasting longer than 100 ms within an area of 30 pixels. The accuracy of the eye-tracker was $0.5^{\circ}$ to $–0.7^{\circ}$ and the spatial resolution was $0.35^{\circ}$. The viewing distance was controlled by use of a chin rest placed 87cm away from the display monitor. At this distance, one pixel is approximately 1 arcminute of visual angle; images subtend $16.7^{\circ}$ and the targets subtend $0.66^{\circ}$ of visual angle. 
+
+\subsubsection{Results}
+\label{sec:SearchPerf}
+The number of fixations required to find the target is shown in Figure \ref{fig:numFixHumanModelClarke2009}. Using a generalised linear mixed model  (\texttt{family="poisson"}) we confirm that both roughness ($\beta$) and target eccentricity, along with their interaction, have a statistically significant effect ($p<0.05$) on the number of fixations required to detect the target. 
+
+\subsection{Comparison with Search Models}
+
+We now compare the model to human performance, as detailed in Section \ref{sec:SearchPerf} by simulating search over the same number as trials as used in the original experiment. The results closely match those of Experiment 1. In terms of the number of saccades required to find the target, we find the stochastic searcher offers very similar performance to optimal model and to the seven human observers over the range of surface roughness's and target eccentricities used (Figure  \ref{fig:numFixHumanModelClarke2009}). A one-tailed, paired $t$-test between the two models gives $t(359)=-0.25$, $p=0.6$\footnote{As in Experiment 1, this difference becomes statistically significant if more data is generated from the simulations: with 10 times as many trials we get $t(3599)=2.6$, $p=0.005$ As before, this difference corresponds to the optimal model finding the target on average half a fixation faster than the stochastic model.}. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=10cm]{fig/numFixHumanModelclarke2009.pdf}
+	\caption{Number of saccades made by human observers and search simulations. The two models differ very little from human observers. We can see that the stochastic search model is sufficient to explain the number of fixations required to find the target.} 
+	\label{fig:numFixHumanModelClarke2009}
+\end{figure}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{General Discussion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Human search behaviour can be closely modelled by a stochastic process, not only in the number of fixations required to find the target, but also in more detailed measures of search behaviour, such as the spatial distribution of fixations, the frequency of saccade amplitudes, and the relative angles of sequences of saccades. The stochastic model also makes a similar number of re-fixations.
+
+\par
+
+As with \cite{najemnik-geisler2005,najemnik-geisler2008}, we find that an optimal model requires a similar number of fixations to detect the target as human observers. However, our optimal model produces scan paths and saccade statistics that differ substantially from both the human and stochastic model behaviour. It is interesting that the stochastic and optimal models -- two models that have very different architectures and produce very different search behaviour -- could both take a similar number of fixations to detect the target. Clearly there is more than one way to achieve this single end, and maximising the probability of detecting the target separately for each fixation is not a requirement for relatively efficient search to be achieved. It should be mentioned that  \cite{najemnik-geisler2005} did compare their optimal model to a random baseline, and that this baseline made far more fixations to detect the target than either the optimal model or human searchers. However, their random model selected random coordinates within the search stimulus as the target of each fixation in the sequence. This baseline differs from the current model in that it does not take into account the natural tendencies in saccade behaviour that make some fixations and sequences of fixations more likely than others. Our results demonstrate that these tendencies alone, irrespective of any knowledge about previous fixations or target detection probabilities, can produce efficient search. 
+\par
+Although our optimal model follows a similar logic as \cite{najemnik-geisler2005,najemnik-geisler2008}, it differed in a number of details. Our focus in this study is on developing the stochastic model and comparing it to human behaviour, and for this, the question of whether or not is it possible for an optimal model to produce saccade behaviour that is a better match for human behaviour is not a central concern. That said, it is worth noting some of the key differences between the studies.  One important difference between our optimal search model and the one presented in \cite{najemnik-geisler2008} is that our model is essentially deterministic and does not include fixation-to-fixation internal noise. Another is that we used textured surfaces instead of noise as a search display. Finally, we used a larger group of naive observes while the observers in \cite{najemnik-geisler2008} were the two authors of the paper. A great deal of practice with the search display together with detailed knowledge about optimality could influence search strategies and produce behaviour that is better matched to an optimal pattern. 
+
+\par
+
+A final important difference between our study and \citet{najemnik-geisler2005
+,najemnik-geisler2008} is in the experiment used to collect data to create the
+target visibility map. \citet{najemnik-geisler2005,najemnik-geisler2008} made
+use of a 2AFC procedure in which observers had to select which of two
+intervals contained the target. Target location was blocked and observers were
+also spatially cued to the target location on each trial. Cueing a target's
+location has long been known to improve performance \citep{posner1980},
+specifically by enhancing the target signal \citep{yeshurun1998}. We therefore
+opted to use a simpler target detection procedure in which the observer did
+not know the target's location ahead of time. We chose this because it is a
+better approximation of visual sensitivity in the context of visual search,
+where the target location is also not known. The downside of this approach is
+that the spatial distribution of false positives is unknown and hence
+calculating $d'$ is problematic. In this study we minimised false positives by
+lowering the number of target absent trials, and then used accuracy on the
+target present trials as a measure of sensitivity. While this potentially
+over-estimates human performance, the same criticism can be made of Najemnik
+and Geisler's 2AFC task. Overall, it seems unlikely that modest changes to the
+target visibility map will have much effect on the optimal search model's
+behaviour, and in any case, the same map is used in both the stochastic and
+optimal model so small changes to the sensitivity function will increase and
+lower the number of fixations required to detect the target to a similar
+degree for both models. \par Despite these differences, our modeling results
+are consistent with \cite{najemnik-geisler2005, najemnik-geisler2008} in
+matching human performance in terms of the number of fixations to find the
+target. However, a key difference is that \cite{najemnik-geisler2008} report a
+tendency to fixate above and below the centre of the search display for both
+humans observers and their optimal model. This tendency did not appear in our
+human data, even when we re-ran the search experiment using a circular search
+display to match the one used in \cite{najemnik-geisler2008}.  \par We do not
+wish to claim that stochastic selection of saccades is the only process
+involved in search. As stated in the introduction, search strategy and feature
+extraction work together to produce search behaviour. A stochastic process
+would work in concert with guided search in a more typical search context in
+which there are many objects and/or contextual information available. One
+could imagine that if there are several search items that could potentially be
+the target, a random walk model could be used to choose which item should be
+fixated next. Also, although our model did not need any form of memory or
+inhibition of return to achieve human-like behaviour, we do not mean to
+suggest there is no inhibition of return in human search. Indeed, as our
+stimuli contain no search objects, any IOR processes would have to be
+operating in spatiotopic coordinates defined with respect to stimulus
+boundaries, rather than being applied to discrete search objects. IOR is
+strengthened by objects \citep{jordan1998}, and this may be particularly true
+when the eyes move, necessitating inhibition of spatiotopic, rather than
+retinal, coordinates (e.g., \cite{kruger2013}).
+
+\par
+
+Our results suggest that the process of deciding where to look next may be driven by a simple random selection from a subset of possible saccades. What determines this subset of possible saccade is an interesting question, but is likely to involve a combination of visual and motor constraints together with a lifetime of experience searching for objects. The mechanism that has been assumed to subserve efficient eye movement behaviour in natural tasks is reinforcement learning (e.g. \cite{hayhoe2014}). Prior learning during search tasks could cause particularly effective saccades and sequences of saccades to be selected rapidly and efficiently, without the need for a computationally taxing process of keeping track of the probability of a target being in any possible location given target visibility and a memory of all previous fixations over an extended sequence. Our conclusion is consistent with recent work suggesting humans are sub-optimal in search (\cite{morvan2012, verghese2012, zhang2012}), in that saccades during search do not appear to maximise the probability of detecting the target based on previous fixations and knowledge about the limits of our own visual acuity. Fortunately, our results suggest this kind of optimality is not a pre-requisite for search efficiency: A stochastic model based on human saccade data can perform as well as an optimal model.
+
+\section*{Acknowledgements}
+This research was supported by the James S. McDonnell Foundation (ARH).
+
+
+\bibliographystyle{elsarticle-harv}
+\bibliography{literature}
+
+\end{document}
+
